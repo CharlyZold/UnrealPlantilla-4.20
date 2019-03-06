@@ -1,0 +1,1550 @@
+﻿Log file open, 03/06/19 09:34:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UVRFPlayground
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.263578
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.099s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.06-08.34.59:928][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.06-08.34.59:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.06-08.34.59:940][  0]LogHAL: Display: Platform has ~ 32 GB [34311819264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.06-08.34.59:940][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.06-08.34.59:940][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.06-08.34.59:941][  0]LogInit: Computer: PCF83
+[2019.03.06-08.34.59:941][  0]LogInit: User: Alumno
+[2019.03.06-08.34.59:941][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.06-08.34.59:941][  0]LogInit: High frequency timer resolution =4.101560 MHz
+[2019.03.06-08.34.59:941][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.06-08.34.59:941][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.06-08.34.59:941][  0]LogMemory: Process Physical Memory: 105.89 MB used, 105.89 MB peak
+[2019.03.06-08.34.59:941][  0]LogMemory: Process Virtual Memory: 95.89 MB used, 95.89 MB peak
+[2019.03.06-08.34.59:941][  0]LogMemory: Physical Memory: 4263.64 MB used,  28458.66 MB free, 32722.30 MB total
+[2019.03.06-08.34.59:941][  0]LogMemory: Virtual Memory: 4659.66 MB used,  28458.66 MB free, 134217728.00 MB total
+[2019.03.06-08.34.59:952][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.06-08.34.59:952][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.06-08.35.00:210][  0]LogStreaming: Display: Took  0.258s to InitEngineTextLocalization.
+[2019.03.06-08.35.00:210][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.06-08.35.00:235][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.06-08.35.00:235][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.06-08.35.00:364][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.06-08.35.00:413][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.06-08.35.00:413][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.06-08.35.00:415][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.06-08.35.00:415][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.06-08.35.00:415][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.06-08.35.00:419][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.06-08.35.00:419][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.06-08.35.00:419][  0]LogWindows: EnumDisplayDevices:
+[2019.03.06-08.35.00:420][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.06-08.35.00:420][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-08.35.00:420][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-08.35.00:420][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-08.35.00:420][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.06-08.35.00:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.06-08.35.00:420][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.03.06-08.35.00:420][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.03.06-08.35.00:420][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.06-08.35.00:443][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.06-08.35.00:458][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.06-08.35.00:503][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Intermediate/Shaders/WorkingDirectory/14284/).
+[2019.03.06-08.35.00:503][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/E4456472408B9F37B8CFD88F0BFAA94D/'.
+[2019.03.06-08.35.00:671][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.06-08.35.00:681][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.06-08.35.00:692][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.06-08.35.00:704][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.06-08.35.00:715][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.06-08.35.00:728][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.06-08.35.00:743][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.06-08.35.00:754][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.06-08.35.00:759][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:818][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.06-08.35.00:870][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.06-08.35.00:870][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.06-08.35.00:887][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.06-08.35.00:887][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.06-08.35.00:896][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.06-08.35.00:905][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.06-08.35.00:914][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.06-08.35.00:924][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.06-08.35.00:930][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.06-08.35.00:930][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.06-08.35.00:974][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.06-08.35.00:974][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.06-08.35.00:974][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.06-08.35.01:488][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Loaded boot cache 0.05s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.06-08.35.01:547][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.06-08.35.01:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.06-08.35.01:559][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.06-08.35.01:559][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.06-08.35.01:572][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.06-08.35.01:573][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.06-08.35.01:574][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.06-08.35.01:631][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2019.03.06-08.35.01:853][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.06-08.35.01:943][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.06-08.35.01:957][  0]LogNetVersion: UVRFPlayground 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4282483417)
+[2019.03.06-08.35.01:996][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2019.03.06-08.35.02:262][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.041709 seconds
+[2019.03.06-08.35.02:266][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.06-08.35.02:266][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.06-08.35.02:266][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.06-08.35.02:765][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2019.03.06-08.35.02:766][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:766][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:786][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2019.03.06-08.35.02:786][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:786][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:788][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2019.03.06-08.35.02:789][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:789][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:791][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2019.03.06-08.35.02:791][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:791][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:794][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2019.03.06-08.35.02:794][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:794][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:796][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2019.03.06-08.35.02:796][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:796][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:810][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2019.03.06-08.35.02:810][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:810][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:812][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.03.06-08.35.02:812][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:812][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:814][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2019.03.06-08.35.02:815][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:815][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:851][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.06-08.35.02:863][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.06-08.35.03:025][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:025][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:026][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:027][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:166][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.06-08.35.03:240][  0]LogOcInput: OculusInput pre-init called
+[2019.03.06-08.35.03:289][  0]LogEngine: Initializing Engine...
+[2019.03.06-08.35.03:290][  0]LogHMD: Oculus plugin initialized. Version: 4.20.3-4369336+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.06-08.35.03:439][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.06-08.35.03:451][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.06-08.35.03:467][  0]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-08.35.03:483][  0]LogInit: FAudioDevice initialized.
+[2019.03.06-08.35.03:483][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.06-08.35.03:586][  0]LogDerivedDataCache: Saved boot cache 0.10s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.06-08.35.03:596][  0]LogInit: Texture streaming: Enabled
+[2019.03.06-08.35.03:609][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.06-08.35.03:620][  0]LogInit: Transaction tracking system initialized
+[2019.03.06-08.35.03:638][  0]BlueprintLog: New page: Editor Load
+[2019.03.06-08.35.03:700][  0]LocalizationService: Localization service is disabled
+[2019.03.06-08.35.04:034][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.06-08.35.04:034][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.06-08.35.04:034][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.06-08.35.04:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/' took 0.03s
+[2019.03.06-08.35.04:127][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.04:127][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.06-08.35.04:127][  0]LightingResults: New page: Lighting Build
+[2019.03.06-08.35.04:130][  0]MapCheck: New page: Map Check
+[2019.03.06-08.35.04:130][  0]LightingResults: New page: Lighting Build
+[2019.03.06-08.35.12:558][  0]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-08.35.12:577][  0]LogMaterial: Warning: Material /Game/Playground/Environment/LED/LightFixture.LightFixture needed to have new flag set bUsedWithStaticLighting !
+[2019.03.06-08.35.12:578][  0]LogMaterial: Display: Missing cached shader map for material LightFixture, compiling. 
+[2019.03.06-08.35.12:623][  0]MapCheck: Warning: LightFixture Material /Game/Playground/Environment/LED/LightFixture.LightFixture was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.06-08.35.12:744][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.06-08.35.12:744][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.06-08.35.12:744][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.06-08.35.12:745][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.06-08.35.12:745][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.06-08.35.12:745][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.06-08.35.12:746][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.06-08.35.12:746][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.06-08.35.12:747][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.06-08.35.12:747][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.06-08.35.12:748][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.06-08.35.12:783][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.06-08.35.12:906][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 122.602ms to complete.
+[2019.03.06-08.35.12:911][  0]LogFileHelpers: Loading map 'Playground' took 8.784
+[2019.03.06-08.35.13:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:037][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:046][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:053][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:067][  0]LogCollectionManager: Loaded 0 collections in 0.001649 seconds
+[2019.03.06-08.35.13:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Collections/' took 0.01s
+[2019.03.06-08.35.13:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Developers/Alumno/Collections/' took 0.01s
+[2019.03.06-08.35.13:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Collections/' took 0.01s
+[2019.03.06-08.35.13:122][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.06-08.35.13:134][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2581 classes and 608 folders.
+[2019.03.06-08.35.13:147][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.06-08.35.13:498][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.06-08.35.13:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.06-08.35.13:698][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.06-08.35.13:700][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.06-08.35.13:713][  0]LogSlate: Took 0.005894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.06-08.35.13:859][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-08.35.14:026][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.06-08.35.14:026][  0]LogLoad: (Engine Initialization) Total time: 15.64 seconds
+[2019.03.06-08.35.14:026][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.06-08.35.14:036][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.06-08.35.14:036][  0]LogOcInput: OculusInput is initialized
+[2019.03.06-08.35.14:056][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.06-08.35.14:094][  0]LogSlate: Took 0.005702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.06-08.35.14:133][  1]LogAssetRegistry: Asset discovery search completed in 12.5239 seconds
+[2019.03.06-08.35.14:135][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.06-08.35.14:135][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2019.03.06-08.35.27:946][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.35.30:877][914]LogEditorViewport: Clicking on Actor (context menu): Arrow_C (Arrow)
+[2019.03.06-08.35.30:908][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.35.33:006][162]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.06-08.35.33:009][162]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/Arrow.Arrow
+[2019.03.06-08.35.33:434][162]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2019.03.06-08.35.34:087][162]LogSlate: Took 0.003930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.06-08.35.34:156][163]LogSlate: Took 0.004887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.06-08.35.35:492][311]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-08.36.21:365][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.36.25:420][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.36.26:045][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.41.22:120][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.43.23:707][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "Flecha_Disparada" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Set Flecha_Disparada
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "Flecha_Disparada" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get Flecha_Disparada
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "Flecha_Disparada" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Set Flecha_Disparada
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "FuerzaDisparo" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get FuerzaDisparo
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "FlechaEnArco?" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Set FlechaEnArco?
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "FlechaEnArco?" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get FlechaEnArco?
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha Disparada  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Fuerza Disparo  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha En Arco?  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha En Arco?  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha Disparada  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha Disparada  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:099][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] [0505.71] Compile of Bp_Flecha failed. 6 Fatal Issue(s) 6 Warning(s) [in 5 ms] (/Game/Blueprints/Bp_Flecha.Bp_Flecha)
+[2019.03.06-08.43.24:231][ 55]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Flecha.Bp_Flecha
+[2019.03.06-08.43.34:980][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.43.47:097][690]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.Bp_Flecha_C_0.StaticMeshComponent0' is not static  (in blueprint "Bp_Flecha"), cannot attach '/Engine/Transient.World_6:PersistentLevel.Bp_Flecha_C_0.Pivot_Flecha' which is static to it. Aborting.
+[2019.03.06-08.43.47:097][690]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.StaticMeshComponent0' is not static  (in blueprint "Bp_Flecha"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.Pivot_Flecha' which is static to it. Aborting.
+[2019.03.06-08.43.49:034][885]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.StaticMeshComponent0' is not static  (in blueprint "Bp_Flecha"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.Pivot_Flecha' which is static to it. Aborting.
+[2019.03.06-08.44.08:902][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.44.12:038][416]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.06-08.44.12:041][416]LogSlate: Window 'Arrow' being destroyed
+[2019.03.06-08.44.12:044][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.06-08.44.12:118][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.44.18:670][683]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.03.06-08.44.26:598][631]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha
+[2019.03.06-08.44.56:599][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.44.56:608][ 63]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_FlechaC207DC1540F40D583100879487203F76.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.45.01:896][691]LogSlate: Window 'BP_Flecha' being destroyed
+[2019.03.06-08.45.09:664][476]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.06-08.45.15:403][700]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Alumno\Desktop\Bow and Flecha\Flecha.fbx)
+[2019.03.06-08.45.15:413][700]LogFbx: Loading FBX Scene from C:\Users\Alumno\Desktop\Bow and Flecha\Flecha.fbx
+[2019.03.06-08.45.15:417][700]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.06-08.45.17:466][700]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.06-08.45.17:496][700]LogFbx: Warning: Triangulating static mesh Cube
+[2019.03.06-08.45.17:504][700]LogStaticMesh: Building static mesh Flecha...
+[2019.03.06-08.45.17:513][700]LogStaticMesh: Built static mesh [0.01s] /Game/Modelado/Flecha.Flecha
+[2019.03.06-08.45.17:520][700]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.06-08.45.19:365][918]LogSlate: Window 'Message Log' being destroyed
+[2019.03.06-08.45.19:368][918]LogSlate: Window 'Message Log' being destroyed
+[2019.03.06-08.45.20:224][ 19]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Modelado/Flecha.Flecha
+[2019.03.06-08.45.20:804][ 19]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-08.45.27:920][855]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.45.27:922][855]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.45.42:273][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.45.42:410][570]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Modelado/Flecha.Flecha
+[2019.03.06-08.46.11:312][752]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.06-08.46.11:312][752]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.46.11:313][752]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.03.06-08.47.08:270][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelado/FlechaTextures/Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/FlechaTextures/Flecha.uasset" SILENT=true
+[2019.03.06-08.47.08:330][276]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Flecha3AD1AC2F409A40373930B5B4F4DA0F6C.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/FlechaTextures/Flecha.uasset'
+[2019.03.06-08.47.09:337][390]Cmd: SELECT NONE
+[2019.03.06-08.47.18:002][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.47.18:120][438]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.47.18:122][438]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.47.25:620][319]Cmd: DELETE
+[2019.03.06-08.47.25:620][319]Cmd: ACTOR DELETE
+[2019.03.06-08.47.25:632][319]LogEditorActor: Deleted Actor: BP_Flecha_C
+[2019.03.06-08.47.25:654][319]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.03.06-08.47.26:798][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.47.26:936][472]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha
+[2019.03.06-08.47.43:068][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.48.00:076][958]LogEditorViewport: Clicking on Actor (LMB): Arrow_C (Arrow)
+[2019.03.06-08.48.04:991][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.48.05:087][555]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/Arrow.Arrow
+[2019.03.06-08.48.14:369][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.48.42:123][741]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_Auto1A994C8584CBAFEA81282AE9BD617FA4B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Playground_Auto1.umap'
+[2019.03.06-08.48.42:127][741]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Playground/Playground' took 1.180
+[2019.03.06-08.48.42:127][741]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.180
+[2019.03.06-08.48.42:129][741]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Flecha] ([1] browsable assets)...
+[2019.03.06-08.48.42:139][741]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha]
+[2019.03.06-08.48.42:139][741]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Flecha]
+[2019.03.06-08.48.42:169][741]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha_Auto1425BA31C4BB64B2FFBA9ADAD52506B9D.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/BP_Flecha_Auto1.uasset'
+[2019.03.06-08.48.42:171][741]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelado/Flecha] ([1] browsable assets)...
+[2019.03.06-08.48.42:189][741]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Modelado/Flecha.Flecha]
+[2019.03.06-08.48.42:189][741]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelado/Flecha]
+[2019.03.06-08.48.42:189][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelado/Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Modelado/Flecha_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.06-08.48.42:212][741]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Flecha_Auto1A4CE1B4C4DFE2A5E87A98E935C1B22CD.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Modelado/Flecha_Auto1.uasset'
+[2019.03.06-08.48.42:214][741]LogFileHelpers: Auto-saving content packages took 0.086
+[2019.03.06-08.49.17:503][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.49.34:640][882]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-08.49.42:266][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.49.58:176][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.49.58:198][559]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha69397DD1466142850EFDBD800651AA9C.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.50.13:273][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.50.20:100][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.50.43:698][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.50.49:315][443]LogEditorTransaction: Undo Set Scale
+[2019.03.06-08.50.49:876][443]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.558 s
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: 
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: 
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: Stack: 
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd422c71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd42000c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd4201b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3654eedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd364f4514 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd300c41a9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd300c4ee5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd30071a51 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd4148d0d2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd41453f79 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd414f6a2e UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd413093b0 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412a1444 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c50014 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd358c8d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3585f869 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c54833 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c3b550 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35beb524 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c40f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd357fb41b UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3588843e UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd358d5d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd364f4dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd365201fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36506535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36572dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd365b9b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3654c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd358605b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412a24df UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412e437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36da3a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36d91a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412670ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412e606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412d9846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496ece45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496e0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496ef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496dc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd754b6d41 USER32.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd754b6713 USER32.dll!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496f0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6f9fe54e5 UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6f9ff5b3c UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6f9ff5bba UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6fa003dac UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6fa005aaa UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ffd73ae3dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ffd756e3691 ntdll.dll!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: 
+[2019.03.06-08.50.49:890][443]LogStats:                SubmitErrorReport -  0.000 s
+[2019.03.06-08.50.50:264][443]LogStats:                    SendNewReport -  0.374 s
+[2019.03.06-08.50.50:264][443]LogStats:             FDebug::EnsureFailed -  0.947 s
+[2019.03.06-08.50.52:584][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.51.03:774][ 11]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.51.16:061][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.51.24:970][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.51.24:993][496]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha68DDB74741B401EDE3CFC1B6CC9AA8D0.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.51.29:367][ 11]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-08.52.18:554][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.52.27:129][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.52.27:152][594]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha36E145A74E224C7EA913BE97C54273E7.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.52.29:427][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.52.34:958][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.52.45:992][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.52.46:014][538]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha92D65A2A49B2CF2F3B35BAA993746853.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.52.53:629][444]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.52.54:298][444]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/PlaygroundEB2651294799046809058CBF6D413F87.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.06-08.52.54:326][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.06-08.52.54:770][444]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltDataDF94EEAC43E6BDECFD82DC974A6B806A.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.06-08.53.03:008][407]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.53.08:315][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.53.15:960][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.53.15:976][878]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_FlechaF30799A24A1575FCE8F41C862E55F185.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.54.57:230][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.54.57:287][751]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha5C1C7E434FAEA524E250C38BAB34C645.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.55.49:358][818]LogSlate: Took 0.004906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.06-08.57.00:381][193]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-08.57.00:415][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "arrow_sound_Cue" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get arrow_sound_Cue
+[2019.03.06-08.57.00:415][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Trail" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Trail
+[2019.03.06-08.57.00:415][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Velocity
+[2019.03.06-08.57.00:415][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Set Velocity
+[2019.03.06-08.57.00:415][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-08.57.00:416][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-08.57.00:416][193]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  <Unnamed>  no longer exists on node  Setup Grab . Please refresh node or break links to remove pin.
+[2019.03.06-08.57.00:416][193]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  <Unnamed>  no longer exists on node  Setup Grab . Please refresh node or break links to remove pin.
+[2019.03.06-08.57.00:416][193]LogBlueprint: Error: [Compiler BP_Flecha] Could not find a function named "SetupGrab" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Setup Grab
+[2019.03.06-08.57.00:416][193]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  <Unnamed>  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-08.57.00:416][193]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  Holder  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-08.57.00:416][193]LogBlueprint: Error: [Compiler BP_Flecha] Could not find a function named "AttachToBow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Attach to Bow
+[2019.03.06-08.57.00:417][193]LogBlueprint: Error: [Compiler BP_Flecha] Can't connect pins  Holder  and  Target : BP Holder Object Reference is not compatible with Holder BP Object Reference.
+[2019.03.06-08.57.00:417][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Hand" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Set Hand
+[2019.03.06-08.57.00:417][193]LogBlueprint: Error: [Compiler BP_Flecha] Can't connect pins  Target  and  Holder : Holder BP Object Reference is not compatible with BP Holder Object Reference.
+[2019.03.06-08.57.00:417][193]LogBlueprint: Error: [Compiler BP_Flecha] Can't connect pins  Arrow Ref  and  Self : Arrow Object Reference is not compatible with Self Object Reference.
+[2019.03.06-08.57.00:417][193]LogBlueprint: Error: [Compiler BP_Flecha] Can't connect pins  Self  and  Arrow Ref : Self Object Reference is not compatible with Arrow Object Reference.
+[2019.03.06-08.57.00:417][193]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Hand" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Hand
+[2019.03.06-08.57.00:418][193]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Arrow Sound Cue  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-08.57.00:418][193]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-08.57.00:418][193]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-08.57.00:418][193]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-08.57.00:418][193]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-08.57.00:418][193]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Trail  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-08.57.00:566][193]LogBlueprint: Warning: [Compiler BP_Flecha] [1322.18] Compile of BP_Flecha failed. 16 Fatal Issue(s) 8 Warning(s) [in 183 ms] (/Game/Blueprints/BP_Flecha.BP_Flecha)
+[2019.03.06-08.57.32:666][922]LogEditorTransaction: Undo Create Pin Link
+[2019.03.06-08.57.33:258][987]LogEditorTransaction: Undo Move Node
+[2019.03.06-08.57.34:703][152]LogEditorTransaction: Undo Add Node
+[2019.03.06-08.57.35:209][206]LogEditorTransaction: Undo Delete current selection
+[2019.03.06-09.01.59:059][ 53]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.01.59:094][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "arrow_sound_Cue" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get arrow_sound_Cue
+[2019.03.06-09.01.59:094][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Trail" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Trail
+[2019.03.06-09.01.59:094][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Velocity
+[2019.03.06-09.01.59:095][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Set Velocity
+[2019.03.06-09.01.59:095][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.01.59:095][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.01.59:095][ 53]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  <Unnamed>  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.01.59:095][ 53]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  Holder  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.01.59:095][ 53]LogBlueprint: Error: [Compiler BP_Flecha] Could not find a function named "AttachToBow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Attach to Bow
+[2019.03.06-09.01.59:096][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Hand" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Hand
+[2019.03.06-09.01.59:097][ 53]LogBlueprint: Error: [Compiler BP_Flecha] This blueprint (self) is not a BowBP_C, therefore ' Target ' must have a connection.
+[2019.03.06-09.01.59:097][ 53]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.01.59:097][ 53]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.01.59:097][ 53]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.01.59:097][ 53]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.01.59:097][ 53]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Trail  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.01.59:098][ 53]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Arrow Sound Cue  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.01.59:098][ 53]LogBlueprint: Error: [Compiler BP_Flecha] Variable node  Set ArrowRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.06-09.01.59:098][ 53]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Hand  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.01.59:281][ 53]LogBlueprint: Warning: [Compiler BP_Flecha] [1620.89] Compile of BP_Flecha failed. 12 Fatal Issue(s) 7 Warning(s) [in 222 ms] (/Game/Blueprints/BP_Flecha.BP_Flecha)
+[2019.03.06-09.03.16:216][983]LogEditorTransaction: Undo Delete current selection
+[2019.03.06-09.03.52:710][174]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow
+[2019.03.06-09.08.08:366][593]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.08.08:400][593]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "arrow_sound_Cue" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get arrow_sound_Cue
+[2019.03.06-09.08.08:400][593]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Trail" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Trail
+[2019.03.06-09.08.08:401][593]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Velocity
+[2019.03.06-09.08.08:401][593]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Set Velocity
+[2019.03.06-09.08.08:401][593]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.08.08:401][593]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.08.08:401][593]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  <Unnamed>  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.08.08:401][593]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  Holder  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.08.08:402][593]LogBlueprint: Error: [Compiler BP_Flecha] Could not find a function named "AttachToBow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Attach to Bow
+[2019.03.06-09.08.08:402][593]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Hand" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Set Hand
+[2019.03.06-09.08.08:403][593]LogBlueprint: Error: [Compiler BP_Flecha] This blueprint (self) is not a HandBP_C, therefore ' Target ' must have a connection.
+[2019.03.06-09.08.08:403][593]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.08.08:403][593]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.08.08:403][593]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.08.08:403][593]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.08.08:404][593]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Trail  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.08.08:404][593]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Arrow Sound Cue  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.08.08:404][593]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Hand  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.08.08:543][593]LogBlueprint: Warning: [Compiler BP_Flecha] [1990.16] Compile of BP_Flecha failed. 11 Fatal Issue(s) 7 Warning(s) [in 177 ms] (/Game/Blueprints/BP_Flecha.BP_Flecha)
+[2019.03.06-09.14.19:112][ 52]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.14.19:146][ 52]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "arrow_sound_Cue" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get arrow_sound_Cue
+[2019.03.06-09.14.19:146][ 52]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Trail" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Trail
+[2019.03.06-09.14.19:146][ 52]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Velocity
+[2019.03.06-09.14.19:146][ 52]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Set Velocity
+[2019.03.06-09.14.19:147][ 52]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.14.19:147][ 52]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.14.19:147][ 52]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  <Unnamed>  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.14.19:147][ 52]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  Holder  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.14.19:147][ 52]LogBlueprint: Error: [Compiler BP_Flecha] Could not find a function named "AttachToBow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Attach to Bow
+[2019.03.06-09.14.19:148][ 52]LogBlueprint: Error: [Compiler BP_Flecha] This blueprint (self) is not a HandBP_C, therefore ' Target ' must have a connection.
+[2019.03.06-09.14.19:149][ 52]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.14.19:149][ 52]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.14.19:149][ 52]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.14.19:149][ 52]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.14.19:149][ 52]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Trail  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.14.19:149][ 52]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Arrow Sound Cue  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.14.19:403][ 52]LogBlueprint: Warning: [Compiler BP_Flecha] [2361.02] Compile of BP_Flecha failed. 10 Fatal Issue(s) 6 Warning(s) [in 289 ms] (/Game/Blueprints/BP_Flecha.BP_Flecha)
+[2019.03.06-09.18.22:780][390]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.03.06-09.18.25:306][587]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.06-09.18.25:309][587]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.06-09.18.26:385][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-09.18.26:451][670]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowBF585A1A439AF3BEF24864BCB7A5E2B2.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-09.18.28:248][830]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-09.18.28:285][830]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.18.28:287][830]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.18.28:287][830]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.18.28:287][830]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.18.28:438][830]LogBlueprint: Warning: [Compiler Bp_Bow] [2610.05] Compile of Bp_Bow failed. 4 Fatal Issue(s) 0 Warning(s) [in 191 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.06-09.19.04:181][731]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.19.04:215][731]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "arrow_sound_Cue" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get arrow_sound_Cue
+[2019.03.06-09.19.04:216][731]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Trail" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Trail
+[2019.03.06-09.19.04:216][731]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get Velocity
+[2019.03.06-09.19.04:216][731]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "Velocity" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Set Velocity
+[2019.03.06-09.19.04:216][731]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.19.04:217][731]LogBlueprint: Warning: [Compiler BP_Flecha] Could not find a variable named "longbowArrow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Get longbowArrow
+[2019.03.06-09.19.04:217][731]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  <Unnamed>  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.19.04:217][731]LogBlueprint: Error: [Compiler BP_Flecha] In use pin  Holder  no longer exists on node  Attach to Bow . Please refresh node or break links to remove pin.
+[2019.03.06-09.19.04:217][731]LogBlueprint: Error: [Compiler BP_Flecha] Could not find a function named "AttachToBow" in 'BP_Flecha_C'.
+Make sure 'BP_Flecha_C' has been compiled for  Attach to Bow
+[2019.03.06-09.19.04:218][731]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.19.04:218][731]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.19.04:218][731]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Longbow Arrow  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.19.04:218][731]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Velocity  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.19.04:219][731]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Trail  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.19.04:219][731]LogBlueprint: Error: [Compiler BP_Flecha] The property associated with  Arrow Sound Cue  could not be found in '/Game/Blueprints/BP_Flecha.BP_Flecha_C'
+[2019.03.06-09.19.04:357][731]LogBlueprint: Warning: [Compiler BP_Flecha] [2645.97] Compile of BP_Flecha failed. 9 Fatal Issue(s) 6 Warning(s) [in 176 ms] (/Game/Blueprints/BP_Flecha.BP_Flecha)
+[2019.03.06-09.19.07:315][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.19.07:379][ 77]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha0D19E9894675C7A95A700D816838FF9B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.23.48:666][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.23.48:728][264]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha041F30B04FAC1DE24A5EF783340C097A.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.24.19:966][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.24.20:031][ 83]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_FlechaB81B2B6D4FC1110B4D867BA9B7116E36.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.24.58:210][  8]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.24.59:322][ 19]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_Auto2F3B8C275478BB189B569C59370066A38.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Playground_Auto2.umap'
+[2019.03.06-09.24.59:326][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Playground/Playground' took 0.680
+[2019.03.06-09.24.59:326][ 19]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.680
+[2019.03.06-09.24.59:328][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Playground/Objects/Bow/Arrow] ([1] browsable assets)...
+[2019.03.06-09.24.59:346][ 19]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Playground/Objects/Bow/Arrow.Arrow]
+[2019.03.06-09.24.59:346][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/Playground/Objects/Bow/Arrow]
+[2019.03.06-09.24.59:408][ 19]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Arrow_Auto267BBFB95435A0FECCC407D9BF90598E5.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Objects/Bow/Arrow_Auto2.uasset'
+[2019.03.06-09.24.59:409][ 19]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Flecha] ([1] browsable assets)...
+[2019.03.06-09.24.59:420][ 19]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha]
+[2019.03.06-09.24.59:420][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Flecha]
+[2019.03.06-09.24.59:483][ 19]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha_Auto23A8B2222428DC11608C2ABAAFEE3EB8C.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/BP_Flecha_Auto2.uasset'
+[2019.03.06-09.24.59:483][ 19]LogFileHelpers: Auto-saving content packages took 0.156
+[2019.03.06-09.25.04:832][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.25.04:892][584]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_FlechaF7C4BA464E3B1694EABC80ADB5FEDBF3.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.25.16:465][935]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2019.03.06-09.25.19:625][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.25.36:400][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.25.49:995][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.26.17:428][506]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-09.26.17:482][506]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.26.17:483][506]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.26.17:483][506]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.26.17:636][506]LogBlueprint: Warning: [Compiler Bp_Bow] [3079.25] Compile of Bp_Bow failed. 3 Fatal Issue(s) 0 Warning(s) [in 207 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.06-09.26.41:846][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-09.26.41:911][230]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowAC10622D4119EBE5D8098B81DFBDE529.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-09.26.42:620][305]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-09.26.42:661][305]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Arrow Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-09.26.42:833][305]LogBlueprint: Warning: [Compiler Bp_Bow] [3104.45] Compile of Bp_Bow failed. 1 Fatal Issue(s) 0 Warning(s) [in 212 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.06-09.29.39:240][446]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.30.20:887][842]LogEditorTransaction: Undo Delete current selection
+[2019.03.06-09.30.21:790][933]LogEditorTransaction: Undo Move Node
+[2019.03.06-09.30.22:562][ 17]LogEditorTransaction: Undo Create Pin Link
+[2019.03.06-09.30.23:089][ 72]LogEditorTransaction: Undo Create Pin Link
+[2019.03.06-09.30.33:755][254]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/BowBP.BowBP
+[2019.03.06-09.30.34:029][254]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_19:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.06-09.30.34:029][254]PIE: Warning: AttachTo: '/Engine/Transient.World_19:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_19:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.06-09.32.16:194][158]LogEditorTransaction: Undo Delete current selection
+[2019.03.06-09.32.49:582][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-09.32.49:648][744]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow7DF00B204EDAC15CA7BD45A0226EB889.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-09.32.51:331][918]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-09.32.55:845][378]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-09.32.59:256][730]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.33.10:458][838]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_20:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.06-09.33.10:458][838]PIE: Warning: AttachTo: '/Engine/Transient.World_20:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_20:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.06-09.33.10:466][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Objects/Bow/BowBP" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/BowBP.uasset" SILENT=true
+[2019.03.06-09.33.10:553][838]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BowBP7BEB80D8404C9CCA2B8063814AF865D6.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/BowBP.uasset'
+[2019.03.06-09.33.30:157][958]Cmd: TRANSACTION UNDO
+[2019.03.06-09.33.30:157][958]LogEditorTransaction: Undo Rotate Actors
+[2019.03.06-09.33.31:390][104]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha)
+[2019.03.06-09.33.52:292][517]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2019.03.06-09.33.56:584][998]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha)
+[2019.03.06-09.33.57:309][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.34.13:996][958]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.13:997][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.34.14:009][958]PIE: New page: SIE session: Playground (Mar 6, 2019, 11:34:14 AM)
+[2019.03.06-09.34.14:009][958]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.34.14:045][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035371s)
+[2019.03.06-09.34.14:045][958]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.34.14:045][958]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2019.03.06-09.34.14:045][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.036186s)
+[2019.03.06-09.34.14:088][958]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.34.14:095][958]LogInit: FAudioDevice initialized.
+[2019.03.06-09.34.14:142][958]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.34.14:196][958]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.34.14
+[2019.03.06-09.34.14:200][958]LogWorld: Bringing up level for play took: 0.053000
+[2019.03.06-09.34.14:223][958]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.03.06-09.34.14:229][958]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.596
+[2019.03.06-09.34.14:273][958]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.16:150][164]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.16:150][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.34.16:218][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.34.16:218][164]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.16:246][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.34.16:259][165]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.03.06-09.34.40:024][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.34.40:090][708]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha8CB7AB784D9A23E731E71680C00565C4.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.34.41:077][823]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-09.34.44:101][152]LogTemp: Repeating last play command: Simulate
+[2019.03.06-09.34.44:119][152]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.44:119][152]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.34.44:119][152]PIE: New page: SIE session: Playground (Mar 6, 2019, 11:34:44 AM)
+[2019.03.06-09.34.44:119][152]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.34.44:154][152]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035408s)
+[2019.03.06-09.34.44:155][152]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.34.44:155][152]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2019.03.06-09.34.44:155][152]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.036105s)
+[2019.03.06-09.34.44:195][152]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.34.44:202][152]LogInit: FAudioDevice initialized.
+[2019.03.06-09.34.44:230][152]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.34.44:244][152]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.34.44
+[2019.03.06-09.34.44:246][152]LogWorld: Bringing up level for play took: 0.015226
+[2019.03.06-09.34.44:261][152]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.564
+[2019.03.06-09.34.44:263][152]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.49:391][766]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.49:392][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.34.49:431][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.34.49:431][766]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.49:459][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.34.49:490][769]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.06-09.34.51:412][887]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground9E7E28634CF6FAE097570ABB0BE36BB3.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.06-09.34.51:440][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.06-09.34.51:883][887]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltDataD9F95AAA4CECF88AFED7DDA0A6FA61B0.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.06-09.34.54:426][188]LogTemp: Repeating last play command: Simulate
+[2019.03.06-09.34.54:439][188]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.54:439][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.34.54:439][188]PIE: New page: SIE session: Playground (Mar 6, 2019, 11:34:54 AM)
+[2019.03.06-09.34.54:439][188]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.34.54:472][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033143s)
+[2019.03.06-09.34.54:473][188]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.34.54:473][188]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2019.03.06-09.34.54:473][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.033807s)
+[2019.03.06-09.34.54:514][188]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.34.54:521][188]LogInit: FAudioDevice initialized.
+[2019.03.06-09.34.54:548][188]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.34.54:567][188]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.34.54
+[2019.03.06-09.34.54:572][188]LogWorld: Bringing up level for play took: 0.023157
+[2019.03.06-09.34.54:591][188]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.234
+[2019.03.06-09.34.54:595][188]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.58:688][673]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.58:688][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.34.58:729][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.34.58:729][673]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.34.58:780][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.34.58:794][674]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.06-09.35.10:855][988]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground1E72B9B6491C9F8D0B9ED590894AE6AA.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.06-09.35.10:881][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.06-09.35.11:302][988]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltData273CAAB64DEDA9AB71A4E9A4520A5BE2.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.06-09.35.24:834][507]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/Modelado/Bow_Rig+Anim.Bow_Rig+Anim
+[2019.03.06-09.35.24:847][507]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.06-09.35.24:855][507]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.06-09.35.24:860][507]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.03.06-09.35.24:891][507]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.06-09.35.25:115][507]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.03.06-09.35.26:168][631]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Modelado/Bow_Rig+Anim_Physics.Bow_Rig+Anim_Physics
+[2019.03.06-09.35.26:184][631]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0002 seconds. Added 7 classes and 3 folders.
+[2019.03.06-09.35.26:193][631]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.06-09.36.11:229][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.36.24:625][748]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-09.36.24:639][748]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelado/Bow_Rig+Anim_Physics" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/Bow_Rig+Anim_Physics.uasset" SILENT=true
+[2019.03.06-09.36.24:660][748]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bow_Rig+Anim_Physics57F3363D42B64E5EFBC32997DD4F03CD.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/Bow_Rig+Anim_Physics.uasset'
+[2019.03.06-09.36.35:967][996]LogTemp: Repeating last play command: Simulate
+[2019.03.06-09.36.35:979][996]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.36.35:979][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.36.35:979][996]PIE: New page: SIE session: Playground (Mar 6, 2019, 11:36:35 AM)
+[2019.03.06-09.36.35:980][996]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.36.36:012][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033501s)
+[2019.03.06-09.36.36:013][996]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.36.36:013][996]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2019.03.06-09.36.36:013][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034217s)
+[2019.03.06-09.36.36:054][996]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.36.36:061][996]LogInit: FAudioDevice initialized.
+[2019.03.06-09.36.36:091][996]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.36.36:104][996]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.36.36
+[2019.03.06-09.36.36:106][996]LogWorld: Bringing up level for play took: 0.014587
+[2019.03.06-09.36.36:121][996]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.704
+[2019.03.06-09.36.36:123][996]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.36.40:787][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.36.40:788][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.36.40:838][531]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.36.40:838][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.36.40:866][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.36.40:889][533]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.06-09.36.59:104][717]LogTemp: Repeating last play command: Simulate
+[2019.03.06-09.36.59:116][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.36.59:116][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.36.59:116][717]PIE: New page: SIE session: Playground (Mar 6, 2019, 11:36:59 AM)
+[2019.03.06-09.36.59:117][717]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.36.59:149][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032970s)
+[2019.03.06-09.36.59:150][717]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.36.59:150][717]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2019.03.06-09.36.59:150][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.033632s)
+[2019.03.06-09.36.59:189][717]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.36.59:196][717]LogInit: FAudioDevice initialized.
+[2019.03.06-09.36.59:224][717]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.36.59:237][717]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.36.59
+[2019.03.06-09.36.59:239][717]LogWorld: Bringing up level for play took: 0.014625
+[2019.03.06-09.36.59:254][717]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.429
+[2019.03.06-09.36.59:256][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.37.01:208][950]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.37.01:209][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.37.01:250][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.37.01:251][950]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.37.01:311][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.37.01:324][951]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.06-09.37.21:134][955]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.37.45:487][346]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.37.52:168][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-09.38.20:455][771]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-09.38.26:473][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.38.36:971][542]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.38.50:116][996]Cmd: TRANSACTION UNDO
+[2019.03.06-09.38.50:116][996]LogEditorTransaction: Undo Edit Radius
+[2019.03.06-09.38.50:244][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.06-09.38.50:245][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.06-09.38.51:308][996]Cmd: TRANSACTION UNDO
+[2019.03.06-09.38.51:308][996]LogEditorTransaction: Undo Edit Radius
+[2019.03.06-09.38.51:438][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_21:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.06-09.38.51:438][996]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_22:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2019.03.06-09.39.00:047][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.39.13:226][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.39.31:990][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.39.38:322][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelado/Bow_Rig+Anim_Physics" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/Bow_Rig+Anim_Physics.uasset" SILENT=true
+[2019.03.06-09.39.38:336][853]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bow_Rig+Anim_Physics1FE96F37485243A7B0069F84ADC61CC3.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/Bow_Rig+Anim_Physics.uasset'
+[2019.03.06-09.39.42:045][273]LogTemp: Repeating last play command: Simulate
+[2019.03.06-09.39.42:058][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.39.42:058][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.39.42:058][273]PIE: New page: SIE session: Playground (Mar 6, 2019, 11:39:42 AM)
+[2019.03.06-09.39.42:058][273]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.39.42:092][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033329s)
+[2019.03.06-09.39.42:092][273]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.39.42:092][273]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2019.03.06-09.39.42:092][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034076s)
+[2019.03.06-09.39.42:129][273]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.39.42:136][273]LogInit: FAudioDevice initialized.
+[2019.03.06-09.39.42:168][273]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.39.42:181][273]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.39.42
+[2019.03.06-09.39.42:184][273]LogWorld: Bringing up level for play took: 0.014810
+[2019.03.06-09.39.42:198][273]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.627
+[2019.03.06-09.39.42:200][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.39.44:536][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.39.44:536][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.39.44:578][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.39.44:578][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.39.44:609][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.39.44:633][553]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.03.06-09.39.54:433][727]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.39.54:433][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.39.54:433][727]LogHMD: Initializing OVRPlugin session
+[2019.03.06-09.39.56:442][727]PIE: New page: PIE session: Playground (Mar 6, 2019, 11:39:56 AM)
+[2019.03.06-09.39.56:442][727]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.39.56:496][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054830s)
+[2019.03.06-09.39.56:497][727]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.39.56:497][727]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2019.03.06-09.39.56:497][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.055539s)
+[2019.03.06-09.39.56:542][727]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.39.56:878][727]LogInit: FAudioDevice initialized.
+[2019.03.06-09.39.56:883][727]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.39.56:963][727]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-09.39.56:991][727]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.39.57:006][727]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.39.57
+[2019.03.06-09.39.57:009][727]LogWorld: Bringing up level for play took: 0.016527
+[2019.03.06-09.39.57:024][727]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-09.39.57:031][727]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 2.206
+[2019.03.06-09.39.57:031][727]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.39.57:032][727]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.39.57:045][727]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-09.39.57:045][727]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-09.42.08:683][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.42.08:749][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.42.08:786][786]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-09.42.08:833][786]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.42.08:833][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.42.08:893][787]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.03.06-09.42.08:894][787]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.42.16:931][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.42.40:205][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.42.40:282][767]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha18E5F1BC42E885CB731C099FCB9BFFCA.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.43.47:087][639]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-09.43.47:822][639]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/PlaygroundA3FB446941A124D06CF5F0A9295BD02E.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.06-09.43.47:850][639]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.06-09.43.48:354][639]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltData30B534494B950FD9BCA536A548D8363F.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.06-09.43.53:791][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.43.53:907][281]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-09.43.53:921][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.43.53:921][281]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.06-09.43.53:938][281]LogPlayLevel: [PlayLevel] Compiling BP_Flecha before play...
+[2019.03.06-09.43.54:145][281]LogPlayLevel: PlayLevel: Blueprint regeneration took 223 ms (1 blueprints)
+[2019.03.06-09.43.54:145][281]LogHMD: Initializing OVRPlugin session
+[2019.03.06-09.43.54:208][281]PIE: New page: PIE session: Playground (Mar 6, 2019, 11:43:54 AM)
+[2019.03.06-09.43.54:208][281]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.43.54:250][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041624s)
+[2019.03.06-09.43.54:251][281]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.43.54:251][281]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2019.03.06-09.43.54:251][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.042684s)
+[2019.03.06-09.43.54:299][281]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.43.54:307][281]LogInit: FAudioDevice initialized.
+[2019.03.06-09.43.54:312][281]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.43.54:399][281]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-09.43.54:428][281]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.43.54:445][281]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.43.54
+[2019.03.06-09.43.54:448][281]LogWorld: Bringing up level for play took: 0.018597
+[2019.03.06-09.43.54:464][281]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-09.43.54:472][281]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.353
+[2019.03.06-09.43.54:472][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.43.54:473][281]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.43.54:485][281]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-09.43.54:485][281]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-09.44.12:212][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.44.12:277][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.44.12:316][843]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-09.44.12:366][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.44.12:367][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.44.12:415][844]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.03.06-09.44.12:416][844]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.44.18:100][484]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-09.44.18:117][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.44.18:117][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.44.18:117][484]LogHMD: Initializing OVRPlugin session
+[2019.03.06-09.44.18:173][484]PIE: New page: PIE session: Playground (Mar 6, 2019, 11:44:18 AM)
+[2019.03.06-09.44.18:173][484]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.44.18:215][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041824s)
+[2019.03.06-09.44.18:215][484]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.44.18:215][484]LogPlayLevel: PIE: World Init took: (0.000554s)
+[2019.03.06-09.44.18:216][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.042559s)
+[2019.03.06-09.44.18:260][484]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.44.18:266][484]LogInit: FAudioDevice initialized.
+[2019.03.06-09.44.18:272][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.44.18:348][484]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-09.44.18:375][484]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.44.18:389][484]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.44.18
+[2019.03.06-09.44.18:392][484]LogWorld: Bringing up level for play took: 0.016474
+[2019.03.06-09.44.18:407][484]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-09.44.18:413][484]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.412
+[2019.03.06-09.44.18:414][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.44.18:414][484]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.44.18:425][484]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-09.44.18:425][484]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-09.44.37:035][128]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.44.37:100][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.44.37:133][128]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-09.44.37:176][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.44.37:176][128]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.44.37:221][129]Cmd: SELECT NONE
+[2019.03.06-09.44.37:222][129]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.03.06-09.44.37:222][129]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.44.51:594][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.45.13:824][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.45.13:896][ 41]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha17AC00734E11D685CFFC2C8E999F214A.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.45.22:849][ 19]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-09.45.22:862][ 19]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.45.22:862][ 19]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.45.22:862][ 19]LogHMD: Initializing OVRPlugin session
+[2019.03.06-09.45.22:928][ 19]PIE: New page: PIE session: Playground (Mar 6, 2019, 11:45:22 AM)
+[2019.03.06-09.45.22:929][ 19]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.45.22:971][ 19]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041933s)
+[2019.03.06-09.45.22:971][ 19]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.45.22:971][ 19]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2019.03.06-09.45.22:971][ 19]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.042833s)
+[2019.03.06-09.45.23:015][ 19]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.45.23:023][ 19]LogInit: FAudioDevice initialized.
+[2019.03.06-09.45.23:028][ 19]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.45.23:106][ 19]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-09.45.23:135][ 19]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.45.23:150][ 19]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.45.23
+[2019.03.06-09.45.23:153][ 19]LogWorld: Bringing up level for play took: 0.017671
+[2019.03.06-09.45.23:168][ 19]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-09.45.23:175][ 19]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.35
+[2019.03.06-09.45.23:175][ 19]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.45.23:175][ 19]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.45.23:188][ 19]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-09.45.23:188][ 19]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-09.45.40:215][516]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.45.40:283][516]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.45.40:333][516]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-09.45.40:407][516]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.45.40:408][516]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.45.40:476][517]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.03.06-09.45.40:476][517]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.45.44:217][939]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha)
+[2019.03.06-09.45.48:837][485]Cmd: EDIT COPY
+[2019.03.06-09.45.49:066][512]Cmd: EDIT PASTE
+[2019.03.06-09.45.51:738][818]Cmd: EDIT COPY
+[2019.03.06-09.45.51:923][838]Cmd: EDIT PASTE
+[2019.03.06-09.45.53:388][987]Cmd: EDIT COPY
+[2019.03.06-09.45.53:555][  4]Cmd: EDIT PASTE
+[2019.03.06-09.45.57:291][408]Cmd: EDIT COPY
+[2019.03.06-09.45.57:509][433]Cmd: EDIT PASTE
+[2019.03.06-09.46.02:700][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.46.02:758][ 34]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-09.46.02:773][ 34]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.46.02:773][ 34]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.46.02:773][ 34]LogHMD: Initializing OVRPlugin session
+[2019.03.06-09.46.02:842][ 34]PIE: New page: PIE session: Playground (Mar 6, 2019, 11:46:02 AM)
+[2019.03.06-09.46.02:842][ 34]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.46.02:889][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046272s)
+[2019.03.06-09.46.02:889][ 34]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.46.02:889][ 34]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2019.03.06-09.46.02:890][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.047032s)
+[2019.03.06-09.46.02:939][ 34]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.46.02:946][ 34]LogInit: FAudioDevice initialized.
+[2019.03.06-09.46.02:952][ 34]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.46.03:030][ 34]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-09.46.03:057][ 34]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.46.03:076][ 34]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.46.03
+[2019.03.06-09.46.03:078][ 34]LogWorld: Bringing up level for play took: 0.020485
+[2019.03.06-09.46.03:094][ 34]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-09.46.03:102][ 34]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.278
+[2019.03.06-09.46.03:103][ 34]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.46.03:104][ 34]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.46.03:117][ 34]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-09.46.03:117][ 34]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-09.47.03:618][448]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.47.03:683][448]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.47.03:715][448]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-09.47.03:758][448]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.47.03:759][448]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.47.03:809][449]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.03.06-09.47.03:810][449]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.50.40:999][873]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-09.50.41:013][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.50.41:013][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.50.41:013][873]LogHMD: Initializing OVRPlugin session
+[2019.03.06-09.50.41:076][873]PIE: New page: PIE session: Playground (Mar 6, 2019, 11:50:41 AM)
+[2019.03.06-09.50.41:076][873]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.50.41:119][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042524s)
+[2019.03.06-09.50.41:119][873]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.50.41:120][873]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2019.03.06-09.50.41:120][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.043396s)
+[2019.03.06-09.50.41:165][873]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.50.41:173][873]LogInit: FAudioDevice initialized.
+[2019.03.06-09.50.41:178][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.50.41:252][873]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-09.50.41:280][873]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.50.41:296][873]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.50.41
+[2019.03.06-09.50.41:298][873]LogWorld: Bringing up level for play took: 0.017423
+[2019.03.06-09.50.41:313][873]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-09.50.41:320][873]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.496
+[2019.03.06-09.50.41:320][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.50.41:321][873]LogEngine: Changing dynamic resolution state.
+[2019.03.06-09.50.41:334][873]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-09.50.41:334][873]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-09.53.17:557][408]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-09.54.24:789][642]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-09.54.24:793][642]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.54.24:900][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.54.24:901][642]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.54.24:947][643]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.03.06-09.54.34:008][713]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.54.34:009][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-09.54.34:009][713]LogHMD: Initializing OVRPlugin session
+[2019.03.06-09.54.34:064][713]PIE: New page: PIE session: Playground (Mar 6, 2019, 11:54:34 AM)
+[2019.03.06-09.54.34:064][713]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-09.54.34:111][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046888s)
+[2019.03.06-09.54.34:111][713]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-09.54.34:111][713]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2019.03.06-09.54.34:111][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.047726s)
+[2019.03.06-09.54.34:159][713]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-09.54.34:166][713]LogInit: FAudioDevice initialized.
+[2019.03.06-09.54.34:194][713]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-09.54.34:208][713]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-10.54.34
+[2019.03.06-09.54.34:210][713]LogWorld: Bringing up level for play took: 0.015508
+[2019.03.06-09.54.34:226][713]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-09.54.34:227][713]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.597
+[2019.03.06-09.54.34:228][713]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.54.37:597][106]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.54.37:606][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.54.37:650][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-09.54.37:650][106]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-09.54.37:677][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-09.54.37:702][108]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2019.03.06-09.54.51:378][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2019.03.06-09.54.52:441][848]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha5)
+[2019.03.06-09.55.53:292][138]LogEditorViewport: Clicking on Actor (LMB): Arrow_C (Arrow6)
+[2019.03.06-09.55.54:587][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2019.03.06-09.55.55:452][387]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha3)
+[2019.03.06-09.56.59:253][701]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-09.57.22:690][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Support15)
+[2019.03.06-09.57.24:156][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall14)
+[2019.03.06-09.57.25:035][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.58.22:185][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.58.22:251][287]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha4BA9743B46356D00FC967FBD421BE98A.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.58.31:082][223]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha5)
+[2019.03.06-09.58.37:458][974]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow)
+[2019.03.06-09.58.40:977][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.58.58:464][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.58.58:526][133]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha5B49B0E542AE04E16316CAAD4487444C.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.59.19:008][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-09.59.23:142][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.59.23:204][881]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_FlechaF0D8D6204BDAAAB1C0C118AE25DE2D42.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-09.59.40:678][824]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-09.59.48:345][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-09.59.48:407][542]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha15E331D74456318A77B52DB64278E8BC.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-10.00.20:205][171]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.00.23:282][487]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-10.00.58:168][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-10.00.58:231][667]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow3AB957344E2E42862AEF1A9701CD7277.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-10.01.13:040][938]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/PlaygroundA93CB9974A71C4928C4E62BB27A523BF.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.06-10.01.13:066][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.06-10.01.13:518][938]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltDataAF99AB844B6C4A6F9995FE952A9011C3.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.06-10.01.14:814][ 46]LogSlate: Window 'Bow_Rig+Anim_Physics' being destroyed
+[2019.03.06-10.01.14:817][ 46]LogSlate: Window 'Bow_Rig+Anim_Physics' being destroyed
+[2019.03.06-10.01.14:884][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.06-10.01.14:955][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.06-10.01.15:035][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.06-10.01.17:406][ 89]LogSlate: Window 'Save Content' being destroyed
+[2019.03.06-10.01.17:417][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelado/Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/Flecha.uasset" SILENT=true
+[2019.03.06-10.01.17:423][ 89]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Flecha494F49F64A510F770F37318A5368A23E.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/Flecha.uasset'
+[2019.03.06-10.01.17:430][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Objects/Bow/Arrow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset" SILENT=true
+[2019.03.06-10.01.17:490][ 89]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/ArrowC0953A99417A5FAC9CE03ABAEF185867.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset'
+[2019.03.06-10.01.17:556][ 89]LogSlate: Window 'UVRFPlayground - Unreal Editor' being destroyed
+[2019.03.06-10.01.17:557][ 89]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.06-10.01.17:726][ 90]Cmd: QUIT_EDITOR
+[2019.03.06-10.01.18:622][ 90]LogExit: Preparing to exit.
+[2019.03.06-10.01.19:512][ 90]LogExit: Editor shut down
+[2019.03.06-10.01.19:512][ 90]LogExit: Transaction tracking system shut down
+[2019.03.06-10.01.19:838][ 90]LogExit: Object subsystem successfully closed.
+[2019.03.06-10.01.19:856][ 90]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.06-10.01.19:859][ 90]LogD3D11RHI: Shutdown
+[2019.03.06-10.01.19:859][ 90]LogD3D11RHI: CleanupD3DDevice
+[2019.03.06-10.01.19:863][ 90]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module PhysicsAssetEditor (634)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (632)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module PinnedCommandList (630)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module SkeletonEditor (628)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (626)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module Voice (624)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (622)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (620)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module MeshBuilder (618)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module BlueprintGraph (616)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
+[2019.03.06-10.01.19:880][ 90]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module BspMode (586)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.03.06-10.01.19:881][ 90]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.03.06-10.01.21:354][ 90]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.03.06-10.01.21:355][ 90]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.03.06-10.01.21:421][ 90]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.03.06-10.01.21:426][ 90]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.03.06-10.01.21:426][ 90]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module OutputLog (436)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module GammaUI (434)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module Documentation (432)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module MovieScene (428)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module PortalServices (420)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module AIModule (414)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module DesktopPlatform (406)
+[2019.03.06-10.01.21:427][ 90]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.03.06-10.01.21:470][ 90]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
+[2019.03.06-10.01.21:472][ 90]LogModuleManager: Shutting down and abandoning module DatasmithContent (344)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.06-10.01.21:473][ 90]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.06-10.01.21:574][ 90]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.06-10.01.21:674][ 90]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.06-10.01.21:675][ 90]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.06-10.01.21:675][ 90]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.06-10.01.21:675][ 90]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.06-10.01.21:675][ 90]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.06-10.01.21:675][ 90]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.06-10.01.21:675][ 90]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.06-10.01.21:676][ 90]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.06-10.01.21:682][ 90]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.06-10.01.21:683][ 90]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.06-10.01.21:684][ 90]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.06-10.01.21:696][ 90]LogDerivedDataCache: Shutdown
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.06-10.01.21:696][ 90]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.06-10.01.21:697][ 90]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.06-10.01.21:697][ 90]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.06-10.01.21:697][ 90]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.06-10.01.21:697][ 90]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.06-10.01.21:701][ 90]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.06-10.01.21:701][ 90]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.06-10.01.21:701][ 90]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.06-10.01.21:701][ 90]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.06-10.01.21:701][ 90]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.06-10.01.21:701][ 90]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.06-10.01.21:702][ 90]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.06-10.01.21:725][ 90]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.06-10.01.21:725][ 90]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.06-10.01.21:725][ 90]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A07C33C-45C5-8343-9CAB-F18E6578DBAC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=528e92d1455d65be4fe990953ed02d04%7Ccb811f7dc085487893897941bc0a2b5b%7Ccaf060b9-108e-4ecf-a132-5d6b2cecf068&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.06-10.01.21:734][ 90]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.06-10.01.21:735][ 90]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.06-10.01.21:735][ 90]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.06-10.01.21:736][ 90]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.06-10.01.21:740][ 90]LogExit: Exiting.
+[2019.03.06-10.01.21:748][ 90]Log file closed, 03/06/19 11:01:21

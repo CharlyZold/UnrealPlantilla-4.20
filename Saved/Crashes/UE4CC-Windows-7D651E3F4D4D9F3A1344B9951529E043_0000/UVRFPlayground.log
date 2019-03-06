@@ -1,0 +1,722 @@
+﻿Log file open, 03/05/19 09:03:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UVRFPlayground
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.273911
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.091s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.05-08.03.59:921][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-08.03.59:921][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.05-08.03.59:933][  0]LogHAL: Display: Platform has ~ 32 GB [34311819264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.05-08.03.59:933][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.05-08.03.59:933][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.05-08.03.59:933][  0]LogInit: Computer: PCF83
+[2019.03.05-08.03.59:933][  0]LogInit: User: Alumno
+[2019.03.05-08.03.59:933][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.05-08.03.59:933][  0]LogInit: High frequency timer resolution =4.101562 MHz
+[2019.03.05-08.03.59:934][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.05-08.03.59:934][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.05-08.03.59:934][  0]LogMemory: Process Physical Memory: 102.38 MB used, 102.38 MB peak
+[2019.03.05-08.03.59:934][  0]LogMemory: Process Virtual Memory: 92.57 MB used, 92.57 MB peak
+[2019.03.05-08.03.59:934][  0]LogMemory: Physical Memory: 4513.55 MB used,  28208.75 MB free, 32722.30 MB total
+[2019.03.05-08.03.59:934][  0]LogMemory: Virtual Memory: 4653.74 MB used,  28208.75 MB free, 134217728.00 MB total
+[2019.03.05-08.03.59:946][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.05-08.03.59:946][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.05-08.04.00:215][  0]LogStreaming: Display: Took  0.269s to InitEngineTextLocalization.
+[2019.03.05-08.04.00:215][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.05-08.04.00:238][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.05-08.04.00:238][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.05-08.04.00:362][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-08.04.00:362][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.05-08.04.00:406][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.05-08.04.00:406][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.05-08.04.00:407][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.05-08.04.00:407][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.05-08.04.00:407][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.05-08.04.00:412][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.05-08.04.00:412][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.05-08.04.00:412][  0]LogWindows: EnumDisplayDevices:
+[2019.03.05-08.04.00:412][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.05-08.04.00:412][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.05-08.04.00:412][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.05-08.04.00:413][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.05-08.04.00:413][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.05-08.04.00:413][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.05-08.04.00:413][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.03.05-08.04.00:413][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.03.05-08.04.00:413][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.05-08.04.00:434][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.05-08.04.00:449][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.05-08.04.00:497][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Intermediate/Shaders/WorkingDirectory/11436/).
+[2019.03.05-08.04.00:497][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/B521688240DE14FFCA89CA99BA540155/'.
+[2019.03.05-08.04.00:643][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.05-08.04.00:653][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.05-08.04.00:663][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.05-08.04.00:673][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.05-08.04.00:683][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.05-08.04.00:693][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.05-08.04.00:703][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.05-08.04.00:713][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.05-08.04.00:718][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:773][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-08.04.00:774][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.05-08.04.00:827][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-08.04.00:827][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-08.04.00:845][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-08.04.00:845][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-08.04.00:854][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.05-08.04.00:864][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.05-08.04.00:873][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.05-08.04.00:882][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.05-08.04.00:889][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.05-08.04.00:889][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.05-08.04.00:933][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.05-08.04.00:933][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.05-08.04.00:933][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.05-08.04.01:450][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.05-08.04.01:499][  0]LogDerivedDataCache: Loaded boot cache 0.05s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-08.04.01:499][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.05-08.04.01:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.05-08.04.01:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.05-08.04.01:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.05-08.04.01:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.05-08.04.01:508][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.05-08.04.01:519][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.05-08.04.01:519][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.05-08.04.01:519][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.05-08.04.01:532][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.05-08.04.01:533][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.05-08.04.01:534][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.05-08.04.01:592][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2019.03.05-08.04.01:814][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-08.04.01:902][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.05-08.04.01:905][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.05-08.04.01:905][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.05-08.04.01:905][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.05-08.04.01:905][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.05-08.04.01:916][  0]LogNetVersion: UVRFPlayground 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4282483417)
+[2019.03.05-08.04.01:956][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2019.03.05-08.04.02:216][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.038432 seconds
+[2019.03.05-08.04.02:221][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.05-08.04.02:221][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.05-08.04.02:221][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.05-08.04.02:725][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2019.03.05-08.04.02:726][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:726][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:745][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2019.03.05-08.04.02:746][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:746][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:748][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2019.03.05-08.04.02:748][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:748][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:750][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2019.03.05-08.04.02:750][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:750][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:753][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2019.03.05-08.04.02:753][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:753][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:755][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2019.03.05-08.04.02:755][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:755][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:768][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2019.03.05-08.04.02:768][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:768][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:770][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.03.05-08.04.02:770][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:770][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:772][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2019.03.05-08.04.02:773][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-08.04.02:773][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-08.04.02:808][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.05-08.04.02:820][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.05-08.04.02:981][  0]SourceControl: Source control is disabled
+[2019.03.05-08.04.02:981][  0]SourceControl: Source control is disabled
+[2019.03.05-08.04.02:982][  0]SourceControl: Source control is disabled
+[2019.03.05-08.04.02:983][  0]SourceControl: Source control is disabled
+[2019.03.05-08.04.03:121][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.05-08.04.03:166][  0]LogOcInput: OculusInput pre-init called
+[2019.03.05-08.04.03:210][  0]LogEngine: Initializing Engine...
+[2019.03.05-08.04.03:210][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.05-08.04.03:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-08.04.03:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-08.04.03:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-08.04.03:211][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-08.04.03:351][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.05-08.04.03:362][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.05-08.04.03:374][  0]LogInit: XAudio2 using '27EA33 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-08.04.03:391][  0]LogInit: FAudioDevice initialized.
+[2019.03.05-08.04.03:391][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.05-08.04.03:465][  0]LogDerivedDataCache: Saved boot cache 0.07s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-08.04.03:475][  0]LogInit: Texture streaming: Enabled
+[2019.03.05-08.04.03:487][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.05-08.04.03:497][  0]LogInit: Transaction tracking system initialized
+[2019.03.05-08.04.03:514][  0]BlueprintLog: New page: Editor Load
+[2019.03.05-08.04.03:575][  0]LocalizationService: Localization service is disabled
+[2019.03.05-08.04.03:890][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.05-08.04.03:890][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.05-08.04.03:890][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.05-08.04.03:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-08.04.03:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-08.04.03:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-08.04.03:890][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-08.04.03:972][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/' took 0.03s
+[2019.03.05-08.04.03:972][  0]SourceControl: Source control is disabled
+[2019.03.05-08.04.03:972][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.05-08.04.03:973][  0]LightingResults: New page: Lighting Build
+[2019.03.05-08.04.03:975][  0]MapCheck: New page: Map Check
+[2019.03.05-08.04.03:975][  0]LightingResults: New page: Lighting Build
+[2019.03.05-08.04.10:058][  0]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-08.04.10:076][  0]LogMaterial: Warning: Material /Game/Playground/Environment/LED/LightFixture.LightFixture needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-08.04.10:078][  0]LogMaterial: Display: Missing cached shader map for material LightFixture, compiling. 
+[2019.03.05-08.04.10:122][  0]MapCheck: Warning: LightFixture Material /Game/Playground/Environment/LED/LightFixture.LightFixture was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-08.04.10:225][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.05-08.04.10:225][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.05-08.04.10:225][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.05-08.04.10:225][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.05-08.04.10:225][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.04.10:225][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.04.10:226][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.04.10:226][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.04.10:227][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.04.10:227][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.04.10:232][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.05-08.04.10:270][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.05-08.04.10:398][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 128.909ms to complete.
+[2019.03.05-08.04.10:404][  0]LogFileHelpers: Loading map 'Playground' took 6.432
+[2019.03.05-08.04.10:510][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-08.04.10:519][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-08.04.10:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-08.04.10:536][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-08.04.10:550][  0]LogCollectionManager: Loaded 0 collections in 0.002169 seconds
+[2019.03.05-08.04.10:603][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Collections/' took 0.01s
+[2019.03.05-08.04.10:603][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Developers/Alumno/Collections/' took 0.01s
+[2019.03.05-08.04.10:603][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Collections/' took 0.01s
+[2019.03.05-08.04.10:603][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.05-08.04.10:614][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2581 classes and 608 folders.
+[2019.03.05-08.04.10:628][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-08.04.10:982][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.05-08.04.10:996][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.05-08.04.11:154][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.05-08.04.11:157][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.05-08.04.11:169][  0]LogSlate: Took 0.004880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.05-08.04.11:312][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-08.04.11:480][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-08.04.11:480][  0]LogLoad: (Engine Initialization) Total time: 13.63 seconds
+[2019.03.05-08.04.11:480][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.05-08.04.11:490][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.05-08.04.11:512][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.05-08.04.11:551][  0]LogSlate: Took 0.006231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-08.04.11:572][  1]LogAssetRegistry: Asset discovery search completed in 10.0014 seconds
+[2019.03.05-08.04.11:573][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.05-08.04.11:573][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2019.03.05-08.04.31:252][312]LogEditorViewport: Clicking on Actor (LMB): BowBP_C (BowBP)
+[2019.03.05-08.04.31:261][312]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.04.31:261][312]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.04.32:695][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.04.32:806][491]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-08.04.32:809][491]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/BowBP.BowBP
+[2019.03.05-08.04.33:236][491]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2019.03.05-08.04.33:885][491]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.04.33:885][491]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.04.33:894][491]LogSlate: Took 0.003925 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.05-08.04.34:013][492]LogSlate: Took 0.004023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.05-08.04.50:050][ 32]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.04.50:050][ 32]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.04.50:085][ 33]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-08.06.46:912][446]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/Arrow.Arrow
+[2019.03.05-08.08.16:045][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.08.16:137][828]LogTemp: Repeating last play command: Simulate
+[2019.03.05-08.08.16:149][828]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-08.08.16:149][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-08.08.16:163][828]PIE: New page: SIE session: Playground (Mar 5, 2019, 10:08:16 AM)
+[2019.03.05-08.08.16:163][828]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-08.08.16:197][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033334s)
+[2019.03.05-08.08.16:197][828]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-08.08.16:198][828]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2019.03.05-08.08.16:198][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034158s)
+[2019.03.05-08.08.16:232][828]LogInit: XAudio2 using '27EA33 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-08.08.16:239][828]LogInit: FAudioDevice initialized.
+[2019.03.05-08.08.16:284][828]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-08.08.16:297][828]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-09.08.16
+[2019.03.05-08.08.16:300][828]LogWorld: Bringing up level for play took: 0.015101
+[2019.03.05-08.08.16:318][828]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2019.03.05-08.08.16:322][828]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.442
+[2019.03.05-08.08.16:325][828]PIE: Warning: AttachTo: '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.08.16:326][828]PIE: Warning: AttachTo: '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.08.16:339][828]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-08.08.24:957][740]LogEditorViewport: Clicking on Actor (LMB): HolderBP_C (HolderBP)
+[2019.03.05-08.08.27:492][ 38]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.08.27:600][ 51]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/HolderBP.HolderBP
+[2019.03.05-08.10.49:294][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.12.35:252][377]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow2)
+[2019.03.05-08.12.40:022][891]LogEditorViewport: Clicking on Actor (LMB): BowBP_C (BowBP)
+[2019.03.05-08.12.40:026][891]PIE: Warning: AttachTo: '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.12.40:026][891]PIE: Warning: AttachTo: '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/UEDPIE_0_Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.12.42:510][149]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow2)
+[2019.03.05-08.13.07:763][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.13.07:854][125]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow
+[2019.03.05-08.13.17:048][131]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow
+[2019.03.05-08.14.00:521][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.14.02:463][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2019.03.05-08.14.03:635][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.14.03:720][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-08.14.03:721][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-08.14.03:776][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-08.14.03:776][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-08.14.03:805][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-08.14.03:829][328]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.03.05-08.14.05:718][471]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.14.05:719][471]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.15.58:993][487]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.03.05-08.16.04:574][154]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Holder.BP_Holder
+[2019.03.05-08.16.21:271][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-08.16.23:946][379]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2019.03.05-08.16.24:005][380]LogShaderCompilers: Display: Shaders left to compile 61
+[2019.03.05-08.16.24:005][380]LogShaderCompilers: Display: Shaders left to compile 51
+[2019.03.05-08.16.24:005][380]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.03.05-08.16.24:005][380]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.05-08.16.26:973][628]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.05-08.16.27:287][656]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.05-08.16.34:163][275]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.05-08.18.03:263][751]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-08.18.03:276][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.05-08.18.03:293][751]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_HolderD25A0C74494F7C79238416B77E1E994D.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.05-08.18.58:868][373]LogSlate: Took 0.004496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.05-08.21.17:102][374]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.05-08.22.14:708][781]LogEditorTransaction: Undo Create Pin Link
+[2019.03.05-08.22.15:357][842]LogEditorTransaction: Undo Add Node
+[2019.03.05-08.22.17:557][ 90]LogEditorTransaction: Undo Create Pin Link
+[2019.03.05-08.22.18:259][170]LogEditorTransaction: Undo Break Pin Links
+[2019.03.05-08.24.51:704][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-08.24.51:750][466]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow8F9362AD49BEF630B5E914AC58DA7929.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-08.25.07:529][352]BlueprintLog: New page: Compile BP_Holder
+[2019.03.05-08.28.11:869][504]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.05-08.28.11:889][504]LogBlueprint: Warning: [Compiler Bp_Bow] Node  Attach Holder . The node won't be pruned as isolated one. The node is not pure, but it has no exec pin(s). Verify IsNodePure implementation in K2Node Call Function.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Fire Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Fire Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "FireArrow" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Fire Arrow
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "UpdateArrow" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Update Arrow
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] Can't connect pins  Self  and  Bow Ref : Self Object Reference is not compatible with Bow BP Object Reference.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] Can't connect pins  Bow Ref  and  Self : Bow BP Object Reference is not compatible with Self Object Reference.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Anim . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Anim . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "UpdateAnim" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Update Anim
+[2019.03.05-08.28.11:889][504]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "AlternativeBowResting" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get AlternativeBowResting
+[2019.03.05-08.28.11:889][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Attach Holder . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:890][504]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "AttachHolder" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Attach Holder
+[2019.03.05-08.28.11:890][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Attach Holder . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:890][504]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "AttachHolder" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Attach Holder
+[2019.03.05-08.28.11:890][504]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.05-08.28.11:890][504]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a HolderBP_C, therefore ' Target ' must have a connection.
+[2019.03.05-08.28.11:890][504]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a HolderBP_C, therefore ' Target ' must have a connection.
+[2019.03.05-08.28.11:890][504]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a HolderBP_C, therefore ' Target ' must have a connection.
+[2019.03.05-08.28.11:891][504]LogBlueprint: Error: [Compiler Bp_Bow] Variable node  Get Grabable  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.05-08.28.11:891][504]LogBlueprint: Error: [Compiler Bp_Bow] Variable node  Get longbowArrowHolder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.05-08.28.11:891][504]LogBlueprint: Error: [Compiler Bp_Bow] The property associated with  Alternative Bow Resting  could not be found in '/Game/Blueprints/Bp_Bow.Bp_Bow_C'
+[2019.03.05-08.28.11:891][504]LogBlueprint: Error: [Compiler Bp_Bow] Variable node  Set BowRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.05-08.28.12:034][504]LogBlueprint: Warning: [Compiler Bp_Bow] [1454.18] Compile of Bp_Bow failed. 22 Fatal Issue(s) 2 Warning(s) [in 164 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.05-08.28.44:963][933]LogEditorTransaction: Undo Create Pin Link
+[2019.03.05-08.28.46:005][ 45]LogEditorTransaction: Undo Delete current selection
+[2019.03.05-08.29.58:600][462]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-08.29.58:610][462]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.05-08.29.58:633][462]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_HolderB7A6AA484BDBA744820A179F483EC3CD.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.05-08.32.12:013][443]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow2)
+[2019.03.05-08.32.13:452][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-08.32.13:523][618]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow
+[2019.03.05-08.32.17:539][953]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.05-08.32.17:558][953]LogBlueprint: Warning: [Compiler Bp_Bow] Node  Attach Holder . The node won't be pruned as isolated one. The node is not pure, but it has no exec pin(s). Verify IsNodePure implementation in K2Node Call Function.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Fire Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Fire Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "FireArrow" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Fire Arrow
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "UpdateArrow" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Update Arrow
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] Can't connect pins  Self  and  Bow Ref : Self Object Reference is not compatible with Bow BP Object Reference.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] Can't connect pins  Bow Ref  and  Self : Bow BP Object Reference is not compatible with Self Object Reference.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Anim . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Anim . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "UpdateAnim" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Update Anim
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Attach Holder . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:559][953]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "AttachHolder" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Attach Holder
+[2019.03.05-08.32.17:560][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Attach Holder . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:560][953]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "AttachHolder" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Attach Holder
+[2019.03.05-08.32.17:560][953]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.05-08.32.17:560][953]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a HolderBP_C, therefore ' Target ' must have a connection.
+[2019.03.05-08.32.17:560][953]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a HolderBP_C, therefore ' Target ' must have a connection.
+[2019.03.05-08.32.17:560][953]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a HolderBP_C, therefore ' Target ' must have a connection.
+[2019.03.05-08.32.17:561][953]LogBlueprint: Error: [Compiler Bp_Bow] Variable node  Get Grabable  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.05-08.32.17:561][953]LogBlueprint: Error: [Compiler Bp_Bow] Variable node  Get longbowArrowHolder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.05-08.32.17:561][953]LogBlueprint: Error: [Compiler Bp_Bow] Variable node  Set BowRef  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.05-08.32.17:820][953]LogBlueprint: Warning: [Compiler Bp_Bow] [1699.96] Compile of Bp_Bow failed. 21 Fatal Issue(s) 1 Warning(s) [in 279 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.05-08.34.07:782][780]LogEditorTransaction: Undo Delete current selection
+[2019.03.05-08.35.39:221][855]LogEditorTransaction: Undo Move Node
+[2019.03.05-08.35.40:360][956]LogEditorTransaction: Undo Move Node
+[2019.03.05-08.35.41:923][109]LogEditorTransaction: Undo Add Node
+[2019.03.05-08.36.11:768][ 55]LogEditorTransaction: Undo Add Node
+[2019.03.05-08.40.47:739][890]BlueprintLog: New page: Compile BP_Holder
+[2019.03.05-08.47.02:702][563]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.02:702][563]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.02:710][563]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Objects/Bow/BowBP" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/BowBP.uasset" SILENT=true
+[2019.03.05-08.47.02:798][563]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BowBP672D83864FD0FE9D81898887CADB75E3.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/BowBP.uasset'
+[2019.03.05-08.47.03:948][680]BlueprintLog: New page: Compile BowBP
+[2019.03.05-08.47.04:014][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:014][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:015][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:015][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:015][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:015][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:016][680]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:016][680]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:016][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:016][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:239][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:239][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:239][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:239][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:240][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:240][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:241][680]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:241][680]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:241][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:241][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:242][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:242][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:278][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:278][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:278][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:278][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:279][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:279][680]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:280][680]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:280][680]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.04:280][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString1' which is static to it. Aborting.
+[2019.03.05-08.47.04:280][680]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString2' which is static to it. Aborting.
+[2019.03.05-08.47.34:157][128]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_Auto1C56923C842D1B2EFC5B48EA96A1EBDB7.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Playground_Auto1.umap'
+[2019.03.05-08.47.34:161][128]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Playground/Playground' took 1.606
+[2019.03.05-08.47.34:161][128]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.606
+[2019.03.05-08.47.34:163][128]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Playground/Objects/Bow/HolderBP] ([1] browsable assets)...
+[2019.03.05-08.47.34:182][128]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Playground/Objects/Bow/HolderBP.HolderBP]
+[2019.03.05-08.47.34:182][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/Playground/Objects/Bow/HolderBP]
+[2019.03.05-08.47.34:202][128]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/HolderBP_Auto14F8F4A864E9C62167912B38EAFE17FF4.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Objects/Bow/HolderBP_Auto1.uasset'
+[2019.03.05-08.47.34:203][128]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Bp_Bow] ([1] browsable assets)...
+[2019.03.05-08.47.34:214][128]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow]
+[2019.03.05-08.47.34:214][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bp_Bow]
+[2019.03.05-08.47.34:214][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/Bp_Bow_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.05-08.47.34:261][128]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow_Auto11BFF05E0427AF7D7F93D679CD091FC9E.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/Bp_Bow_Auto1.uasset'
+[2019.03.05-08.47.34:262][128]LogFileHelpers: Auto-saving content packages took 0.099
+[2019.03.05-08.48.57:934][957]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.48.57:934][957]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.48.57:934][957]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.48.57:935][957]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.48.57:935][957]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.48.57:935][957]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.48.57:936][957]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.48.57:936][957]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.48.57:936][957]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString1' which is static to it. Aborting.
+[2019.03.05-08.48.57:937][957]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.00:408][211]Cmd: TRANSACTION UNDO
+[2019.03.05-08.49.00:408][211]LogEditorTransaction: Undo Create Pin Link
+[2019.03.05-08.49.00:416][211]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.00:416][211]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.00:416][211]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.00:416][211]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.00:417][211]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.00:417][211]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.00:418][211]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.00:418][211]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.00:418][211]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.00:418][211]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:218][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:219][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:219][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:219][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:220][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:220][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:221][499]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:221][499]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:221][499]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:221][499]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:236][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:236][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:236][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:236][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:237][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:237][499]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:238][499]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:238][499]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.49.03:238][499]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString1' which is static to it. Aborting.
+[2019.03.05-08.49.03:239][499]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString2' which is static to it. Aborting.
+[2019.03.05-08.50.12:437][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.05-08.50.12:460][337]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Holder5455C5664855F2FD7FB6B5BBADC55A07.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.05-08.50.31:484][426]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.05-08.50.31:502][426]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Holder65263D72462B984B1E25039BF8A8382E.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.05-08.51.19:186][274]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.03.05-08.51.21:817][528]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.05-08.51.21:819][528]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.05-08.51.38:389][126]LogSlate: Window 'Change Variable Type' being destroyed
+[2019.03.05-08.51.41:479][446]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.05-08.51.41:481][446]LogSlate: Window 'Find in Blueprints' being destroyed
+[2019.03.05-08.51.42:388][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.05-08.51.42:402][527]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Holder8940B7AC40FA35A84DB4E79B75A3124B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.05-08.55.40:817][430]LogEditorTransaction: Undo Delete current selection
+[2019.03.05-08.55.40:825][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-08.55.40:825][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-08.55.40:826][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-08.55.40:826][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-08.55.40:826][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-08.55.40:826][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-08.55.40:827][430]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.05-08.55.40:827][430]PIE: Warning: AttachTo: '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_0:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.05-08.55.40:828][430]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString1' which is static to it. Aborting.
+[2019.03.05-08.55.40:828][430]PIE: Warning: AttachTo: '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_13:PersistentLevel.BowBP_C_1.BowString2' which is static to it. Aborting.
+[2019.03.05-08.57.39:439][528]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_Auto221546162425F4F3E75B0C29CD7428905.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Playground_Auto2.umap'
+[2019.03.05-08.57.39:445][528]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Playground/Playground' took 1.063
+[2019.03.05-08.57.39:445][528]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.063
+[2019.03.05-08.57.39:449][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Playground/Objects/Bow/BowBP] ([1] browsable assets)...
+[2019.03.05-08.57.39:461][528]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Playground/Objects/Bow/BowBP.BowBP]
+[2019.03.05-08.57.39:461][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Playground/Objects/Bow/BowBP]
+[2019.03.05-08.57.39:550][528]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BowBP_Auto26B92933E4C7A1337F7B5C49B1B3E6365.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Objects/Bow/BowBP_Auto2.uasset'
+[2019.03.05-08.57.39:552][528]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Bp_Bow] ([1] browsable assets)...
+[2019.03.05-08.57.39:562][528]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow]
+[2019.03.05-08.57.39:562][528]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bp_Bow]
+[2019.03.05-08.57.39:562][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/Bp_Bow_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2019.03.05-08.57.39:606][528]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow_Auto21632A83340455791AF98F48225390CDF.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/Bp_Bow_Auto2.uasset'
+[2019.03.05-08.57.39:607][528]LogFileHelpers: Auto-saving content packages took 0.158
+[2019.03.05-09.11.30:494][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-09.11.30:550][831]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow553C27E64C9F0F65CBDE979F650E8DD3.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-09.12.16:853][692]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.05-09.12.16:879][692]LogBlueprint: Warning: [Compiler Bp_Bow] Node  Attach Holder . The node won't be pruned as isolated one. The node is not pure, but it has no exec pin(s). Verify IsNodePure implementation in K2Node Call Function.
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Fire Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Fire Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "FireArrow" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Fire Arrow
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Arrow . Please refresh node or break links to remove pin.
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "UpdateArrow" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Update Arrow
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Anim . Please refresh node or break links to remove pin.
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Update Anim . Please refresh node or break links to remove pin.
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "UpdateAnim" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Update Anim
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  <Unnamed>  no longer exists on node  Attach Holder . Please refresh node or break links to remove pin.
+[2019.03.05-09.12.16:880][692]LogBlueprint: Error: [Compiler Bp_Bow] Could not find a function named "AttachHolder" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Attach Holder
+[2019.03.05-09.12.16:881][692]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "AlternativeBowResting" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get AlternativeBowResting
+[2019.03.05-09.12.16:881][692]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a HolderBP_C, therefore ' Target ' must have a connection.
+[2019.03.05-09.12.16:882][692]LogBlueprint: Error: [Compiler Bp_Bow] Variable node  Get Grabable  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.03.05-09.12.16:882][692]LogBlueprint: Error: [Compiler Bp_Bow] The property associated with  Alternative Bow Resting  could not be found in '/Game/Blueprints/Bp_Bow.Bp_Bow_C'
+[2019.03.05-09.12.17:212][692]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.329 s
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: 
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: Ensure condition failed: Component && (Component->GetOuter() == GeneratedClass) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 1154]
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: 
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: Stack: 
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd3bd971f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd3bad0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd3baeb356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd277eec6a UE4Editor-Engine.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd21a74c38 UE4Editor-KismetCompiler.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2538c9a4 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2531fee1 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2643df4c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2531f8ff UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd253805b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2b8629fe UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2b965872 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2b9424bf UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2ba29c3b UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2b8194c5 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:212][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2b8b1db2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2b897c7a UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd2b88b25c UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd601dd1c7 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd601d0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd601df4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd601cc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd7a4f6d41 USER32.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd7a4f6713 USER32.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd601e0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b054e5 UE4Editor.exe!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b15b3c UE4Editor.exe!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b15bba UE4Editor.exe!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b23dac UE4Editor.exe!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b25aaa UE4Editor.exe!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd7a363dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: [Callstack] 0x00007ffd7a963691 ntdll.dll!UnknownFunction []
+[2019.03.05-09.12.17:213][692]LogOutputDevice: Error: 
+[2019.03.05-09.12.17:214][692]LogStats:                SubmitErrorReport -  0.000 s

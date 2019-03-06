@@ -1,0 +1,1333 @@
+﻿Log file open, 03/05/19 11:35:18
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UVRFPlayground
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.263989
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.079s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.05-10.35.19:239][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-10.35.19:239][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.05-10.35.19:248][  0]LogHAL: Display: Platform has ~ 32 GB [34311819264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.05-10.35.19:248][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.05-10.35.19:248][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.05-10.35.19:248][  0]LogInit: Computer: PCF83
+[2019.03.05-10.35.19:248][  0]LogInit: User: Alumno
+[2019.03.05-10.35.19:248][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.05-10.35.19:249][  0]LogInit: High frequency timer resolution =4.101562 MHz
+[2019.03.05-10.35.19:249][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.05-10.35.19:249][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.05-10.35.19:249][  0]LogMemory: Process Physical Memory: 104.76 MB used, 104.76 MB peak
+[2019.03.05-10.35.19:249][  0]LogMemory: Process Virtual Memory: 94.93 MB used, 94.93 MB peak
+[2019.03.05-10.35.19:249][  0]LogMemory: Physical Memory: 7190.25 MB used,  25532.05 MB free, 32722.30 MB total
+[2019.03.05-10.35.19:249][  0]LogMemory: Virtual Memory: 4658.60 MB used,  25532.05 MB free, 134217728.00 MB total
+[2019.03.05-10.35.19:261][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.05-10.35.19:261][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.05-10.35.19:524][  0]LogStreaming: Display: Took  0.262s to InitEngineTextLocalization.
+[2019.03.05-10.35.19:524][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.05-10.35.19:547][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.05-10.35.19:547][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.05-10.35.19:691][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.05-10.35.19:732][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.05-10.35.19:732][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.05-10.35.19:734][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.05-10.35.19:734][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.05-10.35.19:734][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.05-10.35.19:743][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.05-10.35.19:743][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.05-10.35.19:743][  0]LogWindows: EnumDisplayDevices:
+[2019.03.05-10.35.19:743][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.05-10.35.19:743][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.05-10.35.19:743][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.05-10.35.19:743][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.05-10.35.19:743][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.05-10.35.19:743][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.05-10.35.19:744][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.03.05-10.35.19:744][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.03.05-10.35.19:744][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.05-10.35.19:787][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.05-10.35.19:803][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.05-10.35.19:849][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Intermediate/Shaders/WorkingDirectory/4872/).
+[2019.03.05-10.35.19:850][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/7F19CD9049D3BFE3BA941A95995ADFBD/'.
+[2019.03.05-10.35.20:060][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.05-10.35.20:074][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.05-10.35.20:087][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.05-10.35.20:098][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.05-10.35.20:108][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.05-10.35.20:119][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.05-10.35.20:129][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.05-10.35.20:139][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.05-10.35.20:144][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:200][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.05-10.35.20:201][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.05-10.35.20:254][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-10.35.20:254][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.05-10.35.20:272][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-10.35.20:272][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.05-10.35.20:281][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.05-10.35.20:290][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.05-10.35.20:300][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.05-10.35.20:309][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.05-10.35.20:316][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.05-10.35.20:316][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.05-10.35.20:363][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.05-10.35.20:363][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.05-10.35.20:363][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.05-10.35.20:892][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.05-10.35.20:941][  0]LogDerivedDataCache: Loaded boot cache 0.05s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-10.35.20:941][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.05-10.35.20:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.05-10.35.20:942][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.05-10.35.20:942][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.05-10.35.20:942][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.05-10.35.20:951][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.05-10.35.20:963][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.05-10.35.20:963][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.05-10.35.20:963][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.05-10.35.20:977][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.05-10.35.20:978][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.05-10.35.20:978][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.05-10.35.21:039][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2019.03.05-10.35.21:264][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.05-10.35.21:362][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.05-10.35.21:365][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.05-10.35.21:365][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.05-10.35.21:365][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.05-10.35.21:365][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.05-10.35.21:374][  0]LogNetVersion: UVRFPlayground 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4282483417)
+[2019.03.05-10.35.21:417][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2019.03.05-10.35.21:687][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.036645 seconds
+[2019.03.05-10.35.21:692][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.05-10.35.21:692][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.05-10.35.21:692][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.05-10.35.22:212][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2019.03.05-10.35.22:212][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:212][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:235][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2019.03.05-10.35.22:235][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:235][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:237][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2019.03.05-10.35.22:238][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:238][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:240][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2019.03.05-10.35.22:240][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:240][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:242][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2019.03.05-10.35.22:242][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:242][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:244][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2019.03.05-10.35.22:244][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:244][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:258][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2019.03.05-10.35.22:258][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:258][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:260][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.03.05-10.35.22:261][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:261][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:262][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2019.03.05-10.35.22:263][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.05-10.35.22:263][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.05-10.35.22:301][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.05-10.35.22:313][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.05-10.35.22:435][  0]SourceControl: Source control is disabled
+[2019.03.05-10.35.22:436][  0]SourceControl: Source control is disabled
+[2019.03.05-10.35.22:437][  0]SourceControl: Source control is disabled
+[2019.03.05-10.35.22:437][  0]SourceControl: Source control is disabled
+[2019.03.05-10.35.22:576][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.05-10.35.22:647][  0]LogOcInput: OculusInput pre-init called
+[2019.03.05-10.35.22:694][  0]LogEngine: Initializing Engine...
+[2019.03.05-10.35.22:695][  0]LogHMD: Oculus plugin initialized. Version: 4.20.3-4369336+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2019.03.05-10.35.22:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-10.35.22:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-10.35.22:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-10.35.22:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-10.35.22:843][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.05-10.35.22:854][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.05-10.35.22:870][  0]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.35.22:881][  0]LogInit: FAudioDevice initialized.
+[2019.03.05-10.35.22:881][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.05-10.35.22:954][  0]LogDerivedDataCache: Saved boot cache 0.07s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.05-10.35.22:965][  0]LogInit: Texture streaming: Enabled
+[2019.03.05-10.35.22:977][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.05-10.35.22:987][  0]LogInit: Transaction tracking system initialized
+[2019.03.05-10.35.23:006][  0]BlueprintLog: New page: Editor Load
+[2019.03.05-10.35.23:066][  0]LocalizationService: Localization service is disabled
+[2019.03.05-10.35.23:313][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.05-10.35.23:313][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.05-10.35.23:313][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.05-10.35.23:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.05-10.35.23:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.05-10.35.23:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.05-10.35.23:313][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.05-10.35.23:406][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/' took 0.02s
+[2019.03.05-10.35.23:406][  0]SourceControl: Source control is disabled
+[2019.03.05-10.35.23:407][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.05-10.35.23:407][  0]LightingResults: New page: Lighting Build
+[2019.03.05-10.35.23:409][  0]MapCheck: New page: Map Check
+[2019.03.05-10.35.23:409][  0]LightingResults: New page: Lighting Build
+[2019.03.05-10.35.25:357][  0]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.35.25:369][  0]LogMaterial: Warning: Material /Game/Playground/Environment/LED/LightFixture.LightFixture needed to have new flag set bUsedWithStaticLighting !
+[2019.03.05-10.35.25:371][  0]LogMaterial: Display: Missing cached shader map for material LightFixture, compiling. 
+[2019.03.05-10.35.25:415][  0]MapCheck: Warning: LightFixture Material /Game/Playground/Environment/LED/LightFixture.LightFixture was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.05-10.35.25:536][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.05-10.35.25:536][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.05-10.35.25:536][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.05-10.35.25:536][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.05-10.35.25:536][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.05-10.35.25:536][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.05-10.35.25:537][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.05-10.35.25:537][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.05-10.35.25:537][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.05-10.35.25:538][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.05-10.35.25:539][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.05-10.35.25:570][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.05-10.35.25:709][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 138.386ms to complete.
+[2019.03.05-10.35.25:714][  0]LogFileHelpers: Loading map 'Playground' took 2.307
+[2019.03.05-10.35.25:801][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.35.25:810][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.35.25:818][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.35.25:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.35.25:835][  0]LogCollectionManager: Loaded 0 collections in 0.002249 seconds
+[2019.03.05-10.35.25:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Collections/' took 0.01s
+[2019.03.05-10.35.25:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Developers/Alumno/Collections/' took 0.01s
+[2019.03.05-10.35.25:877][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Collections/' took 0.01s
+[2019.03.05-10.35.25:877][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.05-10.35.25:885][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2581 classes and 608 folders.
+[2019.03.05-10.35.25:893][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-10.35.25:940][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-10.35.25:946][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.05-10.35.26:037][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.05-10.35.26:039][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.05-10.35.26:044][  0]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.05-10.35.26:123][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-10.35.26:249][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.05-10.35.26:249][  0]LogLoad: (Engine Initialization) Total time: 8.48 seconds
+[2019.03.05-10.35.26:249][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.05-10.35.26:259][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.05-10.35.26:260][  0]LogOcInput: OculusInput is initialized
+[2019.03.05-10.35.26:282][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.05-10.35.26:332][  0]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-10.35.26:397][  2]LogAssetRegistry: Asset discovery search completed in 5.3807 seconds
+[2019.03.05-10.35.26:399][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.05-10.35.26:399][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2019.03.05-10.35.27:282][100]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.05-10.35.41:778][834]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.35.42:987][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.35.42:987][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-10.35.42:987][978]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.35.43:060][978]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:35:43 PM)
+[2019.03.05-10.35.43:060][978]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.35.43:104][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043988s)
+[2019.03.05-10.35.43:105][978]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.35.43:105][978]LogPlayLevel: PIE: World Init took: (0.000565s)
+[2019.03.05-10.35.43:105][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.044765s)
+[2019.03.05-10.35.43:140][978]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.35.43:147][978]LogInit: FAudioDevice initialized.
+[2019.03.05-10.35.43:150][978]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.35.43:152][978]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.35.43:220][978]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.35.43:257][978]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.35.43:271][978]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.35.43
+[2019.03.05-10.35.43:273][978]LogWorld: Bringing up level for play took: 0.015401
+[2019.03.05-10.35.43:290][978]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2019.03.05-10.35.43:294][978]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.35.43:298][978]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.581
+[2019.03.05-10.35.43:298][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.35.43:299][978]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.35.43:309][978]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2019.03.05-10.35.43:309][978]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.36.01:345][636]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.36.01:404][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.36.01:442][636]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.36.01:445][636]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.36.01:479][636]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.36.01:480][636]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.36.01:518][637]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.03.05-10.36.01:519][637]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.36.05:869][133]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow2)
+[2019.03.05-10.36.21:667][830]LogEditorViewport: Clicking on Actor (LMB): Arrow_C (Arrow6)
+[2019.03.05-10.36.31:985][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.36.32:660][ 25]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground103541FB4AC420F357011D9BEC34C0B1.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.05-10.36.32:688][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.05-10.36.33:310][ 25]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltData2EF263054D266B49F62232A23FDC8B50.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.05-10.36.34:775][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.36.34:883][212]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.36.34:898][212]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.36.34:899][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-10.36.34:899][212]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.36.34:971][212]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:36:34 PM)
+[2019.03.05-10.36.34:971][212]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.36.35:009][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038184s)
+[2019.03.05-10.36.35:010][212]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.36.35:010][212]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2019.03.05-10.36.35:010][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.038915s)
+[2019.03.05-10.36.35:044][212]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.36.35:052][212]LogInit: FAudioDevice initialized.
+[2019.03.05-10.36.35:057][212]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.36.35:126][212]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.36.35:152][212]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.36.35:168][212]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.36.35
+[2019.03.05-10.36.35:171][212]LogWorld: Bringing up level for play took: 0.018582
+[2019.03.05-10.36.35:185][212]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.36.35:190][212]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.689
+[2019.03.05-10.36.35:190][212]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.36.35:191][212]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.36.35:204][212]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.36.35:204][212]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.37.21:837][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.37.21:900][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.37.21:932][395]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.37.21:936][395]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.37.21:968][395]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.37.21:969][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.37.22:004][396]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.03.05-10.37.22:005][396]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.37.23:966][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.37.24:040][638]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.37.24:053][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.37.24:053][638]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-10.37.24:053][638]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.37.24:109][638]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:37:24 PM)
+[2019.03.05-10.37.24:109][638]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.37.24:146][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036657s)
+[2019.03.05-10.37.24:146][638]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.37.24:146][638]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2019.03.05-10.37.24:147][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.037364s)
+[2019.03.05-10.37.24:183][638]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.37.24:654][638]LogInit: FAudioDevice initialized.
+[2019.03.05-10.37.24:659][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.37.24:729][638]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.37.24:755][638]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.37.24:771][638]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.37.24
+[2019.03.05-10.37.24:774][638]LogWorld: Bringing up level for play took: 0.019491
+[2019.03.05-10.37.24:790][638]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.37.24:794][638]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.915
+[2019.03.05-10.37.24:794][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.37.24:794][638]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.37.24:806][638]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.37.24:806][638]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.37.54:627][303]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.37.54:694][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.37.54:725][303]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.37.54:729][303]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.37.54:761][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.37.54:761][303]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.37.54:799][304]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.05-10.37.54:800][304]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.37.57:732][654]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow2)
+[2019.03.05-10.38.02:779][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.38.02:885][265]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow
+[2019.03.05-10.38.03:210][265]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2019.03.05-10.38.03:833][265]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.05-10.38.12:503][120]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.38.22:987][ 56]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.05-10.38.39:463][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.38.39:529][485]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow367B790F45E84509E84BEB8CF04CA39F.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.38.41:644][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.38.41:750][673]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.38.41:765][673]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.38.41:765][673]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.38.41:780][673]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.38.41:955][673]LogPlayLevel: PlayLevel: Blueprint regeneration took 190 ms (1 blueprints)
+[2019.03.05-10.38.41:955][673]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.38.42:015][673]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:38:42 PM)
+[2019.03.05-10.38.42:015][673]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.38.42:057][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041659s)
+[2019.03.05-10.38.42:058][673]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.38.42:058][673]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2019.03.05-10.38.42:058][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.042563s)
+[2019.03.05-10.38.42:095][673]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.38.42:104][673]LogInit: FAudioDevice initialized.
+[2019.03.05-10.38.42:110][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.38.42:183][673]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.38.42:211][673]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.38.42:227][673]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.38.42
+[2019.03.05-10.38.42:230][673]LogWorld: Bringing up level for play took: 0.017778
+[2019.03.05-10.38.42:245][673]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.38.42:251][673]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.372
+[2019.03.05-10.38.42:252][673]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.38.42:252][673]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.38.42:347][673]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.38.42:347][673]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.39.02:918][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.39.02:991][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.39.03:043][492]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.39.03:058][492]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.39.03:093][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.39.03:094][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.39.03:145][493]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.03.05-10.39.03:146][493]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.39.07:327][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.39.47:857][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.39.47:918][622]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowE831CB7540326E08628857AF4CF77435.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.39.48:794][699]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.39.48:869][705]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.05-10.39.58:531][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.39.58:591][531]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowFA74E2684ED2204D46A96AB3714D076F.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.39.58:971][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.40.00:387][697]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.40.00:411][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.40.00:411][697]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.40.00:426][697]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.40.00:592][697]LogPlayLevel: PlayLevel: Blueprint regeneration took 180 ms (1 blueprints)
+[2019.03.05-10.40.00:592][697]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.40.00:656][697]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:40:00 PM)
+[2019.03.05-10.40.00:656][697]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.40.00:693][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037364s)
+[2019.03.05-10.40.00:694][697]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.40.00:694][697]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2019.03.05-10.40.00:694][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.038101s)
+[2019.03.05-10.40.00:737][697]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.40.00:744][697]LogInit: FAudioDevice initialized.
+[2019.03.05-10.40.00:749][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.40.00:822][697]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.40.00:850][697]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.40.00:864][697]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.40.00
+[2019.03.05-10.40.00:866][697]LogWorld: Bringing up level for play took: 0.015698
+[2019.03.05-10.40.00:882][697]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.40.00:890][697]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.011
+[2019.03.05-10.40.00:891][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.40.00:891][697]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.40.00:984][697]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.40.00:984][697]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.40.40:833][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.40.40:903][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.40.40:958][247]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.40.40:972][247]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.40.41:006][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.40.41:007][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.40.41:058][248]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.03.05-10.40.41:059][248]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.40.42:580][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.41.00:088][ 79]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.41.00:131][ 79]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.41.00:131][ 79]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.41.00:159][ 79]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.41.00:331][ 79]LogPlayLevel: PlayLevel: Blueprint regeneration took 199 ms (1 blueprints)
+[2019.03.05-10.41.00:331][ 79]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.41.00:414][ 79]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:41:00 PM)
+[2019.03.05-10.41.00:415][ 79]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.41.00:452][ 79]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037257s)
+[2019.03.05-10.41.00:452][ 79]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.41.00:453][ 79]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2019.03.05-10.41.00:453][ 79]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.038122s)
+[2019.03.05-10.41.00:499][ 79]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.41.00:507][ 79]LogInit: FAudioDevice initialized.
+[2019.03.05-10.41.00:513][ 79]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.41.00:591][ 79]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.41.00:619][ 79]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.41.00:635][ 79]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.41.00
+[2019.03.05-10.41.00:639][ 79]LogWorld: Bringing up level for play took: 0.018739
+[2019.03.05-10.41.00:655][ 79]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.41.00:661][ 79]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.782
+[2019.03.05-10.41.00:661][ 79]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.41.00:662][ 79]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.41.00:752][ 79]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.41.00:752][ 79]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.41.32:978][944]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.41.33:050][944]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.41.33:103][944]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.41.33:116][944]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.41.33:146][944]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.41.33:147][944]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.41.33:197][945]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.03.05-10.41.33:198][945]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.41.35:069][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.41.52:554][819]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.41.52:580][819]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.41.52:580][819]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.41.52:597][819]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.41.52:762][819]LogPlayLevel: PlayLevel: Blueprint regeneration took 181 ms (1 blueprints)
+[2019.03.05-10.41.52:762][819]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.41.52:827][819]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:41:52 PM)
+[2019.03.05-10.41.52:827][819]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.41.52:867][819]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039582s)
+[2019.03.05-10.41.52:868][819]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.41.52:868][819]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2019.03.05-10.41.52:868][819]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.040290s)
+[2019.03.05-10.41.52:905][819]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.41.52:911][819]LogInit: FAudioDevice initialized.
+[2019.03.05-10.41.52:917][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.41.52:992][819]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.41.53:020][819]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.41.53:036][819]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.41.53
+[2019.03.05-10.41.53:039][819]LogWorld: Bringing up level for play took: 0.018266
+[2019.03.05-10.41.53:055][819]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.41.53:061][819]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.182
+[2019.03.05-10.41.53:061][819]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.41.53:062][819]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.41.53:152][819]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.41.53:152][819]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.42.12:946][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.42.13:018][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.42.13:071][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.42.13:085][567]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.42.13:121][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.42.13:122][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.42.13:173][568]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.03.05-10.42.13:174][568]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.42.15:144][749]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.42.21:406][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.42.21:466][369]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowAB2E713249381E32A9B812AC89594979.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.42.22:476][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.42.23:327][552]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.42.23:349][552]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.42.23:349][552]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.42.23:363][552]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.42.23:514][552]LogPlayLevel: PlayLevel: Blueprint regeneration took 165 ms (1 blueprints)
+[2019.03.05-10.42.23:514][552]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.42.23:574][552]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:42:23 PM)
+[2019.03.05-10.42.23:574][552]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.42.23:610][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035670s)
+[2019.03.05-10.42.23:611][552]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.42.23:611][552]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2019.03.05-10.42.23:611][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.036389s)
+[2019.03.05-10.42.23:651][552]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.42.23:658][552]LogInit: FAudioDevice initialized.
+[2019.03.05-10.42.23:664][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.42.23:735][552]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.42.23:763][552]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.42.23:778][552]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.42.23
+[2019.03.05-10.42.23:781][552]LogWorld: Bringing up level for play took: 0.016732
+[2019.03.05-10.42.23:796][552]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.42.23:800][552]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.078
+[2019.03.05-10.42.23:800][552]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.42.23:801][552]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.42.23:891][552]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.42.23:891][552]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.42.43:182][252]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.42.43:254][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.42.43:306][252]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.42.43:320][252]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.42.43:349][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.42.43:350][252]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.42.43:395][253]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.03.05-10.42.43:395][253]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.42.58:042][627]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.43.05:710][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.43.05:770][307]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowDDE1486143BCE819C34F8DAA7393E07B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.43.08:640][582]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.43.08:732][590]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.43.08:755][590]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.08:755][590]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.43.08:771][590]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.43.08:934][590]LogPlayLevel: PlayLevel: Blueprint regeneration took 178 ms (1 blueprints)
+[2019.03.05-10.43.08:934][590]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.43.08:992][590]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:43:08 PM)
+[2019.03.05-10.43.08:992][590]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.43.09:030][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037313s)
+[2019.03.05-10.43.09:030][590]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.43.09:030][590]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2019.03.05-10.43.09:031][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.038314s)
+[2019.03.05-10.43.09:070][590]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.43.09:077][590]LogInit: FAudioDevice initialized.
+[2019.03.05-10.43.09:083][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.43.09:154][590]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.43.09:182][590]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.43.09:197][590]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.43.09
+[2019.03.05-10.43.09:199][590]LogWorld: Bringing up level for play took: 0.016704
+[2019.03.05-10.43.09:214][590]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.43.09:221][590]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.342
+[2019.03.05-10.43.09:222][590]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.09:223][590]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.43.09:313][590]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.43.09:313][590]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.43.23:528][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.23:602][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.43.23:659][835]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.43.23:672][835]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.43.23:705][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.43.23:705][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.23:754][836]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.03.05-10.43.23:755][836]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.43.26:334][ 60]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.43.29:816][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.43.29:872][400]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowD1842A9A4EF327FD4F352F8352A0B320.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.43.33:918][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.43.33:985][684]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.43.34:007][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.34:007][684]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.43.34:023][684]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.43.34:180][684]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (1 blueprints)
+[2019.03.05-10.43.34:180][684]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.43.34:235][684]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:43:34 PM)
+[2019.03.05-10.43.34:235][684]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.43.34:269][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034553s)
+[2019.03.05-10.43.34:269][684]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.43.34:269][684]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2019.03.05-10.43.34:270][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.035275s)
+[2019.03.05-10.43.34:310][684]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.43.34:318][684]LogInit: FAudioDevice initialized.
+[2019.03.05-10.43.34:325][684]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.43.34:402][684]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.43.34:430][684]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.43.34:444][684]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.43.34
+[2019.03.05-10.43.34:447][684]LogWorld: Bringing up level for play took: 0.016202
+[2019.03.05-10.43.34:462][684]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.43.34:468][684]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.589
+[2019.03.05-10.43.34:468][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.34:469][684]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.43.34:565][684]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.43.34:565][684]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.43.56:852][656]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.56:920][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.43.56:973][656]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.43.56:985][656]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.43.57:016][656]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.43.57:017][656]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.43.57:067][657]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.05-10.43.57:068][657]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.43.59:884][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.44.05:271][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.44.05:333][445]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow4D81F78847FB852278C12D8795C973BA.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.44.08:061][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.44.08:639][605]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.44.08:662][605]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.08:663][605]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.44.08:677][605]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.44.08:840][605]LogPlayLevel: PlayLevel: Blueprint regeneration took 178 ms (1 blueprints)
+[2019.03.05-10.44.08:840][605]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.44.08:913][605]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:44:08 PM)
+[2019.03.05-10.44.08:913][605]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.44.08:948][605]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034129s)
+[2019.03.05-10.44.08:948][605]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.44.08:948][605]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2019.03.05-10.44.08:948][605]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034832s)
+[2019.03.05-10.44.08:986][605]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.44.08:992][605]LogInit: FAudioDevice initialized.
+[2019.03.05-10.44.08:997][605]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.44.09:071][605]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.44.09:099][605]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.44.09:114][605]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.44.09
+[2019.03.05-10.44.09:116][605]LogWorld: Bringing up level for play took: 0.016449
+[2019.03.05-10.44.09:132][605]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.44.09:138][605]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.259
+[2019.03.05-10.44.09:138][605]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.09:139][605]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.44.09:235][605]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.44.09:235][605]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.44.23:275][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.44.23:427][644]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.44.24:582][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.44.27:224][961]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.27:286][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.44.27:307][961]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.44.27:340][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.44.27:340][961]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.27:389][962]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.03.05-10.44.27:390][962]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.44.32:063][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.44.32:125][396]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow7C4C58874BAC7D76AB535AA545FEBBAB.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.44.34:554][543]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.44.34:638][553]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.44.34:660][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.34:660][553]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.44.34:674][553]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.44.34:831][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (1 blueprints)
+[2019.03.05-10.44.34:831][553]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.44.34:891][553]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:44:34 PM)
+[2019.03.05-10.44.34:891][553]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.44.34:940][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048974s)
+[2019.03.05-10.44.34:941][553]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.44.34:941][553]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2019.03.05-10.44.34:941][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.049854s)
+[2019.03.05-10.44.34:980][553]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.44.34:987][553]LogInit: FAudioDevice initialized.
+[2019.03.05-10.44.34:993][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.44.35:064][553]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.44.35:092][553]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.44.35:106][553]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.44.35
+[2019.03.05-10.44.35:109][553]LogWorld: Bringing up level for play took: 0.016086
+[2019.03.05-10.44.35:124][553]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.44.35:130][553]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.251
+[2019.03.05-10.44.35:130][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.35:131][553]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.44.35:222][553]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.44.35:222][553]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.44.49:194][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.44.49:481][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.44.51:786][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.44.51:877][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.51:940][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.44.51:961][969]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.44.51:993][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.44.51:993][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.44.52:057][970]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.03.05-10.44.52:058][970]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.44.56:881][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.44.56:939][424]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow68B1E2D243038C6A0597CA8EB9A6BA25.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.45.00:010][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.45.00:095][614]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.45.00:117][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.00:117][614]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.45.00:130][614]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.45.00:293][614]LogPlayLevel: PlayLevel: Blueprint regeneration took 176 ms (1 blueprints)
+[2019.03.05-10.45.00:293][614]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.45.00:349][614]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:45:00 PM)
+[2019.03.05-10.45.00:349][614]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.45.00:385][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036633s)
+[2019.03.05-10.45.00:386][614]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.45.00:386][614]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2019.03.05-10.45.00:386][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.037628s)
+[2019.03.05-10.45.00:424][614]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.45.00:432][614]LogInit: FAudioDevice initialized.
+[2019.03.05-10.45.00:437][614]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.45.00:508][614]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.45.00:536][614]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.45.00:551][614]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.45.00
+[2019.03.05-10.45.00:553][614]LogWorld: Bringing up level for play took: 0.016494
+[2019.03.05-10.45.00:569][614]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.45.00:575][614]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.697
+[2019.03.05-10.45.00:575][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.00:576][614]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.45.00:669][614]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.45.00:669][614]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.45.20:332][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.20:405][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.45.20:456][348]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.45.20:468][348]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.45.20:501][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.45.20:501][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.20:549][349]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.05-10.45.20:550][349]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.45.22:530][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.45.31:065][145]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.45.31:087][145]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.31:087][145]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.45.31:103][145]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.45.31:268][145]LogPlayLevel: PlayLevel: Blueprint regeneration took 181 ms (1 blueprints)
+[2019.03.05-10.45.31:268][145]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.45.31:332][145]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:45:31 PM)
+[2019.03.05-10.45.31:332][145]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.45.31:366][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034000s)
+[2019.03.05-10.45.31:366][145]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.45.31:366][145]LogPlayLevel: PIE: World Init took: (0.000529s)
+[2019.03.05-10.45.31:367][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034699s)
+[2019.03.05-10.45.31:403][145]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.45.31:411][145]LogInit: FAudioDevice initialized.
+[2019.03.05-10.45.31:417][145]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.45.31:491][145]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.45.31:519][145]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.45.31:537][145]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.45.31
+[2019.03.05-10.45.31:539][145]LogWorld: Bringing up level for play took: 0.019494
+[2019.03.05-10.45.31:555][145]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.45.31:562][145]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.317
+[2019.03.05-10.45.31:562][145]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.31:563][145]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.45.31:661][145]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.45.31:661][145]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.45.51:167][865]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.51:238][865]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.45.51:299][865]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.45.51:314][865]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.45.51:348][865]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.45.51:349][865]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.45.51:402][866]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.03.05-10.45.51:403][866]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.45.53:956][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.45.59:438][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.45.59:495][635]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow676F977947EB61EF5873ABB89A3FBA2E.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.46.00:685][756]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.46.00:776][765]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.46.00:797][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.00:797][765]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.46.00:812][765]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.46.00:971][765]LogPlayLevel: PlayLevel: Blueprint regeneration took 173 ms (1 blueprints)
+[2019.03.05-10.46.00:971][765]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.46.01:027][765]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:46:01 PM)
+[2019.03.05-10.46.01:027][765]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.46.01:065][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038748s)
+[2019.03.05-10.46.01:066][765]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.46.01:066][765]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2019.03.05-10.46.01:066][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.039473s)
+[2019.03.05-10.46.01:105][765]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.46.01:112][765]LogInit: FAudioDevice initialized.
+[2019.03.05-10.46.01:117][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.46.01:193][765]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.46.01:220][765]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.46.01:235][765]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.46.01
+[2019.03.05-10.46.01:238][765]LogWorld: Bringing up level for play took: 0.016978
+[2019.03.05-10.46.01:252][765]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.46.01:259][765]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.38
+[2019.03.05-10.46.01:259][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.01:260][765]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.46.01:351][765]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.46.01:351][765]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.46.14:265][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.14:339][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.46.14:391][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.46.14:404][895]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.46.14:441][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.46.14:442][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.14:489][896]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.03.05-10.46.14:490][896]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.46.17:063][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.46.24:025][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.46.24:084][821]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow739DA45D4B2538ACC29BE3937B205067.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.46.26:179][956]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.46.26:280][965]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.46.26:306][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.26:306][965]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.46.26:321][965]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.46.26:498][965]LogPlayLevel: PlayLevel: Blueprint regeneration took 192 ms (1 blueprints)
+[2019.03.05-10.46.26:498][965]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.46.26:563][965]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:46:26 PM)
+[2019.03.05-10.46.26:563][965]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.46.26:602][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038540s)
+[2019.03.05-10.46.26:602][965]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.46.26:603][965]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2019.03.05-10.46.26:603][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.039256s)
+[2019.03.05-10.46.26:640][965]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.46.26:646][965]LogInit: FAudioDevice initialized.
+[2019.03.05-10.46.26:651][965]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.46.26:726][965]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.46.26:754][965]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.46.26:772][965]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.46.26
+[2019.03.05-10.46.26:775][965]LogWorld: Bringing up level for play took: 0.020442
+[2019.03.05-10.46.26:789][965]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.46.26:796][965]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.918
+[2019.03.05-10.46.26:796][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.26:797][965]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.46.26:893][965]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.46.26:893][965]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.46.53:114][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.53:182][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.46.53:240][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.46.53:254][289]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.46.53:291][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.46.53:291][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.46.53:338][290]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.03.05-10.46.53:339][290]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.46.54:941][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.47.07:956][651]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.47.07:982][651]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.47.07:982][651]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.47.07:997][651]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.47.08:168][651]LogPlayLevel: PlayLevel: Blueprint regeneration took 185 ms (1 blueprints)
+[2019.03.05-10.47.08:168][651]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.47.08:230][651]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:47:08 PM)
+[2019.03.05-10.47.08:230][651]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.47.08:268][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037858s)
+[2019.03.05-10.47.08:268][651]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.47.08:268][651]LogPlayLevel: PIE: World Init took: (0.000534s)
+[2019.03.05-10.47.08:269][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.038566s)
+[2019.03.05-10.47.08:307][651]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.47.08:315][651]LogInit: FAudioDevice initialized.
+[2019.03.05-10.47.08:320][651]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.47.08:396][651]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.47.08:424][651]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.47.08:441][651]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.47.08
+[2019.03.05-10.47.08:444][651]LogWorld: Bringing up level for play took: 0.019138
+[2019.03.05-10.47.08:459][651]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.47.08:466][651]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.586
+[2019.03.05-10.47.08:466][651]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.47.08:466][651]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.47.08:556][651]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.47.08:557][651]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.47.23:014][919]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.47.23:085][919]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.47.23:137][919]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.47.23:149][919]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.47.23:180][919]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.47.23:181][919]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.47.23:228][920]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.05-10.47.23:229][920]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.47.27:716][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.47.32:153][808]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.47.32:174][808]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.47.32:174][808]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.47.32:189][808]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.47.32:348][808]LogPlayLevel: PlayLevel: Blueprint regeneration took 174 ms (1 blueprints)
+[2019.03.05-10.47.32:348][808]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.47.32:407][808]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:47:32 PM)
+[2019.03.05-10.47.32:407][808]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.47.32:445][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038031s)
+[2019.03.05-10.47.32:446][808]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.47.32:446][808]LogPlayLevel: PIE: World Init took: (0.000750s)
+[2019.03.05-10.47.32:446][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.038992s)
+[2019.03.05-10.47.32:484][808]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.47.32:491][808]LogInit: FAudioDevice initialized.
+[2019.03.05-10.47.32:497][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.47.32:570][808]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.47.32:597][808]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.47.32:615][808]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.47.32
+[2019.03.05-10.47.32:619][808]LogWorld: Bringing up level for play took: 0.020726
+[2019.03.05-10.47.32:634][808]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.47.32:639][808]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.761
+[2019.03.05-10.47.32:639][808]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.47.32:640][808]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.47.32:732][808]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.47.32:732][808]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.48.00:080][236]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.48.00:156][236]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.48.00:206][236]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.48.00:221][236]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.48.00:252][236]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.48.00:253][236]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.48.00:298][237]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.05-10.48.00:299][237]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.48.07:921][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.48.12:016][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.48.12:072][443]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowF96331B24E4B6D72F040C38C4BED6D55.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.48.15:015][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.48.15:070][638]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.48.15:095][638]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.48.15:095][638]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.48.15:111][638]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.48.15:285][638]LogPlayLevel: PlayLevel: Blueprint regeneration took 189 ms (1 blueprints)
+[2019.03.05-10.48.15:285][638]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.48.15:355][638]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:48:15 PM)
+[2019.03.05-10.48.15:355][638]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.48.15:390][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034607s)
+[2019.03.05-10.48.15:390][638]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.48.15:391][638]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2019.03.05-10.48.15:391][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.035317s)
+[2019.03.05-10.48.15:427][638]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.48.15:435][638]LogInit: FAudioDevice initialized.
+[2019.03.05-10.48.15:440][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.48.15:518][638]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.48.15:546][638]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.48.15:561][638]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.48.15
+[2019.03.05-10.48.15:565][638]LogWorld: Bringing up level for play took: 0.017795
+[2019.03.05-10.48.15:579][638]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.48.15:585][638]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.294
+[2019.03.05-10.48.15:585][638]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.48.15:586][638]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.48.15:679][638]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.48.15:679][638]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.49.03:973][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.49.04:044][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.49.04:098][948]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.49.04:114][948]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.49.04:147][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.49.04:148][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.49.04:194][949]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.03.05-10.49.04:194][949]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.49.05:817][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.49.13:135][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.49.13:196][839]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow9954AD9544E7830F78093995844FBAA2.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.49.16:900][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.49.23:386][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.49.23:446][795]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowBE5F183E4A0EB0D93C36859A2984EC82.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.49.24:019][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.49.24:106][862]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.49.24:129][862]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.49.24:129][862]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.49.24:145][862]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.49.24:319][862]LogPlayLevel: PlayLevel: Blueprint regeneration took 189 ms (1 blueprints)
+[2019.03.05-10.49.24:319][862]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.49.24:380][862]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:49:24 PM)
+[2019.03.05-10.49.24:381][862]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.49.24:430][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049370s)
+[2019.03.05-10.49.24:431][862]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.49.24:431][862]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2019.03.05-10.49.24:431][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.050468s)
+[2019.03.05-10.49.24:476][862]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.49.24:483][862]LogInit: FAudioDevice initialized.
+[2019.03.05-10.49.24:488][862]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.49.24:559][862]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.49.24:587][862]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.49.24:602][862]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.49.24
+[2019.03.05-10.49.24:605][862]LogWorld: Bringing up level for play took: 0.017249
+[2019.03.05-10.49.24:619][862]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.49.24:625][862]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.746
+[2019.03.05-10.49.24:625][862]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.49.24:626][862]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.49.24:696][862]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.49.24:696][862]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.49.51:309][220]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.49.51:379][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.49.51:424][220]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.49.51:437][220]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.49.51:475][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.49.51:475][220]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.49.51:523][221]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.05-10.49.51:523][221]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.49.53:813][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.50.01:682][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.50.01:741][357]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow6E0A45264E3BEF6ED17DFB83EAD35AF8.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.50.02:422][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.50.02:508][433]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.50.02:532][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.02:532][433]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.50.02:547][433]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.50.02:734][433]LogPlayLevel: PlayLevel: Blueprint regeneration took 201 ms (1 blueprints)
+[2019.03.05-10.50.02:734][433]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.50.02:805][433]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:50:02 PM)
+[2019.03.05-10.50.02:805][433]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.50.02:843][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037747s)
+[2019.03.05-10.50.02:843][433]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.50.02:843][433]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2019.03.05-10.50.02:843][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.038637s)
+[2019.03.05-10.50.02:880][433]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.50.02:887][433]LogInit: FAudioDevice initialized.
+[2019.03.05-10.50.02:892][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.50.02:963][433]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.50.02:990][433]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.50.03:007][433]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.50.03
+[2019.03.05-10.50.03:011][433]LogWorld: Bringing up level for play took: 0.019975
+[2019.03.05-10.50.03:024][433]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.50.03:030][433]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.152
+[2019.03.05-10.50.03:030][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.03:031][433]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.50.03:105][433]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.50.03:105][433]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.50.14:154][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.14:229][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.50.14:268][394]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.50.14:280][394]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.50.14:311][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.50.14:312][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.14:358][395]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.05-10.50.14:359][395]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.50.16:362][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.50.21:623][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.50.21:679][195]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowEBF60D2246CDF96A98DAE594FE121CD0.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.50.22:292][265]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.50.22:397][277]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.50.22:418][277]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.22:418][277]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.50.22:433][277]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.50.22:602][277]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (1 blueprints)
+[2019.03.05-10.50.22:602][277]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.50.22:660][277]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:50:22 PM)
+[2019.03.05-10.50.22:660][277]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.50.22:712][277]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051926s)
+[2019.03.05-10.50.22:712][277]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.50.22:712][277]LogPlayLevel: PIE: World Init took: (0.000556s)
+[2019.03.05-10.50.22:713][277]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.052663s)
+[2019.03.05-10.50.22:751][277]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.50.22:758][277]LogInit: FAudioDevice initialized.
+[2019.03.05-10.50.22:763][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.50.22:840][277]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.50.22:867][277]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.50.22:882][277]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.50.22
+[2019.03.05-10.50.22:885][277]LogWorld: Bringing up level for play took: 0.017542
+[2019.03.05-10.50.22:900][277]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.50.22:906][277]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.027
+[2019.03.05-10.50.22:906][277]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.22:906][277]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.50.22:975][277]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.50.22:975][277]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.50.37:311][535]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.37:376][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.50.37:414][535]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.50.37:425][535]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.50.37:458][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.50.37:458][535]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.37:504][536]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.05-10.50.37:505][536]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.50.38:875][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.50.41:469][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.50.41:537][954]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow76F289AE4FA18764012BBABB2BBFB67E.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.50.42:445][ 49]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.50.43:842][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.50.43:898][204]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow611F5CFD4F63186828C48E93858B0B9B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.50.44:464][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.50.44:542][278]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.50.44:565][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.44:566][278]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.50.44:581][278]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.50.44:755][278]LogPlayLevel: PlayLevel: Blueprint regeneration took 188 ms (1 blueprints)
+[2019.03.05-10.50.44:755][278]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.50.44:811][278]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:50:44 PM)
+[2019.03.05-10.50.44:811][278]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.50.44:849][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039111s)
+[2019.03.05-10.50.44:850][278]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.50.44:850][278]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2019.03.05-10.50.44:850][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.039926s)
+[2019.03.05-10.50.44:891][278]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.50.44:900][278]LogInit: FAudioDevice initialized.
+[2019.03.05-10.50.44:906][278]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.50.44:978][278]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.50.45:006][278]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.50.45:021][278]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.50.45
+[2019.03.05-10.50.45:024][278]LogWorld: Bringing up level for play took: 0.017492
+[2019.03.05-10.50.45:039][278]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.50.45:044][278]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.165
+[2019.03.05-10.50.45:044][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.45:045][278]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.50.45:112][278]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.50.45:112][278]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.50.54:533][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.54:604][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.50.54:648][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.50.54:658][ 94]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.50.54:693][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.50.54:693][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.50.54:748][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.03.05-10.50.54:749][ 95]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.51.01:372][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.51.04:361][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.05-10.51.04:418][134]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow2CDDE38A4AD844EC062C64A8D3168E7A.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.05-10.51.06:392][289]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.51.09:486][597]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.51.09:510][597]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.51.09:510][597]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.05-10.51.09:525][597]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.05-10.51.09:707][597]LogPlayLevel: PlayLevel: Blueprint regeneration took 197 ms (1 blueprints)
+[2019.03.05-10.51.09:707][597]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.51.09:767][597]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:51:09 PM)
+[2019.03.05-10.51.09:767][597]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.51.09:806][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038781s)
+[2019.03.05-10.51.09:806][597]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.51.09:807][597]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2019.03.05-10.51.09:807][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.039506s)
+[2019.03.05-10.51.09:847][597]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.51.09:855][597]LogInit: FAudioDevice initialized.
+[2019.03.05-10.51.09:860][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.51.09:930][597]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.51.09:957][597]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.51.09:972][597]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.51.09
+[2019.03.05-10.51.09:975][597]LogWorld: Bringing up level for play took: 0.017274
+[2019.03.05-10.51.09:990][597]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.51.09:996][597]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.117
+[2019.03.05-10.51.09:996][597]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.51.09:997][597]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.51.10:072][597]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.51.10:073][597]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.51.26:635][ 50]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.51.26:704][ 50]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.51.26:751][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.51.26:763][ 50]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.51.26:799][ 50]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.51.26:799][ 50]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.51.26:847][ 51]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.03.05-10.51.26:847][ 51]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.51.30:523][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.51.48:284][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.51.48:442][261]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Holder.BP_Holder
+[2019.03.05-10.52.03:717][400]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.05-10.52.03:743][400]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_HolderCC52FD614F05F3D2704FD68AB0C6B0E7.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.05-10.52.04:660][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.52.04:744][472]BlueprintLog: New page: Compile BP_Holder
+[2019.03.05-10.52.05:946][551]LogTemp: Repeating last play command: VR Preview
+[2019.03.05-10.52.05:963][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.52.05:963][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.05-10.52.05:963][551]LogHMD: Initializing OVRPlugin session
+[2019.03.05-10.52.06:030][551]PIE: New page: PIE session: Playground (Mar 5, 2019, 12:52:06 PM)
+[2019.03.05-10.52.06:030][551]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.05-10.52.06:067][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036726s)
+[2019.03.05-10.52.06:067][551]LogAIModule: Creating AISystem for world Playground
+[2019.03.05-10.52.06:068][551]LogPlayLevel: PIE: World Init took: (0.000538s)
+[2019.03.05-10.52.06:068][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.037459s)
+[2019.03.05-10.52.06:106][551]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.05-10.52.06:114][551]LogInit: FAudioDevice initialized.
+[2019.03.05-10.52.06:118][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.52.06:195][551]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.05-10.52.06:222][551]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.05-10.52.06:237][551]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.05-11.52.06
+[2019.03.05-10.52.06:240][551]LogWorld: Bringing up level for play took: 0.017362
+[2019.03.05-10.52.06:256][551]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.05-10.52.06:262][551]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.384
+[2019.03.05-10.52.06:263][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.52.06:263][551]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.52.06:275][551]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.05-10.52.06:275][551]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.05-10.52.29:693][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.52.29:762][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.05-10.52.29:802][622]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.05-10.52.29:813][622]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.05-10.52.29:850][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.05-10.52.29:851][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.05-10.52.29:897][623]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.03.05-10.52.29:898][623]LogEngine: Changing dynamic resolution state.
+[2019.03.05-10.52.36:335][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.05-10.53.22:028][574]LogUObjectBase: Warning: Object is not registered
+[2019.03.05-10.53.22:223][574]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.195 s
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: 
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: Stack: 
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd3bd971f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd3bad0c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd3baeb356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd2ba011db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd2ba1060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd24bcda7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd23f8ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd23f4f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd2c8e8204 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd2cb2e933 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd2c94281a UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd2c918190 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd2c90b073 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd601dd007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd601d0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd601df4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd601cc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd7a4f6d41 USER32.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd7a4f6713 USER32.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd601e0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b054e5 UE4Editor.exe!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b15b3c UE4Editor.exe!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b15bba UE4Editor.exe!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b23dac UE4Editor.exe!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ff7b4b25aaa UE4Editor.exe!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd7a363dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: [Callstack] 0x00007ffd7a963691 ntdll.dll!UnknownFunction []
+[2019.03.05-10.53.22:223][574]LogOutputDevice: Error: 
+[2019.03.05-10.53.22:232][574]LogStats:                SubmitErrorReport -  0.000 s

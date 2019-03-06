@@ -1,0 +1,540 @@
+﻿Log file open, 03/06/19 09:34:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UVRFPlayground
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.263578
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.099s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.06-08.34.59:928][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.06-08.34.59:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.06-08.34.59:940][  0]LogHAL: Display: Platform has ~ 32 GB [34311819264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.06-08.34.59:940][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.06-08.34.59:940][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.06-08.34.59:941][  0]LogInit: Computer: PCF83
+[2019.03.06-08.34.59:941][  0]LogInit: User: Alumno
+[2019.03.06-08.34.59:941][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.06-08.34.59:941][  0]LogInit: High frequency timer resolution =4.101560 MHz
+[2019.03.06-08.34.59:941][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.06-08.34.59:941][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.06-08.34.59:941][  0]LogMemory: Process Physical Memory: 105.89 MB used, 105.89 MB peak
+[2019.03.06-08.34.59:941][  0]LogMemory: Process Virtual Memory: 95.89 MB used, 95.89 MB peak
+[2019.03.06-08.34.59:941][  0]LogMemory: Physical Memory: 4263.64 MB used,  28458.66 MB free, 32722.30 MB total
+[2019.03.06-08.34.59:941][  0]LogMemory: Virtual Memory: 4659.66 MB used,  28458.66 MB free, 134217728.00 MB total
+[2019.03.06-08.34.59:952][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.06-08.34.59:952][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.06-08.35.00:210][  0]LogStreaming: Display: Took  0.258s to InitEngineTextLocalization.
+[2019.03.06-08.35.00:210][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.06-08.35.00:235][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.06-08.35.00:235][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.06-08.35.00:364][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.06-08.35.00:413][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.06-08.35.00:413][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.06-08.35.00:415][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.06-08.35.00:415][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.06-08.35.00:415][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.06-08.35.00:419][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.06-08.35.00:419][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.06-08.35.00:419][  0]LogWindows: EnumDisplayDevices:
+[2019.03.06-08.35.00:420][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.06-08.35.00:420][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-08.35.00:420][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-08.35.00:420][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-08.35.00:420][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.06-08.35.00:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.06-08.35.00:420][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.03.06-08.35.00:420][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.03.06-08.35.00:420][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.06-08.35.00:443][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.06-08.35.00:458][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.06-08.35.00:503][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Intermediate/Shaders/WorkingDirectory/14284/).
+[2019.03.06-08.35.00:503][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/E4456472408B9F37B8CFD88F0BFAA94D/'.
+[2019.03.06-08.35.00:671][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.06-08.35.00:681][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.06-08.35.00:692][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.06-08.35.00:704][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.06-08.35.00:715][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.06-08.35.00:728][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.06-08.35.00:743][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.06-08.35.00:754][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.06-08.35.00:759][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:817][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-08.35.00:818][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.06-08.35.00:870][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.06-08.35.00:870][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.06-08.35.00:887][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.06-08.35.00:887][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.06-08.35.00:896][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.06-08.35.00:905][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.06-08.35.00:914][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.06-08.35.00:924][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.06-08.35.00:930][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.06-08.35.00:930][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.06-08.35.00:974][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.06-08.35.00:974][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.06-08.35.00:974][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.06-08.35.01:488][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Loaded boot cache 0.05s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.06-08.35.01:537][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.06-08.35.01:547][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.06-08.35.01:559][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.06-08.35.01:559][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.06-08.35.01:559][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.06-08.35.01:572][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.06-08.35.01:573][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.06-08.35.01:574][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.06-08.35.01:631][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2019.03.06-08.35.01:853][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.06-08.35.01:943][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.06-08.35.01:946][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.06-08.35.01:957][  0]LogNetVersion: UVRFPlayground 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4282483417)
+[2019.03.06-08.35.01:996][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2019.03.06-08.35.02:262][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.041709 seconds
+[2019.03.06-08.35.02:266][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.06-08.35.02:266][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.06-08.35.02:266][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.06-08.35.02:765][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2019.03.06-08.35.02:766][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:766][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:786][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2019.03.06-08.35.02:786][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:786][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:788][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2019.03.06-08.35.02:789][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:789][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:791][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2019.03.06-08.35.02:791][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:791][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:794][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2019.03.06-08.35.02:794][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:794][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:796][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2019.03.06-08.35.02:796][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:796][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:810][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2019.03.06-08.35.02:810][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:810][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:812][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.03.06-08.35.02:812][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:812][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:814][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2019.03.06-08.35.02:815][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.35.02:815][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-08.35.02:851][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.06-08.35.02:863][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.06-08.35.03:025][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:025][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:026][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:027][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.03:166][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.06-08.35.03:240][  0]LogOcInput: OculusInput pre-init called
+[2019.03.06-08.35.03:289][  0]LogEngine: Initializing Engine...
+[2019.03.06-08.35.03:290][  0]LogHMD: Oculus plugin initialized. Version: 4.20.3-4369336+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.06-08.35.03:291][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.06-08.35.03:439][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.06-08.35.03:451][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.06-08.35.03:467][  0]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-08.35.03:483][  0]LogInit: FAudioDevice initialized.
+[2019.03.06-08.35.03:483][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.06-08.35.03:586][  0]LogDerivedDataCache: Saved boot cache 0.10s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.06-08.35.03:596][  0]LogInit: Texture streaming: Enabled
+[2019.03.06-08.35.03:609][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.06-08.35.03:620][  0]LogInit: Transaction tracking system initialized
+[2019.03.06-08.35.03:638][  0]BlueprintLog: New page: Editor Load
+[2019.03.06-08.35.03:700][  0]LocalizationService: Localization service is disabled
+[2019.03.06-08.35.04:034][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.06-08.35.04:034][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.06-08.35.04:034][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.06-08.35.04:034][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.06-08.35.04:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/' took 0.03s
+[2019.03.06-08.35.04:127][  0]SourceControl: Source control is disabled
+[2019.03.06-08.35.04:127][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.06-08.35.04:127][  0]LightingResults: New page: Lighting Build
+[2019.03.06-08.35.04:130][  0]MapCheck: New page: Map Check
+[2019.03.06-08.35.04:130][  0]LightingResults: New page: Lighting Build
+[2019.03.06-08.35.12:558][  0]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-08.35.12:577][  0]LogMaterial: Warning: Material /Game/Playground/Environment/LED/LightFixture.LightFixture needed to have new flag set bUsedWithStaticLighting !
+[2019.03.06-08.35.12:578][  0]LogMaterial: Display: Missing cached shader map for material LightFixture, compiling. 
+[2019.03.06-08.35.12:623][  0]MapCheck: Warning: LightFixture Material /Game/Playground/Environment/LED/LightFixture.LightFixture was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.06-08.35.12:744][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.06-08.35.12:744][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.06-08.35.12:744][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.06-08.35.12:745][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.06-08.35.12:745][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.06-08.35.12:745][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.06-08.35.12:746][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.06-08.35.12:746][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.06-08.35.12:747][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.06-08.35.12:747][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.06-08.35.12:748][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.06-08.35.12:783][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.06-08.35.12:906][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 122.602ms to complete.
+[2019.03.06-08.35.12:911][  0]LogFileHelpers: Loading map 'Playground' took 8.784
+[2019.03.06-08.35.13:027][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:037][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:046][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:053][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-08.35.13:067][  0]LogCollectionManager: Loaded 0 collections in 0.001649 seconds
+[2019.03.06-08.35.13:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Collections/' took 0.01s
+[2019.03.06-08.35.13:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Developers/Alumno/Collections/' took 0.01s
+[2019.03.06-08.35.13:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Collections/' took 0.01s
+[2019.03.06-08.35.13:122][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.06-08.35.13:134][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2581 classes and 608 folders.
+[2019.03.06-08.35.13:147][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.06-08.35.13:498][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.06-08.35.13:512][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.06-08.35.13:698][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.06-08.35.13:700][  0]LogSlate: Took 0.000173 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.06-08.35.13:713][  0]LogSlate: Took 0.005894 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.06-08.35.13:859][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-08.35.14:026][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.06-08.35.14:026][  0]LogLoad: (Engine Initialization) Total time: 15.64 seconds
+[2019.03.06-08.35.14:026][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.06-08.35.14:036][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.06-08.35.14:036][  0]LogOcInput: OculusInput is initialized
+[2019.03.06-08.35.14:056][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.06-08.35.14:094][  0]LogSlate: Took 0.005702 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.06-08.35.14:133][  1]LogAssetRegistry: Asset discovery search completed in 12.5239 seconds
+[2019.03.06-08.35.14:135][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.06-08.35.14:135][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2019.03.06-08.35.27:946][570]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.35.30:877][914]LogEditorViewport: Clicking on Actor (context menu): Arrow_C (Arrow)
+[2019.03.06-08.35.30:908][914]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.35.33:006][162]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.06-08.35.33:009][162]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/Arrow.Arrow
+[2019.03.06-08.35.33:434][162]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2019.03.06-08.35.34:087][162]LogSlate: Took 0.003930 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.06-08.35.34:156][163]LogSlate: Took 0.004887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.06-08.35.35:492][311]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-08.36.21:365][739]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.36.25:420][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.36.26:045][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.41.22:120][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.43.23:707][ 37]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "Flecha_Disparada" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Set Flecha_Disparada
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "Flecha_Disparada" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get Flecha_Disparada
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "Flecha_Disparada" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Set Flecha_Disparada
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "FuerzaDisparo" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get FuerzaDisparo
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "FlechaEnArco?" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Set FlechaEnArco?
+[2019.03.06-08.43.24:097][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] Could not find a variable named "FlechaEnArco?" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get FlechaEnArco?
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha Disparada  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Fuerza Disparo  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha En Arco?  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha En Arco?  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha Disparada  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:098][ 55]LogBlueprint: Error: [Compiler Bp_Flecha] The property associated with  Flecha Disparada  could not be found in '/Game/Blueprints/Bp_Flecha.Bp_Flecha_C'
+[2019.03.06-08.43.24:099][ 55]LogBlueprint: Warning: [Compiler Bp_Flecha] [0505.71] Compile of Bp_Flecha failed. 6 Fatal Issue(s) 6 Warning(s) [in 5 ms] (/Game/Blueprints/Bp_Flecha.Bp_Flecha)
+[2019.03.06-08.43.24:231][ 55]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Flecha.Bp_Flecha
+[2019.03.06-08.43.34:980][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.43.47:097][690]PIE: Warning: AttachTo: '/Engine/Transient.World_6:PersistentLevel.Bp_Flecha_C_0.StaticMeshComponent0' is not static  (in blueprint "Bp_Flecha"), cannot attach '/Engine/Transient.World_6:PersistentLevel.Bp_Flecha_C_0.Pivot_Flecha' which is static to it. Aborting.
+[2019.03.06-08.43.47:097][690]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.StaticMeshComponent0' is not static  (in blueprint "Bp_Flecha"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.Pivot_Flecha' which is static to it. Aborting.
+[2019.03.06-08.43.49:034][885]PIE: Warning: AttachTo: '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.StaticMeshComponent0' is not static  (in blueprint "Bp_Flecha"), cannot attach '/Engine/Transient.World_5:PersistentLevel.Bp_Flecha_C_0.Pivot_Flecha' which is static to it. Aborting.
+[2019.03.06-08.44.08:902][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.44.12:038][416]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.06-08.44.12:041][416]LogSlate: Window 'Arrow' being destroyed
+[2019.03.06-08.44.12:044][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.06-08.44.12:118][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.44.18:670][683]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.03.06-08.44.26:598][631]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha
+[2019.03.06-08.44.56:599][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.44.56:608][ 63]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_FlechaC207DC1540F40D583100879487203F76.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.45.01:896][691]LogSlate: Window 'BP_Flecha' being destroyed
+[2019.03.06-08.45.09:664][476]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.06-08.45.15:403][700]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Alumno\Desktop\Bow and Flecha\Flecha.fbx)
+[2019.03.06-08.45.15:413][700]LogFbx: Loading FBX Scene from C:\Users\Alumno\Desktop\Bow and Flecha\Flecha.fbx
+[2019.03.06-08.45.15:417][700]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.06-08.45.17:466][700]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.06-08.45.17:496][700]LogFbx: Warning: Triangulating static mesh Cube
+[2019.03.06-08.45.17:504][700]LogStaticMesh: Building static mesh Flecha...
+[2019.03.06-08.45.17:513][700]LogStaticMesh: Built static mesh [0.01s] /Game/Modelado/Flecha.Flecha
+[2019.03.06-08.45.17:520][700]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.06-08.45.19:365][918]LogSlate: Window 'Message Log' being destroyed
+[2019.03.06-08.45.19:368][918]LogSlate: Window 'Message Log' being destroyed
+[2019.03.06-08.45.20:224][ 19]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Modelado/Flecha.Flecha
+[2019.03.06-08.45.20:804][ 19]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-08.45.27:920][855]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.45.27:922][855]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.45.42:273][554]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.45.42:410][570]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Modelado/Flecha.Flecha
+[2019.03.06-08.46.11:312][752]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.03.06-08.46.11:312][752]LogMaterial: Warning: /Engine/Transient.Material_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-08.46.11:313][752]LogMaterial: 	SceneTexture expressions cannot be used in opaque materials
+[2019.03.06-08.47.08:270][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelado/FlechaTextures/Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/FlechaTextures/Flecha.uasset" SILENT=true
+[2019.03.06-08.47.08:330][276]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Flecha3AD1AC2F409A40373930B5B4F4DA0F6C.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Modelado/FlechaTextures/Flecha.uasset'
+[2019.03.06-08.47.09:337][390]Cmd: SELECT NONE
+[2019.03.06-08.47.18:002][424]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.47.18:120][438]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.47.18:122][438]LogSlate: Window 'Flecha*' being destroyed
+[2019.03.06-08.47.25:620][319]Cmd: DELETE
+[2019.03.06-08.47.25:620][319]Cmd: ACTOR DELETE
+[2019.03.06-08.47.25:632][319]LogEditorActor: Deleted Actor: BP_Flecha_C
+[2019.03.06-08.47.25:654][319]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.03.06-08.47.26:798][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.47.26:936][472]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha
+[2019.03.06-08.47.43:068][354]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.48.00:076][958]LogEditorViewport: Clicking on Actor (LMB): Arrow_C (Arrow)
+[2019.03.06-08.48.04:991][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.48.05:087][555]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/Arrow.Arrow
+[2019.03.06-08.48.14:369][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.48.42:123][741]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_Auto1A994C8584CBAFEA81282AE9BD617FA4B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Playground_Auto1.umap'
+[2019.03.06-08.48.42:127][741]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Playground/Playground' took 1.180
+[2019.03.06-08.48.42:127][741]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.180
+[2019.03.06-08.48.42:129][741]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Flecha] ([1] browsable assets)...
+[2019.03.06-08.48.42:139][741]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha]
+[2019.03.06-08.48.42:139][741]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Flecha]
+[2019.03.06-08.48.42:169][741]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha_Auto1425BA31C4BB64B2FFBA9ADAD52506B9D.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/BP_Flecha_Auto1.uasset'
+[2019.03.06-08.48.42:171][741]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Modelado/Flecha] ([1] browsable assets)...
+[2019.03.06-08.48.42:189][741]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Modelado/Flecha.Flecha]
+[2019.03.06-08.48.42:189][741]OBJ SavePackage: Finished generating thumbnails for package [/Game/Modelado/Flecha]
+[2019.03.06-08.48.42:189][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Modelado/Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Modelado/Flecha_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.03.06-08.48.42:212][741]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Flecha_Auto1A4CE1B4C4DFE2A5E87A98E935C1B22CD.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Modelado/Flecha_Auto1.uasset'
+[2019.03.06-08.48.42:214][741]LogFileHelpers: Auto-saving content packages took 0.086
+[2019.03.06-08.49.17:503][894]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.49.34:640][882]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-08.49.42:266][740]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-08.49.58:176][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-08.49.58:198][559]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha69397DD1466142850EFDBD800651AA9C.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-08.50.13:273][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.50.20:100][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.50.43:698][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-08.50.49:315][443]LogEditorTransaction: Undo Set Scale
+[2019.03.06-08.50.49:876][443]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.558 s
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: 
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: 
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: Stack: 
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd422c71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd42000c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd4201b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3654eedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd364f4514 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd300c41a9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd300c4ee5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.03.06-08.50.49:876][443]LogOutputDevice: Error: [Callstack] 0x00007ffd30071a51 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd4148d0d2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd41453f79 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd414f6a2e UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd413093b0 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412a1444 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c50014 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd358c8d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3585f869 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c54833 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c3b550 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35beb524 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd35c40f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd357fb41b UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3588843e UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd358d5d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd364f4dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:877][443]LogOutputDevice: Error: [Callstack] 0x00007ffd365201fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36506535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36572dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd365b9b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd3654c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd358605b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412a24df UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412e437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36da3a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd36d91a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412670ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412e606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd412d9846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496ece45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496e0270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496ef4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496dc209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd754b6d41 USER32.dll!UnknownFunction []
+[2019.03.06-08.50.49:878][443]LogOutputDevice: Error: [Callstack] 0x00007ffd754b6713 USER32.dll!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ffd496f0646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6f9fe54e5 UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6f9ff5b3c UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6f9ff5bba UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6fa003dac UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ff6fa005aaa UE4Editor.exe!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ffd73ae3dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: [Callstack] 0x00007ffd756e3691 ntdll.dll!UnknownFunction []
+[2019.03.06-08.50.49:879][443]LogOutputDevice: Error: 
+[2019.03.06-08.50.49:890][443]LogStats:                SubmitErrorReport -  0.000 s

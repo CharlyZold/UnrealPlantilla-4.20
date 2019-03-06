@@ -1,0 +1,938 @@
+﻿Log file open, 03/06/19 11:18:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UVRFPlayground
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.262339
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.083s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.06-10.18.43:748][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.06-10.18.43:748][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.06-10.18.43:757][  0]LogHAL: Display: Platform has ~ 32 GB [34311819264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.06-10.18.43:757][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.06-10.18.43:757][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.06-10.18.43:757][  0]LogInit: Computer: PCF83
+[2019.03.06-10.18.43:757][  0]LogInit: User: Alumno
+[2019.03.06-10.18.43:757][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.06-10.18.43:757][  0]LogInit: High frequency timer resolution =4.101560 MHz
+[2019.03.06-10.18.43:757][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.06-10.18.43:757][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.06-10.18.43:757][  0]LogMemory: Process Physical Memory: 104.84 MB used, 104.84 MB peak
+[2019.03.06-10.18.43:757][  0]LogMemory: Process Virtual Memory: 94.83 MB used, 94.83 MB peak
+[2019.03.06-10.18.43:757][  0]LogMemory: Physical Memory: 4831.02 MB used,  27891.28 MB free, 32722.30 MB total
+[2019.03.06-10.18.43:757][  0]LogMemory: Virtual Memory: 4658.60 MB used,  27891.28 MB free, 134217728.00 MB total
+[2019.03.06-10.18.43:769][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.06-10.18.43:769][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.06-10.18.44:039][  0]LogStreaming: Display: Took  0.270s to InitEngineTextLocalization.
+[2019.03.06-10.18.44:040][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.06-10.18.44:067][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.06-10.18.44:067][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.06-10.18.44:194][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.06-10.18.44:234][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.06-10.18.44:234][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.06-10.18.44:237][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.06-10.18.44:237][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.06-10.18.44:237][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.06-10.18.44:242][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.06-10.18.44:242][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.06-10.18.44:242][  0]LogWindows: EnumDisplayDevices:
+[2019.03.06-10.18.44:242][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.06-10.18.44:243][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-10.18.44:243][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-10.18.44:243][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.06-10.18.44:243][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.06-10.18.44:243][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.06-10.18.44:243][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.03.06-10.18.44:243][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.03.06-10.18.44:243][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.06-10.18.44:266][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.06-10.18.44:281][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.06-10.18.44:327][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Intermediate/Shaders/WorkingDirectory/8712/).
+[2019.03.06-10.18.44:327][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/DB33DDB44CE6F915659B999D4C407924/'.
+[2019.03.06-10.18.44:491][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.06-10.18.44:502][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.06-10.18.44:512][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.06-10.18.44:523][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.06-10.18.44:533][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.06-10.18.44:543][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.06-10.18.44:553][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.06-10.18.44:563][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.06-10.18.44:568][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:625][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.06-10.18.44:626][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.06-10.18.44:679][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.06-10.18.44:679][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.06-10.18.44:697][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.06-10.18.44:697][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.06-10.18.44:706][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.06-10.18.44:715][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.06-10.18.44:724][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.06-10.18.44:734][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.06-10.18.44:741][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.06-10.18.44:741][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.06-10.18.44:786][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.06-10.18.44:786][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.06-10.18.44:786][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.06-10.18.45:306][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.06-10.18.45:353][  0]LogDerivedDataCache: Loaded boot cache 0.05s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.06-10.18.45:354][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.06-10.18.45:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.06-10.18.45:354][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.06-10.18.45:354][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.06-10.18.45:354][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.06-10.18.45:363][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.06-10.18.45:375][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.06-10.18.45:375][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.06-10.18.45:375][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.06-10.18.45:389][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.06-10.18.45:390][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.06-10.18.45:390][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.06-10.18.45:448][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2019.03.06-10.18.45:677][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.06-10.18.45:766][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.06-10.18.45:768][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.06-10.18.45:768][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.06-10.18.45:768][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.06-10.18.45:769][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.06-10.18.45:780][  0]LogNetVersion: UVRFPlayground 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4282483417)
+[2019.03.06-10.18.45:820][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2019.03.06-10.18.46:075][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.033474 seconds
+[2019.03.06-10.18.46:080][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.06-10.18.46:080][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.06-10.18.46:080][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.06-10.18.46:581][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2019.03.06-10.18.46:581][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:581][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:602][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2019.03.06-10.18.46:602][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:602][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:604][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2019.03.06-10.18.46:604][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:604][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:606][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2019.03.06-10.18.46:606][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:606][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:608][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2019.03.06-10.18.46:609][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:609][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:610][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2019.03.06-10.18.46:611][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:611][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:624][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2019.03.06-10.18.46:625][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:625][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:626][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.03.06-10.18.46:627][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:627][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:629][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2019.03.06-10.18.46:629][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.06-10.18.46:629][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.06-10.18.46:665][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.06-10.18.46:677][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.06-10.18.46:798][  0]SourceControl: Source control is disabled
+[2019.03.06-10.18.46:798][  0]SourceControl: Source control is disabled
+[2019.03.06-10.18.46:799][  0]SourceControl: Source control is disabled
+[2019.03.06-10.18.46:800][  0]SourceControl: Source control is disabled
+[2019.03.06-10.18.46:939][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.06-10.18.47:002][  0]LogOcInput: OculusInput pre-init called
+[2019.03.06-10.18.47:046][  0]LogEngine: Initializing Engine...
+[2019.03.06-10.18.47:047][  0]LogHMD: Oculus plugin initialized. Version: 4.20.3-4369336+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2019.03.06-10.18.47:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.06-10.18.47:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.06-10.18.47:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.06-10.18.47:048][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.06-10.18.47:189][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.06-10.18.47:200][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.06-10.18.47:216][  0]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.18.47:234][  0]LogInit: FAudioDevice initialized.
+[2019.03.06-10.18.47:234][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.06-10.18.47:338][  0]LogDerivedDataCache: Saved boot cache 0.10s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.06-10.18.47:348][  0]LogInit: Texture streaming: Enabled
+[2019.03.06-10.18.47:360][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.06-10.18.47:369][  0]LogInit: Transaction tracking system initialized
+[2019.03.06-10.18.47:386][  0]BlueprintLog: New page: Editor Load
+[2019.03.06-10.18.47:451][  0]LocalizationService: Localization service is disabled
+[2019.03.06-10.18.47:692][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.06-10.18.47:692][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.06-10.18.47:692][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.06-10.18.47:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.06-10.18.47:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.06-10.18.47:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.06-10.18.47:692][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.06-10.18.47:778][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/' took 0.02s
+[2019.03.06-10.18.47:778][  0]SourceControl: Source control is disabled
+[2019.03.06-10.18.47:778][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.06-10.18.47:779][  0]LightingResults: New page: Lighting Build
+[2019.03.06-10.18.47:781][  0]MapCheck: New page: Map Check
+[2019.03.06-10.18.47:781][  0]LightingResults: New page: Lighting Build
+[2019.03.06-10.18.49:738][  0]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.18.49:752][  0]LogMaterial: Warning: Material /Game/Playground/Environment/LED/LightFixture.LightFixture needed to have new flag set bUsedWithStaticLighting !
+[2019.03.06-10.18.49:753][  0]LogMaterial: Display: Missing cached shader map for material LightFixture, compiling. 
+[2019.03.06-10.18.49:797][  0]MapCheck: Warning: LightFixture Material /Game/Playground/Environment/LED/LightFixture.LightFixture was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.06-10.18.49:917][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.06-10.18.49:917][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.06-10.18.49:917][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.06-10.18.49:917][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.06-10.18.49:917][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.06-10.18.49:917][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.06-10.18.49:918][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.06-10.18.49:918][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.06-10.18.49:918][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.06-10.18.49:919][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.06-10.18.49:922][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.06-10.18.49:953][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.06-10.18.50:095][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 142.053ms to complete.
+[2019.03.06-10.18.50:103][  0]LogFileHelpers: Loading map 'Playground' took 2.324
+[2019.03.06-10.18.50:209][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.18.50:218][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.18.50:226][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.18.50:233][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.18.50:239][  0]LogCollectionManager: Loaded 0 collections in 0.001997 seconds
+[2019.03.06-10.18.50:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Collections/' took 0.01s
+[2019.03.06-10.18.50:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Developers/Alumno/Collections/' took 0.01s
+[2019.03.06-10.18.50:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Collections/' took 0.01s
+[2019.03.06-10.18.50:281][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.06-10.18.50:294][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2581 classes and 608 folders.
+[2019.03.06-10.18.50:302][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.06-10.18.50:359][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.06-10.18.50:365][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.06-10.18.50:464][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.06-10.18.50:466][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.06-10.18.50:472][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.06-10.18.50:566][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-10.18.50:711][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.06-10.18.50:711][  0]LogLoad: (Engine Initialization) Total time: 8.46 seconds
+[2019.03.06-10.18.50:711][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.06-10.18.50:721][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.06-10.18.50:721][  0]LogOcInput: OculusInput is initialized
+[2019.03.06-10.18.50:744][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.06-10.18.50:770][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.06-10.18.50:818][  1]LogAssetRegistry: Asset discovery search completed in 5.3924 seconds
+[2019.03.06-10.18.50:820][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.06-10.18.50:820][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000050 seconds (updated 0 objects)
+[2019.03.06-10.19.05:566][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Support17)
+[2019.03.06-10.19.08:534][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.19.16:382][988]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.19.21:393][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.19.21:502][569]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.19.21:515][569]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.19.21:515][569]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-10.19.21:515][569]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.19.23:024][569]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:19:23 PM)
+[2019.03.06-10.19.23:024][569]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.19.23:067][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042395s)
+[2019.03.06-10.19.23:067][569]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.19.23:067][569]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2019.03.06-10.19.23:067][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.043317s)
+[2019.03.06-10.19.23:099][569]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.19.23:104][569]LogInit: FAudioDevice initialized.
+[2019.03.06-10.19.23:111][569]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.19.23:184][569]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.19.23:221][569]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.19.23:235][569]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.19.23
+[2019.03.06-10.19.23:238][569]LogWorld: Bringing up level for play took: 0.016162
+[2019.03.06-10.19.23:253][569]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2019.03.06-10.19.23:257][569]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.19.23:261][569]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 2.437
+[2019.03.06-10.19.23:268][569]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.19.23:269][569]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.19.23:282][569]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2019.03.06-10.19.23:282][569]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-10.20.43:599][577]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.20.43:661][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.20.43:695][577]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-10.20.43:730][577]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-10.20.43:730][577]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.20.43:771][578]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.03.06-10.20.43:772][578]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.20.45:098][735]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.20.45:113][735]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.20.45:113][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.06-10.20.45:113][735]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.20.45:171][735]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:20:45 PM)
+[2019.03.06-10.20.45:171][735]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.20.45:213][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041817s)
+[2019.03.06-10.20.45:214][735]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.20.45:214][735]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2019.03.06-10.20.45:214][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.042649s)
+[2019.03.06-10.20.45:251][735]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.20.45:258][735]LogInit: FAudioDevice initialized.
+[2019.03.06-10.20.45:264][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.20.45:336][735]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.20.45:362][735]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.20.45:384][735]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.20.45
+[2019.03.06-10.20.45:387][735]LogWorld: Bringing up level for play took: 0.024864
+[2019.03.06-10.20.45:404][735]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.20.45:409][735]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.585
+[2019.03.06-10.20.45:409][735]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.20.45:410][735]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.20.45:423][735]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-10.20.45:423][735]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-10.21.22:609][ 62]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.21.22:672][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.21.22:698][ 62]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-10.21.22:733][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-10.21.22:734][ 62]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.21.22:766][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.03.06-10.21.22:766][ 63]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.21.26:628][506]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha)
+[2019.03.06-10.21.33:807][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.21.36:317][662]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.06-10.21.36:322][662]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha
+[2019.03.06-10.21.36:652][662]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2019.03.06-10.21.37:240][662]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.06-10.21.37:371][663]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.06-10.23.02:488][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.23.05:191][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-10.23.05:264][102]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha42C6ECEF4D1A7C8C970C0BA957418528.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-10.23.11:005][730]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.23.11:018][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.23.11:019][730]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.06-10.23.11:039][730]LogPlayLevel: [PlayLevel] Compiling BP_Flecha before play...
+[2019.03.06-10.23.11:227][730]LogPlayLevel: PlayLevel: Blueprint regeneration took 209 ms (1 blueprints)
+[2019.03.06-10.23.11:227][730]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.23.11:299][730]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:23:11 PM)
+[2019.03.06-10.23.11:299][730]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.23.11:335][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036416s)
+[2019.03.06-10.23.11:336][730]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.23.11:336][730]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2019.03.06-10.23.11:336][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.037106s)
+[2019.03.06-10.23.11:372][730]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.23.11:380][730]LogInit: FAudioDevice initialized.
+[2019.03.06-10.23.11:385][730]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.23.11:465][730]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.23.11:492][730]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.23.11:510][730]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.23.11
+[2019.03.06-10.23.11:512][730]LogWorld: Bringing up level for play took: 0.020272
+[2019.03.06-10.23.11:528][730]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.23.11:534][730]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.709
+[2019.03.06-10.23.11:535][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.23.11:536][730]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.23.11:550][730]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-10.23.11:550][730]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-10.23.34:093][730]LogActor: Warning: GunBP_66 is outside the world bounds!
+[2019.03.06-10.23.49:656][129]LogActor: Warning: CanBP16 is outside the world bounds!
+[2019.03.06-10.23.50:523][207]LogActor: Warning: CanBP14 is outside the world bounds!
+[2019.03.06-10.23.56:157][713]LogActor: Warning: CanBP23 is outside the world bounds!
+[2019.03.06-10.23.57:167][804]LogActor: Warning: CanBP12 is outside the world bounds!
+[2019.03.06-10.23.57:745][856]LogActor: Warning: CanBP18 is outside the world bounds!
+[2019.03.06-10.23.58:245][901]LogActor: Warning: CanBP8 is outside the world bounds!
+[2019.03.06-10.24.01:758][217]LogActor: Warning: CanBP6 is outside the world bounds!
+[2019.03.06-10.24.05:112][519]LogActor: Warning: MagazineBP22_8065 is outside the world bounds!
+[2019.03.06-10.24.07:710][752]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.24.07:771][752]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.24.07:814][752]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-10.24.07:846][752]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-10.24.07:847][752]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.24.07:894][753]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.03.06-10.24.07:895][753]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.24.10:590][ 64]LogEditorViewport: Clicking on Actor (LMB): Arrow_C (Arrow)
+[2019.03.06-10.24.14:242][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.24.19:558][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-10.24.19:633][ 40]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_FlechaFD2D69864749E1D6960EFD8A09DCED35.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-10.24.50:395][575]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/Arrow.Arrow
+[2019.03.06-10.25.18:850][447]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.25.18:864][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.25.18:864][447]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.06-10.25.18:884][447]LogPlayLevel: [PlayLevel] Compiling BP_Flecha before play...
+[2019.03.06-10.25.19:061][447]LogPlayLevel: PlayLevel: Blueprint regeneration took 196 ms (1 blueprints)
+[2019.03.06-10.25.19:061][447]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.25.19:121][447]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:25:19 PM)
+[2019.03.06-10.25.19:121][447]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.25.19:161][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039100s)
+[2019.03.06-10.25.19:161][447]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.25.19:161][447]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2019.03.06-10.25.19:161][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.039813s)
+[2019.03.06-10.25.19:201][447]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.25.19:209][447]LogInit: FAudioDevice initialized.
+[2019.03.06-10.25.19:214][447]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.25.19:287][447]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.25.19:314][447]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.25.19:330][447]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.25.19
+[2019.03.06-10.25.19:332][447]LogWorld: Bringing up level for play took: 0.017270
+[2019.03.06-10.25.19:348][447]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.25.19:353][447]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.528
+[2019.03.06-10.25.19:353][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.25.19:353][447]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.25.19:389][447]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-10.25.19:389][447]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-10.25.40:178][282]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.25.40:246][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.25.40:297][282]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-10.25.40:341][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-10.25.40:342][282]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.25.40:388][283]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.03.06-10.25.40:389][283]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.25.59:597][536]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.25.59:615][536]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.25.59:615][536]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.06-10.25.59:633][536]LogPlayLevel: [PlayLevel] Compiling BP_Flecha before play...
+[2019.03.06-10.25.59:808][536]LogPlayLevel: PlayLevel: Blueprint regeneration took 193 ms (1 blueprints)
+[2019.03.06-10.25.59:808][536]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.25.59:871][536]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:25:59 PM)
+[2019.03.06-10.25.59:871][536]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.25.59:910][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039113s)
+[2019.03.06-10.25.59:911][536]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.25.59:911][536]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2019.03.06-10.25.59:911][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.039914s)
+[2019.03.06-10.25.59:950][536]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.25.59:958][536]LogInit: FAudioDevice initialized.
+[2019.03.06-10.25.59:963][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.26.00:036][536]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.26.00:062][536]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.26.00:077][536]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.26.00
+[2019.03.06-10.26.00:080][536]LogWorld: Bringing up level for play took: 0.017338
+[2019.03.06-10.26.00:096][536]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.26.00:101][536]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.277
+[2019.03.06-10.26.00:101][536]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.26.00:102][536]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.26.00:136][536]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-10.26.00:136][536]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-10.26.16:323][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.26.16:389][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.26.16:439][957]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-10.26.16:471][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-10.26.16:472][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.26.16:526][958]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.03.06-10.26.16:527][958]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.26.33:523][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Objects/Bow/Arrow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset" SILENT=true
+[2019.03.06-10.26.33:588][957]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Arrow6345B3D14C284ECA0C7969B58AE9ABC6.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset'
+[2019.03.06-10.28.22:812][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Objects/Bow/Arrow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset" SILENT=true
+[2019.03.06-10.28.22:870][460]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Arrow5AF8359F4FA265F927A5E2BEACE1756F.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset'
+[2019.03.06-10.28.31:537][497]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Framework/Hands/HandBP.HandBP
+[2019.03.06-10.30.35:519][165]BlueprintLog: New page: Compile BP_Flecha
+[2019.03.06-10.32.23:493][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Objects/Bow/Arrow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset" SILENT=true
+[2019.03.06-10.32.23:555][230]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/ArrowFDA1A5224DFDB14ED73ADAA77CC2AB62.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/Arrow.uasset'
+[2019.03.06-10.33.20:134][881]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/PlaygroundAB07B88D415C06589A82A0911E1D74E4.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.06-10.33.20:202][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.06-10.33.20:816][881]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltDataCE77D12446AEA08E8617D396ED2FEB39.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.06-10.33.26:598][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.33.28:158][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_0, Buffer: c883c40, Buffer Size: 0, Element: 0
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_0, Buffer: c883380, Buffer Size: 0, Element: 1
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_0' invalid (616 verts, 0 indices).
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Attempt to build physics data for /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_0.BodySetup_0 when we are unable to.
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_1, Buffer: c883c40, Buffer Size: 0, Element: 0
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_1, Buffer: c883a60, Buffer Size: 0, Element: 1
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_1' invalid (616 verts, 0 indices).
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Attempt to build physics data for /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_1.BodySetup_0 when we are unable to.
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_2, Buffer: c883c40, Buffer Size: 0, Element: 0
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_2, Buffer: c883a60, Buffer Size: 0, Element: 1
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_2, Buffer: c883380, Buffer Size: 0, Element: 2
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_2, Buffer: c883c40, Buffer Size: 0, Element: 3
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_2' invalid (616 verts, 0 indices).
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Attempt to build physics data for /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_2.BodySetup_0 when we are unable to.
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_3, Buffer: c883c40, Buffer Size: 0, Element: 0
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_3, Buffer: c883a60, Buffer Size: 0, Element: 1
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_3' invalid (616 verts, 0 indices).
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Attempt to build physics data for /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_3.BodySetup_0 when we are unable to.
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_4, Buffer: c883c40, Buffer Size: 0, Element: 0
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_4, Buffer: c883a60, Buffer Size: 0, Element: 1
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_4, Buffer: c883c40, Buffer Size: 0, Element: 2
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_4' invalid (616 verts, 0 indices).
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Attempt to build physics data for /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_4.BodySetup_0 when we are unable to.
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_5, Buffer: c883c40, Buffer Size: 0, Element: 0
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Found bad index buffer when cooking UModelComponent physics data! Component: /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_5, Buffer: c883a60, Buffer Size: 0, Element: 1
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_5' invalid (616 verts, 0 indices).
+[2019.03.06-10.33.28:159][743]LogPhysics: Warning: Attempt to build physics data for /Game/Playground/Playground.Playground:PersistentLevel.ModelComponent_5.BodySetup_0 when we are unable to.
+[2019.03.06-10.33.44:816][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2019.03.06-10.33.59:960][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2019.03.06-10.34.01:577][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2019.03.06-10.34.01:879][684]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.03.06-10.34.02:105][707]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2019.03.06-10.34.06:026][138]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha5)
+[2019.03.06-10.34.22:048][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.34.29:806][878]LogEditorViewport: Clicking on Actor (LMB): BowBP_C (BowBP)
+[2019.03.06-10.34.29:810][878]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.06-10.34.29:810][878]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.06-10.34.31:119][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.34.31:207][ 41]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Playground/Objects/Bow/BowBP.BowBP
+[2019.03.06-10.34.31:457][ 41]PIE: Warning: AttachTo: '/Engine/Transient.World_9:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_9:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.06-10.34.31:458][ 41]PIE: Warning: AttachTo: '/Engine/Transient.World_9:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_9:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.06-10.34.36:205][571]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow2)
+[2019.03.06-10.34.37:809][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.34.37:906][770]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/Bp_Bow.Bp_Bow
+[2019.03.06-10.37.15:295][898]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-10.37.15:357][898]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow0067BCDD4D1C2140548D789699C7F92B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-10.40.11:486][290]PIE: Warning: AttachTo: '/Engine/Transient.World_11:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_11:PersistentLevel.BowBP_C_0.BowString1' which is static to it. Aborting.
+[2019.03.06-10.40.11:486][290]PIE: Warning: AttachTo: '/Engine/Transient.World_11:PersistentLevel.BowBP_C_0.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Engine/Transient.World_11:PersistentLevel.BowBP_C_0.BowString2' which is static to it. Aborting.
+[2019.03.06-10.40.11:497][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Objects/Bow/BowBP" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/BowBP.uasset" SILENT=true
+[2019.03.06-10.40.11:588][290]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BowBP4641F1CD4638A3D736B749B022429D20.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Objects/Bow/BowBP.uasset'
+[2019.03.06-10.46.43:006][208]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_Auto14DC34C0B417520510459638F8F5C6576.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Playground/Playground_Auto1.umap'
+[2019.03.06-10.46.43:009][208]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Playground/Playground' took 0.991
+[2019.03.06-10.46.43:009][208]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.991
+[2019.03.06-10.46.43:010][208]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_Flecha] ([1] browsable assets)...
+[2019.03.06-10.46.43:031][208]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha]
+[2019.03.06-10.46.43:031][208]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Flecha]
+[2019.03.06-10.46.43:098][208]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha_Auto14D2990B64B48FDA3AFB626BC208C1342.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/Blueprints/BP_Flecha_Auto1.uasset'
+[2019.03.06-10.46.43:099][208]LogFileHelpers: Auto-saving content packages took 0.089
+[2019.03.06-10.46.57:353][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Framework/Hands/HandBP" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Framework/Hands/HandBP.uasset" SILENT=true
+[2019.03.06-10.46.57:522][782]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/HandBP1E02BF504BECF2C534185AA9166D077D.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Framework/Hands/HandBP.uasset'
+[2019.03.06-10.47.17:304][997]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.47.17:319][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.47.17:319][997]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.06-10.47.17:345][997]LogPlayLevel: [PlayLevel] Compiling Bp_Bow before play...
+[2019.03.06-10.47.17:362][997]LogPlayLevel: [PlayLevel]   Compiling BP_Flecha as a dependent...
+[2019.03.06-10.47.17:600][997]LogPlayLevel: PlayLevel: Blueprint regeneration took 281 ms (2 blueprints)
+[2019.03.06-10.47.17:600][997]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.47.17:663][997]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:47:17 PM)
+[2019.03.06-10.47.17:663][997]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.47.17:697][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033376s)
+[2019.03.06-10.47.17:697][997]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.47.17:697][997]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2019.03.06-10.47.17:698][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034108s)
+[2019.03.06-10.47.17:735][997]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.47.17:742][997]LogInit: FAudioDevice initialized.
+[2019.03.06-10.47.17:747][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.47.17:832][997]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.47.17:871][997]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.47.17:926][997]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.47.17
+[2019.03.06-10.47.17:930][997]LogWorld: Bringing up level for play took: 0.055986
+[2019.03.06-10.47.17:948][997]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.47.17:955][997]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.13
+[2019.03.06-10.47.17:955][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.47.17:956][997]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.47.17:984][997]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-10.47.17:984][997]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-10.48.14:886][345]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.48.14:953][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.48.14:980][345]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-10.48.15:042][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-10.48.15:043][345]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.48.15:086][346]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.03.06-10.48.15:087][346]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.48.40:495][182]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow2)
+[2019.03.06-10.48.41:916][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.49.09:916][288]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.49.24:172][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.49.38:908][546]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-10.50.02:086][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-10.50.02:098][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Flecha" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset" SILENT=true
+[2019.03.06-10.50.02:162][ 98]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Flecha9AB77276409AD35A1C28CF9574F723F4.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Flecha.uasset'
+[2019.03.06-10.50.12:427][225]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Holder.BP_Holder
+[2019.03.06-10.50.23:770][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-10.50.23:783][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.06-10.50.23:807][409]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_HolderC1A88C894BA955B0C59E5097B14E3B89.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.06-10.50.26:395][690]BlueprintLog: New page: Compile BP_Holder
+[2019.03.06-10.50.28:683][925]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.50.28:701][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.50.28:701][925]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.06-10.50.28:719][925]LogPlayLevel: [PlayLevel] Compiling BP_Flecha before play...
+[2019.03.06-10.50.28:912][925]LogPlayLevel: PlayLevel: Blueprint regeneration took 211 ms (1 blueprints)
+[2019.03.06-10.50.28:912][925]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.50.28:965][925]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:50:28 PM)
+[2019.03.06-10.50.28:965][925]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.50.29:001][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035919s)
+[2019.03.06-10.50.29:002][925]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.50.29:002][925]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2019.03.06-10.50.29:002][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.036725s)
+[2019.03.06-10.50.29:044][925]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.50.29:052][925]LogInit: FAudioDevice initialized.
+[2019.03.06-10.50.29:058][925]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.50.29:136][925]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.50.29:164][925]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.50.29:178][925]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.50.29
+[2019.03.06-10.50.29:180][925]LogWorld: Bringing up level for play took: 0.015836
+[2019.03.06-10.50.29:196][925]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.50.29:201][925]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.376
+[2019.03.06-10.50.29:202][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.50.29:202][925]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.50.29:213][925]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-10.50.29:213][925]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-10.51.24:536][895]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.51.24:604][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.51.24:631][895]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-10.51.24:672][895]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-10.51.24:673][895]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.51.24:718][896]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.03.06-10.51.24:719][896]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.51.45:314][269]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-10.51.45:326][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.06-10.51.45:349][269]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Holder0E1F45524CEB9C2459B4CEA00F43635A.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.06-10.52.13:508][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Holder" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset" SILENT=true
+[2019.03.06-10.52.13:530][503]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_Holder61E70CB74FBD008510BE26BD3BBD86D0.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/BP_Holder.uasset'
+[2019.03.06-10.52.59:018][225]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-10.52.59:084][225]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-10.52.59:084][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "AlternativeBowResting" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get AlternativeBowResting
+[2019.03.06-10.52.59:084][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "BowString1" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get BowString1
+[2019.03.06-10.52.59:084][225]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-10.52.59:085][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "AlternativeBowResting" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get AlternativeBowResting
+[2019.03.06-10.52.59:085][225]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-10.52.59:085][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "AlternativeBowResting" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get AlternativeBowResting
+[2019.03.06-10.52.59:085][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "BowString2" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get BowString2
+[2019.03.06-10.52.59:085][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "PulledScale" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Set PulledScale
+[2019.03.06-10.52.59:085][225]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-10.52.59:085][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "PulledScale" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get PulledScale
+[2019.03.06-10.52.59:085][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "PulledScale" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get PulledScale
+[2019.03.06-10.52.59:086][225]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "PulledScale" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get PulledScale
+[2019.03.06-10.52.59:086][225]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-10.52.59:086][225]LogBlueprint: Error: [Compiler Bp_Bow] In use pin  Holder Ref  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2019.03.06-10.52.59:274][225]LogBlueprint: Warning: [Compiler Bp_Bow] [2057.03] Compile of Bp_Bow failed. 6 Fatal Issue(s) 9 Warning(s) [in 255 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.06-10.54.34:528][634]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.03.06-10.56.44:305][795]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-10.56.44:373][795]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "BowString1" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get BowString1
+[2019.03.06-10.56.44:373][795]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "BowString2" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get BowString2
+[2019.03.06-10.56.44:373][795]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "PulledScale" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get PulledScale
+[2019.03.06-10.56.44:375][795]LogBlueprint: Error: [Compiler Bp_Bow] This blueprint (self) is not a Grabable_C, therefore ' Target ' must have a connection.
+[2019.03.06-10.56.44:377][795]LogBlueprint: Error: [Compiler Bp_Bow] The property associated with  Pulled Scale  could not be found in '/Game/Blueprints/Bp_Bow.Bp_Bow_C'
+[2019.03.06-10.56.44:377][795]LogBlueprint: Error: [Compiler Bp_Bow] The property associated with  Bow String 2  could not be found in '/Game/Blueprints/Bp_Bow.Bp_Bow_C'
+[2019.03.06-10.56.44:377][795]LogBlueprint: Error: [Compiler Bp_Bow] The property associated with  Bow String 1  could not be found in '/Game/Blueprints/Bp_Bow.Bp_Bow_C'
+[2019.03.06-10.56.44:560][795]LogBlueprint: Warning: [Compiler Bp_Bow] [2282.31] Compile of Bp_Bow failed. 4 Fatal Issue(s) 3 Warning(s) [in 254 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.06-10.57.17:122][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-10.57.17:223][102]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_Bow3D044A9643E6CF277BC1339D144305A5.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-10.57.18:108][196]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-10.57.18:186][196]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "BowString1" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get BowString1
+[2019.03.06-10.57.18:186][196]LogBlueprint: Warning: [Compiler Bp_Bow] Could not find a variable named "BowString2" in 'Bp_Bow_C'.
+Make sure 'Bp_Bow_C' has been compiled for  Get BowString2
+[2019.03.06-10.57.18:189][196]LogBlueprint: Error: [Compiler Bp_Bow] The property associated with  Bow String 2  could not be found in '/Game/Blueprints/Bp_Bow.Bp_Bow_C'
+[2019.03.06-10.57.18:189][196]LogBlueprint: Error: [Compiler Bp_Bow] The property associated with  Bow String 1  could not be found in '/Game/Blueprints/Bp_Bow.Bp_Bow_C'
+[2019.03.06-10.57.18:361][196]LogBlueprint: Warning: [Compiler Bp_Bow] [2316.11] Compile of Bp_Bow failed. 2 Fatal Issue(s) 2 Warning(s) [in 252 ms] (/Game/Blueprints/Bp_Bow.Bp_Bow)
+[2019.03.06-10.57.59:120][702]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.57.59:120][702]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.57.59:121][702]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.57.59:121][702]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.58.08:406][460]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.08:407][460]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.58.08:408][460]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.58.08:408][460]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String1' which is static to it. Aborting.
+[2019.03.06-10.58.17:202][296]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.17:202][296]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.58.17:202][296]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.58.17:203][296]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.58.17:203][296]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.58.17:203][296]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.58.17:204][296]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String1' which is static to it. Aborting.
+[2019.03.06-10.58.17:204][296]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.SplineMesh' which is static to it. Aborting.
+[2019.03.06-10.58.21:948][669]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.21:948][669]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-10.58.21:948][669]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.58.21:948][669]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-10.58.21:949][669]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.58.21:949][669]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-10.58.21:950][669]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String1' which is static to it. Aborting.
+[2019.03.06-10.58.21:950][669]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String2' which is static to it. Aborting.
+[2019.03.06-10.58.55:560][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-10.58.55:656][312]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowBF0B1C2A43F93BB8550005B468F156C7.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-10.58.59:279][676]BlueprintLog: New page: Compile Bp_Bow
+[2019.03.06-10.58.59:348][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:348][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:349][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:349][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:349][676]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:349][676]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:349][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:349][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:490][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:490][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:491][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:491][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:492][676]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:492][676]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:492][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:492][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_4.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:493][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:493][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:511][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:511][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:512][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:512][676]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:512][676]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:512][676]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-10.58.59:513][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-10.58.59:513][676]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:405][845]LogTemp: Repeating last play command: VR Preview
+[2019.03.06-10.59.01:437][845]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.59.01:437][845]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.06-10.59.01:441][845]LogPlayLevel: [PlayLevel] Compiling BP_Holder before play...
+[2019.03.06-10.59.01:547][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:547][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:548][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:548][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:548][845]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:549][845]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:549][845]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:549][845]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:561][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:562][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:562][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:562][845]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:563][845]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:563][845]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:563][845]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-10.59.01:563][845]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-10.59.01:604][845]LogPlayLevel: PlayLevel: Blueprint regeneration took 168 ms (1 blueprints)
+[2019.03.06-10.59.01:605][845]LogHMD: Initializing OVRPlugin session
+[2019.03.06-10.59.01:664][845]PIE: New page: PIE session: Playground (Mar 6, 2019, 12:59:01 PM)
+[2019.03.06-10.59.01:664][845]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.06-10.59.01:704][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039150s)
+[2019.03.06-10.59.01:704][845]LogAIModule: Creating AISystem for world Playground
+[2019.03.06-10.59.01:705][845]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2019.03.06-10.59.01:705][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.040125s)
+[2019.03.06-10.59.01:753][845]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.06-10.59.01:761][845]LogInit: FAudioDevice initialized.
+[2019.03.06-10.59.01:766][845]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-10.59.01:838][845]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.06-10.59.01:866][845]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.06-10.59.01:881][845]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.06-11.59.01
+[2019.03.06-10.59.01:884][845]LogWorld: Bringing up level for play took: 0.017191
+[2019.03.06-10.59.01:900][845]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.06-10.59.01:906][845]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.082
+[2019.03.06-10.59.01:907][845]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-10.59.01:907][845]LogEngine: Changing dynamic resolution state.
+[2019.03.06-10.59.02:075][845]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.06-10.59.02:075][845]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.06-11.00.04:327][827]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.06-11.00.10:031][ 88]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-11.00.10:088][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.06-11.00.10:105][ 88]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.06-11.00.10:162][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.06-11.00.10:163][ 88]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.06-11.00.10:346][ 89]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.06-11.00.10:347][ 89]LogEngine: Changing dynamic resolution state.
+[2019.03.06-11.00.29:167][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:167][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.29:167][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:167][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-11.00.29:168][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:168][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-11.00.29:168][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:169][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.29:169][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:169][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.29:170][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:170][ 28]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-11.00.29:171][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:171][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-11.00.29:171][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.29:171][ 28]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:605][781]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:605][781]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:605][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:606][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:606][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:606][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:607][781]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:607][781]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:607][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:607][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:608][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:608][781]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:609][781]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:609][781]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-11.00.36:609][781]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String1' which is static to it. Aborting.
+[2019.03.06-11.00.36:609][781]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_5.String2' which is static to it. Aborting.
+[2019.03.06-11.00.37:445][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Bp_Bow" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset" SILENT=true
+[2019.03.06-11.00.37:538][855]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Bp_BowC6113BB04479F5BB59A87B8CD3E7EC53.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Blueprints/Bp_Bow.uasset'
+[2019.03.06-11.00.38:531][944]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.06-11.00.38:532][944]PIE: Warning: AttachTo: '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_10:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.06-11.00.47:624][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.06-11.01.36:725][747]LogUObjectArray: Warning: Other object in slot
+[2019.03.06-11.01.36:939][747]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.214 s
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: === Handled ensure: ===
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: 
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: Stack: 
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd422c71f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd42000c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd4201b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd3cd511db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd3cd6060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd3e18da7a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd3599ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.06-11.01.36:939][747]LogOutputDevice: Error: [Callstack] 0x00007ffd3595f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd412b8204 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd414fe933 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd4131281a UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd412e8190 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd412db073 UE4Editor-Slate.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd65b3d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd65b30270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd65b3f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd65b2c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd754b6d41 USER32.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd754b6713 USER32.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd65b40646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ff6f9fe54e5 UE4Editor.exe!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ff6f9ff5b3c UE4Editor.exe!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ff6f9ff5bba UE4Editor.exe!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ff6fa003dac UE4Editor.exe!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ff6fa005aaa UE4Editor.exe!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd73ae3dc4 KERNEL32.DLL!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: [Callstack] 0x00007ffd756e3691 ntdll.dll!UnknownFunction []
+[2019.03.06-11.01.36:940][747]LogOutputDevice: Error: 
+[2019.03.06-11.01.36:944][747]LogStats:                SubmitErrorReport -  0.000 s
