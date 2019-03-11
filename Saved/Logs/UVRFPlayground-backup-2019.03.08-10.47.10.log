@@ -1,0 +1,1399 @@
+﻿Log file open, 03/08/19 09:38:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UVRFPlayground
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.264033
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.109s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.08-08.38.47:320][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.08-08.38.47:320][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.08-08.38.47:332][  0]LogHAL: Display: Platform has ~ 32 GB [34311819264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.08-08.38.47:332][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.08-08.38.47:332][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.08-08.38.47:332][  0]LogInit: Computer: PCF83
+[2019.03.08-08.38.47:332][  0]LogInit: User: Alumno
+[2019.03.08-08.38.47:332][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.08-08.38.47:332][  0]LogInit: High frequency timer resolution =4.101563 MHz
+[2019.03.08-08.38.47:333][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.08-08.38.47:333][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.08-08.38.47:333][  0]LogMemory: Process Physical Memory: 105.86 MB used, 105.86 MB peak
+[2019.03.08-08.38.47:333][  0]LogMemory: Process Virtual Memory: 95.97 MB used, 95.97 MB peak
+[2019.03.08-08.38.47:333][  0]LogMemory: Physical Memory: 4378.15 MB used,  28344.15 MB free, 32722.30 MB total
+[2019.03.08-08.38.47:333][  0]LogMemory: Virtual Memory: 4659.66 MB used,  28344.15 MB free, 134217728.00 MB total
+[2019.03.08-08.38.47:344][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.08-08.38.47:344][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.08-08.38.47:599][  0]LogStreaming: Display: Took  0.255s to InitEngineTextLocalization.
+[2019.03.08-08.38.47:599][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.08-08.38.47:623][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.08-08.38.47:623][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.08-08.38.47:757][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.08-08.38.47:802][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.08-08.38.47:802][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.08-08.38.47:804][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.08-08.38.47:804][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.08-08.38.47:804][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.08-08.38.47:808][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.08-08.38.47:808][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.08-08.38.47:808][  0]LogWindows: EnumDisplayDevices:
+[2019.03.08-08.38.47:809][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.08-08.38.47:809][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.08-08.38.47:809][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.08-08.38.47:809][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.08-08.38.47:809][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.08-08.38.47:809][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.08-08.38.47:809][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.03.08-08.38.47:809][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.03.08-08.38.47:809][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.08-08.38.47:832][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.08-08.38.47:847][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.08-08.38.47:893][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Intermediate/Shaders/WorkingDirectory/9320/).
+[2019.03.08-08.38.47:893][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/342B4872484630F0F9B8519BF926438F/'.
+[2019.03.08-08.38.48:050][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.08-08.38.48:060][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.08-08.38.48:069][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.08-08.38.48:079][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.08-08.38.48:089][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.08-08.38.48:099][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.08-08.38.48:109][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.08-08.38.48:119][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.08-08.38.48:123][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:179][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.08-08.38.48:180][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.08-08.38.48:234][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.08-08.38.48:234][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.08-08.38.48:251][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.08-08.38.48:251][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.08-08.38.48:260][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.08-08.38.48:270][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.08-08.38.48:279][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.08-08.38.48:288][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.08-08.38.48:295][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.08-08.38.48:295][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.08-08.38.48:342][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.08-08.38.48:342][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.08-08.38.48:342][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.08-08.38.48:878][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.08-08.38.48:923][  0]LogDerivedDataCache: Loaded boot cache 0.05s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.08-08.38.48:923][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.08-08.38.48:923][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.08-08.38.48:923][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.08-08.38.48:923][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.08-08.38.48:924][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.08-08.38.48:933][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.08-08.38.48:945][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.08-08.38.48:945][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.08-08.38.48:945][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.08-08.38.48:958][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.08-08.38.48:959][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.08-08.38.48:959][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.08-08.38.49:016][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2019.03.08-08.38.49:238][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.08-08.38.49:327][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.08-08.38.49:329][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.08-08.38.49:329][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.08-08.38.49:329][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.08-08.38.49:329][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.08-08.38.49:341][  0]LogNetVersion: UVRFPlayground 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4282483417)
+[2019.03.08-08.38.49:380][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2019.03.08-08.38.49:641][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.040099 seconds
+[2019.03.08-08.38.49:645][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.08-08.38.49:645][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.08-08.38.49:645][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.08-08.38.50:136][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2019.03.08-08.38.50:137][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:137][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:157][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2019.03.08-08.38.50:157][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:157][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:159][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2019.03.08-08.38.50:159][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:159][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:162][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2019.03.08-08.38.50:162][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:162][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:165][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2019.03.08-08.38.50:165][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:165][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:168][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2019.03.08-08.38.50:168][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:168][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:181][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2019.03.08-08.38.50:181][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:181][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:183][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.03.08-08.38.50:183][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:183][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:186][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2019.03.08-08.38.50:186][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.08-08.38.50:186][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.08-08.38.50:222][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.08-08.38.50:234][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.08-08.38.50:393][  0]SourceControl: Source control is disabled
+[2019.03.08-08.38.50:393][  0]SourceControl: Source control is disabled
+[2019.03.08-08.38.50:394][  0]SourceControl: Source control is disabled
+[2019.03.08-08.38.50:395][  0]SourceControl: Source control is disabled
+[2019.03.08-08.38.50:532][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.08-08.38.50:596][  0]LogOcInput: OculusInput pre-init called
+[2019.03.08-08.38.50:641][  0]LogEngine: Initializing Engine...
+[2019.03.08-08.38.50:642][  0]LogHMD: Oculus plugin initialized. Version: 4.20.3-4369336+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2019.03.08-08.38.50:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.08-08.38.50:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.08-08.38.50:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.08-08.38.50:644][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.08-08.38.50:789][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.08-08.38.50:801][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.08-08.38.50:818][  0]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-08.38.50:838][  0]LogInit: FAudioDevice initialized.
+[2019.03.08-08.38.50:838][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.08-08.38.50:948][  0]LogDerivedDataCache: Saved boot cache 0.11s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.08-08.38.50:954][  0]LogInit: Texture streaming: Enabled
+[2019.03.08-08.38.50:966][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.08-08.38.50:976][  0]LogInit: Transaction tracking system initialized
+[2019.03.08-08.38.50:994][  0]BlueprintLog: New page: Editor Load
+[2019.03.08-08.38.51:054][  0]LocalizationService: Localization service is disabled
+[2019.03.08-08.38.51:380][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.08-08.38.51:380][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.08-08.38.51:380][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.08-08.38.51:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.08-08.38.51:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.08-08.38.51:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.08-08.38.51:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.08-08.38.51:472][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/' took 0.03s
+[2019.03.08-08.38.51:472][  0]SourceControl: Source control is disabled
+[2019.03.08-08.38.51:472][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.08-08.38.51:472][  0]LightingResults: New page: Lighting Build
+[2019.03.08-08.38.51:474][  0]MapCheck: New page: Map Check
+[2019.03.08-08.38.51:474][  0]LightingResults: New page: Lighting Build
+[2019.03.08-08.38.57:832][  0]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-08.38.57:849][  0]LogMaterial: Warning: Material /Game/Playground/Environment/LED/LightFixture.LightFixture needed to have new flag set bUsedWithStaticLighting !
+[2019.03.08-08.38.57:851][  0]LogMaterial: Display: Missing cached shader map for material LightFixture, compiling. 
+[2019.03.08-08.38.57:896][  0]MapCheck: Warning: LightFixture Material /Game/Playground/Environment/LED/LightFixture.LightFixture was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.08-08.38.58:008][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.08-08.38.58:008][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.08-08.38.58:008][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.08-08.38.58:008][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.08-08.38.58:008][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.08-08.38.58:008][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.08-08.38.58:009][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.08-08.38.58:009][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.08-08.38.58:010][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.08-08.38.58:010][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.08-08.38.58:011][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.08-08.38.58:011][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.08-08.38.58:011][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.38.58:012][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.38.58:013][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.08-08.38.58:050][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.08-08.38.58:170][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 120.62ms to complete.
+[2019.03.08-08.38.58:176][  0]LogFileHelpers: Loading map 'Playground' took 6.705
+[2019.03.08-08.38.58:330][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.38.58:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.38.58:345][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.38.58:353][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.38.58:367][  0]LogCollectionManager: Loaded 0 collections in 0.001996 seconds
+[2019.03.08-08.38.58:423][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Collections/' took 0.01s
+[2019.03.08-08.38.58:423][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Developers/Alumno/Collections/' took 0.01s
+[2019.03.08-08.38.58:423][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Collections/' took 0.01s
+[2019.03.08-08.38.58:423][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.08-08.38.58:433][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2581 classes and 608 folders.
+[2019.03.08-08.38.58:444][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.08-08.38.58:828][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.08-08.38.58:841][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.03.08-08.38.59:023][  0]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.08-08.38.59:025][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.08-08.38.59:037][  0]LogSlate: Took 0.005705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.08-08.38.59:188][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.08-08.38.59:369][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.08-08.38.59:369][  0]LogLoad: (Engine Initialization) Total time: 13.59 seconds
+[2019.03.08-08.38.59:369][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.08-08.38.59:379][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.08-08.38.59:380][  0]LogOcInput: OculusInput is initialized
+[2019.03.08-08.38.59:402][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.08-08.38.59:435][  0]LogSlate: Took 0.005961 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.08-08.38.59:473][  1]LogAssetRegistry: Asset discovery search completed in 10.4785 seconds
+[2019.03.08-08.38.59:474][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.08-08.38.59:474][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2019.03.08-08.38.59:588][  2]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.08-08.38.59:588][  2]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.08-08.39.29:545][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.39.29:636][594]LogTemp: Repeating last play command: VR Preview
+[2019.03.08-08.39.29:654][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.39.29:654][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-08.39.29:654][594]LogHMD: Initializing OVRPlugin session
+[2019.03.08-08.39.31:224][594]PIE: New page: PIE session: Playground (Mar 8, 2019, 10:39:31 AM)
+[2019.03.08-08.39.31:224][594]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-08.39.31:279][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054538s)
+[2019.03.08-08.39.31:279][594]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-08.39.31:279][594]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2019.03.08-08.39.31:280][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.055300s)
+[2019.03.08-08.39.31:315][594]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-08.39.31:325][594]LogInit: FAudioDevice initialized.
+[2019.03.08-08.39.31:330][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.39.31:406][594]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-08.39.31:442][594]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-08.39.31:459][594]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-09.39.31
+[2019.03.08-08.39.31:464][594]LogWorld: Bringing up level for play took: 0.020517
+[2019.03.08-08.39.31:483][594]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 10 classes and 0 folders.
+[2019.03.08-08.39.31:492][594]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.08-08.39.31:496][594]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 2.332
+[2019.03.08-08.39.31:497][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.39.31:498][594]LogEngine: Changing dynamic resolution state.
+[2019.03.08-08.39.31:515][594]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2019.03.08-08.39.31:515][594]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.08-08.40.31:857][669]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.40.31:918][669]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.40.31:943][669]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-08.40.31:979][669]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-08.40.31:980][669]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.40.32:014][670]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.03.08-08.40.32:015][670]LogEngine: Changing dynamic resolution state.
+[2019.03.08-08.40.35:050][ 32]LogTemp: Repeating last play command: VR Preview
+[2019.03.08-08.40.35:063][ 32]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.40.35:063][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-08.40.35:063][ 32]LogHMD: Initializing OVRPlugin session
+[2019.03.08-08.40.35:111][ 32]PIE: New page: PIE session: Playground (Mar 8, 2019, 10:40:35 AM)
+[2019.03.08-08.40.35:111][ 32]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-08.40.35:144][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033353s)
+[2019.03.08-08.40.35:145][ 32]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-08.40.35:145][ 32]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2019.03.08-08.40.35:145][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034021s)
+[2019.03.08-08.40.35:176][ 32]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-08.40.35:183][ 32]LogInit: FAudioDevice initialized.
+[2019.03.08-08.40.35:187][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.40.35:255][ 32]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-08.40.35:279][ 32]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-08.40.35:293][ 32]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-09.40.35
+[2019.03.08-08.40.35:295][ 32]LogWorld: Bringing up level for play took: 0.015555
+[2019.03.08-08.40.35:310][ 32]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.08-08.40.35:314][ 32]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.149
+[2019.03.08-08.40.35:314][ 32]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.40.35:314][ 32]LogEngine: Changing dynamic resolution state.
+[2019.03.08-08.40.35:324][ 32]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.08-08.40.35:324][ 32]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.08-08.41.59:771][582]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.41.59:831][582]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.41.59:855][582]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-08.41.59:885][582]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-08.41.59:886][582]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.41.59:918][583]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.08-08.41.59:919][583]LogEngine: Changing dynamic resolution state.
+[2019.03.08-08.42.12:682][111]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.08-08.42.13:372][111]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground5E18AEF34B56B88AFB75F48E0D3E3DBF.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.08-08.42.13:404][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.08-08.42.14:091][111]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltData1623EDCD484B942126FC888AE5B0A37A.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.08-08.42.21:045][905]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.03.08-08.42.28:984][848]LogSlate: Took 0.004774 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.08-08.42.29:689][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.42.36:431][732]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2019.03.08-08.42.37:667][869]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2019.03.08-08.42.38:276][934]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.03.08-08.42.42:384][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.43.03:693][911]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2019.03.08-08.43.04:867][ 45]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.03.08-08.43.06:048][181]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.08-08.43.07:828][391]Cmd: TRANSACTION UNDO
+[2019.03.08-08.43.07:828][391]LogEditorTransaction: Undo Move Actors
+[2019.03.08-08.43.09:023][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.43.09:115][528]LogTemp: Repeating last play command: VR Preview
+[2019.03.08-08.43.09:128][528]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.43.09:128][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-08.43.09:128][528]LogHMD: Initializing OVRPlugin session
+[2019.03.08-08.43.09:197][528]PIE: New page: PIE session: Playground (Mar 8, 2019, 10:43:09 AM)
+[2019.03.08-08.43.09:198][528]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-08.43.09:235][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037082s)
+[2019.03.08-08.43.09:235][528]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-08.43.09:235][528]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2019.03.08-08.43.09:235][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.037855s)
+[2019.03.08-08.43.09:268][528]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-08.43.09:276][528]LogInit: FAudioDevice initialized.
+[2019.03.08-08.43.09:280][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-08.43.09:349][528]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-08.43.09:375][528]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-08.43.09:390][528]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-09.43.09
+[2019.03.08-08.43.09:393][528]LogWorld: Bringing up level for play took: 0.016882
+[2019.03.08-08.43.09:408][528]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.08-08.43.09:412][528]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.248
+[2019.03.08-08.43.09:413][528]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.43.09:413][528]LogEngine: Changing dynamic resolution state.
+[2019.03.08-08.43.09:425][528]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.08-08.43.09:425][528]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.08-08.43.21:325][297]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-08.43.32:125][194]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-08.43.32:127][194]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-08.43.32:129][194]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.43.32:167][194]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-08.43.32:168][194]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-08.43.32:208][195]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.08-08.43.45:030][687]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
+[2019.03.08-08.43.45:516][687]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.03.08-08.43.46:270][687]LogSlate: Took 0.003867 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.08-08.44.13:866][322]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/VirtualReality/Meshes/BeaconDirection.BeaconDirection
+[2019.03.08-08.44.34:944][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.45.10:973][846]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.45.14:826][286]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.08-08.46.38:813][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.46.46:766][330]LogSlate: Window 'BP_MotionController' being destroyed
+[2019.03.08-08.47.46:062][418]LogAssetEditorManager: Opening Asset editor for UserDefinedEnum /Game/VirtualRealityBP/Blueprints/GripEnum.GripEnum
+[2019.03.08-08.47.48:866][748]LogSlate: Window 'GripEnum' being destroyed
+[2019.03.08-08.47.48:869][748]LogSlate: Window 'GripEnum' being destroyed
+[2019.03.08-08.47.50:391][929]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
+[2019.03.08-08.49.50:851][656]BlueprintLog: New page: Compile BP_MotionController
+[2019.03.08-08.53.44:213][ 60]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Playground/Playground' took 0.024
+[2019.03.08-08.53.44:215][ 60]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VirtualRealityBP/Blueprints/BP_MotionController] ([1] browsable assets)...
+[2019.03.08-08.53.44:235][ 60]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController]
+[2019.03.08-08.53.44:235][ 60]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/BP_MotionController]
+[2019.03.08-08.53.44:386][ 60]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_MotionController_Auto1807B085C4F4CF49368B375A6725FBF5B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/BP_MotionController_Auto1.uasset'
+[2019.03.08-08.53.44:387][ 60]LogFileHelpers: Auto-saving content packages took 0.173
+[2019.03.08-08.54.57:043][827]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.03.08-08.54.59:011][ 47]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.08-08.55.01:801][376]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.03.08-08.55.06:324][883]LogEditorViewport: Clicking on Actor (LMB): Bp_Bow_C (Bp_Bow)
+[2019.03.08-08.55.06:328][883]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.06:328][883]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.07:284][982]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.07:284][982]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.07:367][992]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.07:367][992]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.07:483][  6]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.07:483][  6]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.07:642][ 25]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.07:642][ 25]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.07:751][ 38]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.07:751][ 38]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.07:850][ 50]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.07:850][ 50]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.08:017][ 70]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.08:017][ 70]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.08:911][175]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.08:911][175]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:393][349]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:393][349]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:401][350]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:401][350]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:409][351]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:410][351]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:418][352]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:418][352]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:426][353]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:426][353]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:435][354]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:435][354]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:443][355]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:443][355]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:451][356]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:451][356]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:460][357]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:460][357]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:468][358]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:468][358]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:475][359]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:475][359]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:484][360]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:484][360]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:492][361]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:492][361]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:500][362]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:500][362]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:509][363]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:509][363]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:517][364]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:517][364]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:525][365]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:526][365]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:534][366]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:534][366]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:542][367]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:542][367]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:550][368]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:551][368]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:559][369]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:559][369]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:567][370]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:567][370]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:576][371]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:576][371]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:584][372]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:584][372]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:592][373]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:592][373]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:601][374]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:601][374]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:609][375]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:609][375]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:617][376]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:617][376]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:626][377]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:626][377]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:634][378]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:634][378]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:642][379]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:643][379]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:651][380]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:651][380]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:659][381]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:659][381]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:668][382]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:668][382]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:676][383]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:676][383]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:684][384]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:684][384]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:934][414]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:934][414]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:942][415]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:942][415]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:951][416]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:951][416]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:959][417]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:959][417]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:967][418]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:967][418]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:976][419]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:976][419]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:984][420]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:984][420]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.10:992][421]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.10:993][421]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:001][422]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:001][422]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:009][423]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:009][423]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:017][424]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:018][424]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:026][425]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:026][425]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:034][426]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:034][426]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:043][427]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:043][427]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:051][428]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:051][428]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:059][429]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:059][429]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:068][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:068][430]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:076][431]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:076][431]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:084][432]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:084][432]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:093][433]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:093][433]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:101][434]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:101][434]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:109][435]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:109][435]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:118][436]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:118][436]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:126][437]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:126][437]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:134][438]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:135][438]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:143][439]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:143][439]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:151][440]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:151][440]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:275][455]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:276][455]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:284][456]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:284][456]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:301][458]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:301][458]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:309][459]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:309][459]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:317][460]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:317][460]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:326][461]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:326][461]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:334][462]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:334][462]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:342][463]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:342][463]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:359][465]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:359][465]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:376][467]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:376][467]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:384][468]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:384][468]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:392][469]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:393][469]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:409][471]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:409][471]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.11:417][472]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.08-08.55.11:417][472]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.08-08.55.20:426][536]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-08.55.21:097][536]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/PlaygroundE2E75C5C4ED7D5D1D2092D95739D91E2.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.08-08.55.21:124][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.08-08.55.21:569][536]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltDataCE8F99584BB985AED007DB91E4D1C263.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.08-08.55.58:842][984]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/PickupActorInterface.PickupActorInterface
+[2019.03.08-08.56.28:750][204]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall5)
+[2019.03.08-08.56.28:798][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-08.56.50:004][739]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Framework/Pawn/VRPawn.VRPawn
+[2019.03.08-08.58.47:242][456]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.08-08.58.52:218][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-08.59.49:885][264]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.00.14:596][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Framework/Pawn/VRPawn" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Framework/Pawn/VRPawn.uasset" SILENT=true
+[2019.03.08-09.00.14:658][988]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/VRPawnFD7486364BF11B90FBEA3DAD7AE56136.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Framework/Pawn/VRPawn.uasset'
+[2019.03.08-09.01.03:681][819]BlueprintLog: New page: Compile VRPawn
+[2019.03.08-09.02.53:908][592]LogEditorViewport: Clicking on Actor (LMB): BP_Flecha_C (BP_Flecha7)
+[2019.03.08-09.02.55:358][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.02.55:437][770]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Flecha.BP_Flecha
+[2019.03.08-09.03.57:153][300]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-09.04.01:582][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.04.18:608][481]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.08-09.04.18:620][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Framework/Pawn/VRPawn" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Framework/Pawn/VRPawn.uasset" SILENT=true
+[2019.03.08-09.04.18:681][481]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/VRPawnEA1B6B7749F22834FF2EE39C8C6A0F97.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Framework/Pawn/VRPawn.uasset'
+[2019.03.08-09.04.21:867][833]LogTemp: Repeating last play command: VR Preview
+[2019.03.08-09.04.21:888][833]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.21:888][833]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.08-09.04.21:911][833]LogPlayLevel: [PlayLevel] Compiling VRPawn before play...
+[2019.03.08-09.04.22:116][833]LogPlayLevel: PlayLevel: Blueprint regeneration took 227 ms (1 blueprints)
+[2019.03.08-09.04.22:117][833]LogHMD: Initializing OVRPlugin session
+[2019.03.08-09.04.22:176][833]PIE: New page: PIE session: Playground (Mar 8, 2019, 11:04:22 AM)
+[2019.03.08-09.04.22:177][833]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-09.04.22:210][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033406s)
+[2019.03.08-09.04.22:210][833]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-09.04.22:211][833]LogPlayLevel: PIE: World Init took: (0.000580s)
+[2019.03.08-09.04.22:211][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034146s)
+[2019.03.08-09.04.22:252][833]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-09.04.22:259][833]LogInit: FAudioDevice initialized.
+[2019.03.08-09.04.22:264][833]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.04.22:304][833]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-09.04.22:332][833]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-09.04.22:346][833]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-10.04.22
+[2019.03.08-09.04.22:348][833]LogWorld: Bringing up level for play took: 0.015852
+[2019.03.08-09.04.22:360][833]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-17.608 Y=-305.079 Z=2.001] for [VRPawn_C]
+[2019.03.08-09.04.22:361][833]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type VRPawn_C at Rotation: Pitch 0.000000 Yaw -90.000114 Roll 0.000000
+Translation: -17.607674 -305.079102 2.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.03.08-09.04.22:368][833]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 1.203
+[2019.03.08-09.04.22:368][833]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.22:456][834]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.04.29:039][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.29:039][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.04.29:070][340]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-09.04.29:111][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-09.04.29:111][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.29:160][341]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.03.08-09.04.31:682][642]LogTemp: Repeating last play command: VR Preview
+[2019.03.08-09.04.31:702][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.31:702][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-09.04.31:702][642]LogHMD: Initializing OVRPlugin session
+[2019.03.08-09.04.31:751][642]PIE: New page: PIE session: Playground (Mar 8, 2019, 11:04:31 AM)
+[2019.03.08-09.04.31:751][642]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-09.04.31:786][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035274s)
+[2019.03.08-09.04.31:786][642]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-09.04.31:787][642]LogPlayLevel: PIE: World Init took: (0.000513s)
+[2019.03.08-09.04.31:787][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.035955s)
+[2019.03.08-09.04.31:827][642]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-09.04.31:833][642]LogInit: FAudioDevice initialized.
+[2019.03.08-09.04.31:837][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.04.31:907][642]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-09.04.31:933][642]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-09.04.31:947][642]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-10.04.31
+[2019.03.08-09.04.31:949][642]LogWorld: Bringing up level for play took: 0.014853
+[2019.03.08-09.04.31:960][642]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-17.608 Y=-305.079 Z=2.001] for [VRPawn_C]
+[2019.03.08-09.04.31:961][642]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type VRPawn_C at Rotation: Pitch 0.000000 Yaw -90.000114 Roll 0.000000
+Translation: -17.607674 -305.079102 2.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.03.08-09.04.31:968][642]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.804
+[2019.03.08-09.04.31:968][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.31:969][642]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.04.31:979][642]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.08-09.04.31:979][642]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.08-09.04.47:852][216]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.47:929][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.04.47:961][216]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-09.04.47:997][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-09.04.47:998][216]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.48:048][217]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.03.08-09.04.48:048][217]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.04.50:870][551]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.04.50:870][551]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-09.04.50:870][551]PIE: New page: SIE session: Playground (Mar 8, 2019, 11:04:50 AM)
+[2019.03.08-09.04.50:870][551]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-09.04.50:904][551]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033360s)
+[2019.03.08-09.04.50:904][551]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-09.04.50:904][551]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2019.03.08-09.04.50:904][551]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034060s)
+[2019.03.08-09.04.50:942][551]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-09.04.50:949][551]LogInit: FAudioDevice initialized.
+[2019.03.08-09.04.50:981][551]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-09.04.50:994][551]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-10.04.50
+[2019.03.08-09.04.50:997][551]LogWorld: Bringing up level for play took: 0.014782
+[2019.03.08-09.04.51:011][551]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.153
+[2019.03.08-09.04.51:023][551]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.08:513][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.05.12:171][969]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.05.26:151][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.05.28:331][842]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.28:331][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.05.28:370][842]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-09.05.28:370][842]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.28:399][842]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.05.28:436][846]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.03.08-09.05.29:767][  5]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.03.08-09.05.31:846][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.05.31:954][264]LogTemp: Repeating last play command: Simulate
+[2019.03.08-09.05.31:975][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.31:975][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-09.05.31:975][264]PIE: New page: SIE session: Playground (Mar 8, 2019, 11:05:31 AM)
+[2019.03.08-09.05.31:975][264]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-09.05.32:009][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033561s)
+[2019.03.08-09.05.32:009][264]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-09.05.32:009][264]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2019.03.08-09.05.32:009][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034235s)
+[2019.03.08-09.05.32:049][264]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-09.05.32:056][264]LogInit: FAudioDevice initialized.
+[2019.03.08-09.05.32:081][264]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-09.05.32:093][264]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-10.05.32
+[2019.03.08-09.05.32:096][264]LogWorld: Bringing up level for play took: 0.014648
+[2019.03.08-09.05.32:110][264]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.946
+[2019.03.08-09.05.32:115][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.34:656][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.34:656][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.05.34:693][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-09.05.34:693][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.34:722][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.05.34:759][555]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.03.08-09.05.38:544][  6]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.38:544][  6]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-09.05.38:544][  6]LogHMD: Initializing OVRPlugin session
+[2019.03.08-09.05.38:595][  6]PIE: New page: PIE session: Playground (Mar 8, 2019, 11:05:38 AM)
+[2019.03.08-09.05.38:595][  6]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-09.05.38:632][  6]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036138s)
+[2019.03.08-09.05.38:632][  6]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-09.05.38:632][  6]LogPlayLevel: PIE: World Init took: (0.000511s)
+[2019.03.08-09.05.38:632][  6]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.036829s)
+[2019.03.08-09.05.38:672][  6]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-09.05.38:679][  6]LogInit: FAudioDevice initialized.
+[2019.03.08-09.05.38:683][  6]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.05.38:756][  6]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-09.05.38:782][  6]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-09.05.38:795][  6]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-10.05.38
+[2019.03.08-09.05.38:798][  6]LogWorld: Bringing up level for play took: 0.015074
+[2019.03.08-09.05.38:810][  6]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-17.608 Y=-305.079 Z=2.001] for [VRPawn_C]
+[2019.03.08-09.05.38:811][  6]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type VRPawn_C at Rotation: Pitch 0.000000 Yaw -90.000114 Roll 0.000000
+Translation: -17.607674 -305.079102 2.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.03.08-09.05.38:817][  6]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.347
+[2019.03.08-09.05.38:817][  6]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.38:818][  6]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.05.38:828][  6]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.08-09.05.38:828][  6]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.08-09.05.49:307][ 76]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.49:379][ 76]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.05.49:400][ 76]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-09.05.49:432][ 76]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-09.05.49:433][ 76]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.05.49:476][ 77]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2019.03.08-09.05.49:477][ 77]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.05.52:055][380]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2019.03.08-09.05.59:123][223]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume2)
+[2019.03.08-09.06.02:690][603]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2019.03.08-09.06.09:251][352]LogEditorViewport: Clicking on Actor (LMB): LighterBP_C (LighterBP3)
+[2019.03.08-09.06.12:608][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.06.15:684][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.06.25:174][853]LogEditorViewport: Clicking on Actor (LMB): VRPawn_C (VRPawn)
+[2019.03.08-09.06.28:730][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.06.28:835][141]LogTemp: Repeating last play command: VR Preview
+[2019.03.08-09.06.28:855][141]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.28:856][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-09.06.28:856][141]LogHMD: Initializing OVRPlugin session
+[2019.03.08-09.06.28:903][141]PIE: New page: PIE session: Playground (Mar 8, 2019, 11:06:28 AM)
+[2019.03.08-09.06.28:903][141]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-09.06.28:937][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033899s)
+[2019.03.08-09.06.28:938][141]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-09.06.28:938][141]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2019.03.08-09.06.28:938][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034560s)
+[2019.03.08-09.06.29:007][141]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-09.06.29:014][141]LogInit: FAudioDevice initialized.
+[2019.03.08-09.06.29:018][141]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.06.29:089][141]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-09.06.29:115][141]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-09.06.29:129][141]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-10.06.29
+[2019.03.08-09.06.29:131][141]LogWorld: Bringing up level for play took: 0.015538
+[2019.03.08-09.06.29:143][141]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-17.608 Y=-305.079 Z=2.001] for [VRPawn_C]
+[2019.03.08-09.06.29:144][141]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type VRPawn_C at Rotation: Pitch 0.000000 Yaw -90.000114 Roll 0.000000
+Translation: -17.607674 -305.079102 2.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.03.08-09.06.29:147][141]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.08-09.06.29:152][141]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.012
+[2019.03.08-09.06.29:152][141]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.29:153][141]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.06.29:163][141]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.08-09.06.29:163][141]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.08-09.06.38:981][107]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.39:057][107]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.06.39:081][107]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-09.06.39:117][107]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-09.06.39:118][107]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.39:160][108]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2019.03.08-09.06.39:160][108]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.06.42:671][506]LogEditorViewport: Clicking on Actor (LMB): VRPawn_C (VRPawn)
+[2019.03.08-09.06.52:915][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.06.53:009][350]LogTemp: Repeating last play command: VR Preview
+[2019.03.08-09.06.53:028][350]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.53:028][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.08-09.06.53:028][350]LogHMD: Initializing OVRPlugin session
+[2019.03.08-09.06.53:076][350]PIE: New page: PIE session: Playground (Mar 8, 2019, 11:06:53 AM)
+[2019.03.08-09.06.53:076][350]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.08-09.06.53:111][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034079s)
+[2019.03.08-09.06.53:111][350]LogAIModule: Creating AISystem for world Playground
+[2019.03.08-09.06.53:111][350]LogPlayLevel: PIE: World Init took: (0.000543s)
+[2019.03.08-09.06.53:111][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034783s)
+[2019.03.08-09.06.53:174][350]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.08-09.06.53:181][350]LogInit: FAudioDevice initialized.
+[2019.03.08-09.06.53:185][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.06.53:256][350]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.08-09.06.53:282][350]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.08-09.06.53:296][350]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.08-10.06.53
+[2019.03.08-09.06.53:299][350]LogWorld: Bringing up level for play took: 0.015892
+[2019.03.08-09.06.53:310][350]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-17.608 Y=-305.079 Z=2.001] for [VRPawn_C]
+[2019.03.08-09.06.53:311][350]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type VRPawn_C at Rotation: Pitch 0.000000 Yaw -90.000114 Roll 0.000000
+Translation: -17.607674 -305.079102 2.000687
+Scale3D: 1.000000 1.000000 1.000000
+
+[2019.03.08-09.06.53:314][350]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.08-09.06.53:319][350]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.154
+[2019.03.08-09.06.53:319][350]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.53:320][350]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.06.53:330][350]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.08-09.06.53:330][350]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.08-09.06.58:339][819]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.58:413][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.08-09.06.58:434][819]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.08-09.06.58:473][819]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.08-09.06.58:473][819]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.08-09.06.58:515][820]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2019.03.08-09.06.58:516][820]LogEngine: Changing dynamic resolution state.
+[2019.03.08-09.07.01:398][162]LogEditorViewport: Clicking on Actor (LMB): VRPawn_C (VRPawn)
+[2019.03.08-09.07.07:990][936]Cmd: DELETE
+[2019.03.08-09.07.07:990][936]Cmd: ACTOR DELETE
+[2019.03.08-09.07.08:007][936]LogEditorActor: Deleted Actor: VRPawn_C
+[2019.03.08-09.07.08:058][936]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2019.03.08-09.07.12:265][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.07.19:346][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.08-09.07.57:079][943]LogSlate: Window 'Save Content' being destroyed
+[2019.03.08-09.07.57:896][943]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground8B4B61314E6401C87DDD2992F704451B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.08-09.07.57:921][943]LogFileHelpers: Saving map 'Playground' took 0.832
+[2019.03.08-09.07.58:062][943]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_MotionController6C690443467D09D2D5A7588256F4616B.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2019.03.08-09.08.37:275][637]LogSlate: Window 'Asset Report' being destroyed
+[2019.03.08-09.09.38:119][637]LogSlate: Window 'Message' being destroyed
+[2019.03.08-09.09.38:260][637]LogAssetTools: Warning: /Game/Controllers/Models/touchController_albedo does not exist on disk.
+[2019.03.08-09.09.38:260][637]LogAssetTools: Warning: /Game/Controllers/Models/touchController_controlmap does not exist on disk.
+[2019.03.08-09.09.38:495][637]AssetTools: New page: Copy Errors
+[2019.03.08-09.09.38:495][637]AssetTools: Error: /Game/Controllers/Models/touchController_albedo does not exist on disk.
+/Game/Controllers/Models/touchController_controlmap does not exist on disk.
+
+[2019.03.08-09.09.38:495][637]AssetTools: New page: Copied Successfully
+[2019.03.08-09.09.38:495][637]AssetTools: 
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Blueprints/Bp_Bow
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Playground/Objects/Bow/BowAnimBP
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Playground/Objects/Bow/PullingBow
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Playground/Objects/Bow/AlternativeBowPulled
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Playground/Objects/Bow/AlternativeBowResting_Skeleton
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Playground/Objects/Bow/AlternativeBowResting_Anim
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/bow_animation
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/hand_Skeleton
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Modelado/Bow_Rig+Anim_Anim
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Modelado/Bow_Rig+Anim_Skeleton
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Playground/HandPoses/hand_pose_cup
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Blueprints/BP_Flecha
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Blueprints/BP_Holder
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Grabable
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/HandBP
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/HandAnimBP
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/open_palm_stretched
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/thumbs
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/OpenPalmBS
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/anim_fist
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/anim_fist_no_thumb
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/open_palm
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Animations/Thumb
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/hand
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/HandMat
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/VIsualConfig
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/Hand_Fade
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/Model/hand_PhysicsAsset
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Hands/IndexCollider
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Pawn/VRPawn
+[2019.03.08-09.09.38:495][637]AssetTools: /Game/Framework/Controllers/HTCVive/ViveWand
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/MotionControllerBase
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/TouchController
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/LeftTouchAnimBP
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/LeftControllerStick
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_E_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel_Skeleton
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_mat
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_albedo
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_controlmap
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel_PhysicsAsset
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_N_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_NE_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_NW_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_S_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_SE_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_SW_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_W_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_grip_pull
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_grip_button_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_press_B1
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_button01_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_press_B2
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_button02_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_trigger_pull
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_trigger_pull_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/RightTouchAnimBP
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/RightControllerStick
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_E_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel_Skeleton
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel_PhysicsAsset
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_N_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_NE_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_NW_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_S_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_SE_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_SW_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_W_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_grip_pull
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_grip_button_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_press_B1
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_button01_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_press_B2
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_button02_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_trigger_pull
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_trigger_pull_anim
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/UI/LaserEnd
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/UI/LaserEndMat
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/UI/LaserInteract
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Haptics/Grab
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Haptics/Release
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/UI/laser-material
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/UI/laser-texture
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/UI/laser
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Teleport/teleport_spline
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Teleport/TeleportMarker
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Teleport/TeleportMarkerMat
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Hands/LocationLog
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Framework/Hands/GrabTypes
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/hOLDER
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/FlechaTextures/Flecha
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/FlechaTextures/Flecha_DefaultMaterial_BaseColor
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/FlechaTextures/Flecha_DefaultMaterial_Normal
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/FlechaTextures/Flecha_DefaultMaterial_OcclusionRoughnessMetallic
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/Flecha
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/arrow_sound_Cue
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/arrow_sound
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/ArrowTrail02FX
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Particles/Grenades/genericParticle
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/VirtualRealityBP/Blueprints/PickupActorInterface
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/BowTreble
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/BowmALO
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/BowmALO_PhysicsAsset
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Modelado/BowmALO_Skeleton
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/bow
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/longbowAlternativeBowstring
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/textures/BowstringMat
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/textures/longbowAlternativeBowstring_lambert2_BaseColor
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/textures/longbowAlternativeBowstring_lambert2_Normal
+[2019.03.08-09.09.38:496][637]AssetTools: /Game/Playground/Objects/Bow/textures/longbowAlternativeBowstring_lambert2_OcclusionRoughnessMetallic
+[2019.03.08-09.09.45:957][441]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground5D1314394F8866F3CBC138B26349C887.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.08-09.09.45:982][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.08-09.09.46:422][441]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltData37DFA95C41E0BA4DA4280B8C0259CD70.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.08-09.09.48:852][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.08-09.09.48:899][702]LogSlate: Window 'BP_Flecha' being destroyed
+[2019.03.08-09.09.48:901][702]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.03.08-09.09.48:945][702]LogSlate: Window 'UVRFPlayground - Unreal Editor' being destroyed
+[2019.03.08-09.09.48:946][702]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.08-09.09.49:105][703]Cmd: QUIT_EDITOR
+[2019.03.08-09.09.49:178][703]LogExit: Preparing to exit.
+[2019.03.08-09.09.50:239][703]LogExit: Editor shut down
+[2019.03.08-09.09.50:239][703]LogExit: Transaction tracking system shut down
+[2019.03.08-09.09.50:637][703]LogExit: Object subsystem successfully closed.
+[2019.03.08-09.09.50:648][703]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.08-09.09.50:651][703]LogD3D11RHI: Shutdown
+[2019.03.08-09.09.50:651][703]LogD3D11RHI: CleanupD3DDevice
+[2019.03.08-09.09.50:653][703]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.08-09.09.50:667][703]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (622)
+[2019.03.08-09.09.50:667][703]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
+[2019.03.08-09.09.50:667][703]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.03.08-09.09.50:667][703]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module BspMode (586)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
+[2019.03.08-09.09.50:668][703]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.03.08-09.09.50:669][703]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.03.08-09.09.51:041][703]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.03.08-09.09.51:042][703]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.03.08-09.09.51:042][703]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.03.08-09.09.51:042][703]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.03.08-09.09.51:042][703]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.03.08-09.09.51:042][703]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.03.08-09.09.51:042][703]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.03.08-09.09.51:108][703]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.03.08-09.09.51:112][703]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module OutputLog (436)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module GammaUI (434)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module Documentation (432)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module MovieScene (428)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module PortalServices (420)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module AIModule (414)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module DesktopPlatform (406)
+[2019.03.08-09.09.51:113][703]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.03.08-09.09.51:148][703]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
+[2019.03.08-09.09.51:150][703]LogModuleManager: Shutting down and abandoning module DatasmithContent (344)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.08-09.09.51:151][703]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.08-09.09.51:253][703]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.08-09.09.51:354][703]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.08-09.09.51:355][703]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.08-09.09.51:355][703]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.08-09.09.51:355][703]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.08-09.09.51:355][703]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.08-09.09.51:355][703]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.08-09.09.51:355][703]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.08-09.09.51:357][703]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.08-09.09.51:363][703]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.08-09.09.51:364][703]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.08-09.09.51:365][703]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.08-09.09.51:365][703]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.08-09.09.51:365][703]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.08-09.09.51:365][703]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.08-09.09.51:365][703]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.08-09.09.51:388][703]LogDerivedDataCache: Shutdown
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.08-09.09.51:388][703]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.08-09.09.51:389][703]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.08-09.09.51:389][703]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.08-09.09.51:389][703]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.08-09.09.51:389][703]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.08-09.09.51:393][703]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.08-09.09.51:396][703]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.08-09.09.51:396][703]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.08-09.09.51:396][703]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33FDA717-403E-F63C-D6CE-A4B9F9D59F08%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=528e92d1455d65be4fe990953ed02d04%7Ccb811f7dc085487893897941bc0a2b5b%7Ccaf060b9-108e-4ecf-a132-5d6b2cecf068&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.08-09.09.51:406][703]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.08-09.09.51:407][703]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.08-09.09.51:407][703]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.08-09.09.51:408][703]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.08-09.09.51:412][703]LogExit: Exiting.
+[2019.03.08-09.09.51:428][703]Log file closed, 03/08/19 10:09:51
