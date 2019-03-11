@@ -1,0 +1,1144 @@
+﻿Log file open, 03/11/19 10:47:19
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: UVRFPlayground
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.265412
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.077s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.11-09.47.19:572][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.11-09.47.19:572][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.11-09.47.19:581][  0]LogHAL: Display: Platform has ~ 32 GB [34311819264 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.11-09.47.19:581][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.11-09.47.19:581][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.11-09.47.19:581][  0]LogInit: Computer: PCF83
+[2019.03.11-09.47.19:582][  0]LogInit: User: Alumno
+[2019.03.11-09.47.19:582][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.11-09.47.19:582][  0]LogInit: High frequency timer resolution =4.101561 MHz
+[2019.03.11-09.47.19:582][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2019.03.11-09.47.19:582][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.11-09.47.19:582][  0]LogMemory: Process Physical Memory: 104.86 MB used, 104.86 MB peak
+[2019.03.11-09.47.19:582][  0]LogMemory: Process Virtual Memory: 94.95 MB used, 94.95 MB peak
+[2019.03.11-09.47.19:582][  0]LogMemory: Physical Memory: 7451.75 MB used,  25270.55 MB free, 32722.30 MB total
+[2019.03.11-09.47.19:582][  0]LogMemory: Virtual Memory: 4658.60 MB used,  25270.55 MB free, 134217728.00 MB total
+[2019.03.11-09.47.19:594][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.03.11-09.47.19:594][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.03.11-09.47.19:861][  0]LogStreaming: Display: Took  0.267s to InitEngineTextLocalization.
+[2019.03.11-09.47.19:861][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.11-09.47.19:886][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.11-09.47.19:886][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.11-09.47.20:025][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.11-09.47.20:060][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.03.11-09.47.20:060][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.11-09.47.20:063][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.11-09.47.20:063][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.11-09.47.20:063][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.11-09.47.20:069][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.11-09.47.20:069][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.11-09.47.20:069][  0]LogWindows: EnumDisplayDevices:
+[2019.03.11-09.47.20:069][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.03.11-09.47.20:069][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.11-09.47.20:069][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.11-09.47.20:069][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.03.11-09.47.20:070][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.11-09.47.20:070][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.03.11-09.47.20:070][  0]LogD3D11RHI:   Driver Version: 391.35 (internal:23.21.13.9135, unified:391.35)
+[2019.03.11-09.47.20:070][  0]LogD3D11RHI:      Driver Date: 3-23-2018
+[2019.03.11-09.47.20:070][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.03.11-09.47.20:097][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.11-09.47.20:112][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.11-09.47.20:158][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Intermediate/Shaders/WorkingDirectory/13108/).
+[2019.03.11-09.47.20:158][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alumno/AppData/Local/Temp/UnrealShaderWorkingDir/9A86817C40B9EB7CA03B22A52425761F/'.
+[2019.03.11-09.47.20:330][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.11-09.47.20:341][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.11-09.47.20:352][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.11-09.47.20:363][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.11-09.47.20:374][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.11-09.47.20:385][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.11-09.47.20:396][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.11-09.47.20:406][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.11-09.47.20:411][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:474][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.11-09.47.20:475][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.11-09.47.20:531][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.11-09.47.20:531][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.11-09.47.20:549][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.11-09.47.20:549][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.11-09.47.20:558][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.11-09.47.20:568][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.11-09.47.20:577][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.11-09.47.20:587][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.11-09.47.20:594][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.11-09.47.20:594][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.11-09.47.20:642][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.11-09.47.20:642][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.11-09.47.20:643][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.11-09.47.21:189][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.11-09.47.21:230][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.11-09.47.21:230][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.11-09.47.21:230][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.11-09.47.21:230][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.11-09.47.21:230][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.11-09.47.21:230][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.11-09.47.21:240][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.11-09.47.21:252][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.11-09.47.21:252][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.11-09.47.21:252][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.11-09.47.21:268][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.11-09.47.21:269][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.11-09.47.21:270][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.11-09.47.21:329][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2019.03.11-09.47.21:558][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.11-09.47.21:653][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.11-09.47.21:656][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.11-09.47.21:656][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.11-09.47.21:656][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.11-09.47.21:656][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.11-09.47.21:668][  0]LogNetVersion: UVRFPlayground 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4282483417)
+[2019.03.11-09.47.21:709][  0]LogNavigation: Error: [/Script/Engine.RecastNavMesh] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.RecastNavMesh]
+[2019.03.11-09.47.21:978][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.036540 seconds
+[2019.03.11-09.47.21:983][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.11-09.47.21:983][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.11-09.47.21:983][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.11-09.47.22:508][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2019.03.11-09.47.22:508][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:508][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:528][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2019.03.11-09.47.22:529][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:529][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:530][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2019.03.11-09.47.22:531][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:531][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:533][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2019.03.11-09.47.22:533][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:533][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:535][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2019.03.11-09.47.22:535][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:535][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:537][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2019.03.11-09.47.22:537][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:537][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:551][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2019.03.11-09.47.22:552][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:552][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:553][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2019.03.11-09.47.22:554][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:554][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:556][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2019.03.11-09.47.22:556][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.20\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.11-09.47.22:556][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2019.03.11-09.47.22:593][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.11-09.47.22:606][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.11-09.47.22:731][  0]SourceControl: Source control is disabled
+[2019.03.11-09.47.22:731][  0]SourceControl: Source control is disabled
+[2019.03.11-09.47.22:732][  0]SourceControl: Source control is disabled
+[2019.03.11-09.47.22:733][  0]SourceControl: Source control is disabled
+[2019.03.11-09.47.22:875][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.11-09.47.22:937][  0]LogOcInput: OculusInput pre-init called
+[2019.03.11-09.47.22:983][  0]LogEngine: Initializing Engine...
+[2019.03.11-09.47.22:983][  0]LogHMD: Oculus plugin initialized. Version: 4.20.3-4369336+++UE4+Release-4.20, OVRPlugin: 1.25.0
+[2019.03.11-09.47.22:984][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.11-09.47.22:984][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.11-09.47.22:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.11-09.47.22:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.11-09.47.23:139][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.11-09.47.23:150][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.11-09.47.23:166][  0]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.11-09.47.23:176][  0]LogInit: FAudioDevice initialized.
+[2019.03.11-09.47.23:177][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.11-09.47.23:303][  0]LogDerivedDataCache: Saved boot cache 0.13s 88MB C:/Users/Alumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.11-09.47.23:313][  0]LogInit: Texture streaming: Enabled
+[2019.03.11-09.47.23:327][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.11-09.47.23:337][  0]LogInit: Transaction tracking system initialized
+[2019.03.11-09.47.23:356][  0]BlueprintLog: New page: Editor Load
+[2019.03.11-09.47.23:415][  0]LocalizationService: Localization service is disabled
+[2019.03.11-09.47.23:651][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.11-09.47.23:651][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.11-09.47.23:651][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.11-09.47.23:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.11-09.47.23:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.11-09.47.23:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.11-09.47.23:651][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.11-09.47.23:752][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/' took 0.02s
+[2019.03.11-09.47.23:752][  0]SourceControl: Source control is disabled
+[2019.03.11-09.47.23:752][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.11-09.47.23:752][  0]LightingResults: New page: Lighting Build
+[2019.03.11-09.47.23:755][  0]MapCheck: New page: Map Check
+[2019.03.11-09.47.23:755][  0]LightingResults: New page: Lighting Build
+[2019.03.11-09.47.25:768][  0]LogAIModule: Creating AISystem for world Playground
+[2019.03.11-09.47.25:781][  0]LogMaterial: Warning: Material /Game/Playground/Environment/LED/LightFixture.LightFixture needed to have new flag set bUsedWithStaticLighting !
+[2019.03.11-09.47.25:783][  0]LogMaterial: Display: Missing cached shader map for material LightFixture, compiling. 
+[2019.03.11-09.47.25:828][  0]MapCheck: Warning: LightFixture Material /Game/Playground/Environment/LED/LightFixture.LightFixture was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2019.03.11-09.47.25:944][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.11-09.47.25:944][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.11-09.47.25:944][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.11-09.47.25:944][  0]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.11-09.47.25:944][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString1' which is static to it. Aborting.
+[2019.03.11-09.47.25:944][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowBP_166.BowString2' which is static to it. Aborting.
+[2019.03.11-09.47.25:944][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString1' which is static to it. Aborting.
+[2019.03.11-09.47.25:944][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM2.BowString2' which is static to it. Aborting.
+[2019.03.11-09.47.25:945][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString1' which is static to it. Aborting.
+[2019.03.11-09.47.25:945][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.AlternativeBowResting' is not static  (in blueprint "BowBP"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.BowGM3.BowString2' which is static to it. Aborting.
+[2019.03.11-09.47.25:949][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String1' which is static to it. Aborting.
+[2019.03.11-09.47.25:949][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow2_5.String2' which is static to it. Aborting.
+[2019.03.11-09.47.25:950][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String1' which is static to it. Aborting.
+[2019.03.11-09.47.25:950][  0]PIE: Warning: AttachTo: '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Game/Playground/Playground.Playground:PersistentLevel.Bp_Bow_2.String2' which is static to it. Aborting.
+[2019.03.11-09.47.25:950][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.11-09.47.25:979][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.11-09.47.26:112][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 133.615ms to complete.
+[2019.03.11-09.47.26:117][  0]LogFileHelpers: Loading map 'Playground' took 2.366
+[2019.03.11-09.47.26:212][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.47.26:221][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.47.26:229][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.47.26:236][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.47.26:244][  0]LogCollectionManager: Loaded 0 collections in 0.002285 seconds
+[2019.03.11-09.47.26:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Collections/' took 0.01s
+[2019.03.11-09.47.26:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Developers/Alumno/Collections/' took 0.01s
+[2019.03.11-09.47.26:286][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Collections/' took 0.01s
+[2019.03.11-09.47.26:286][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.11-09.47.26:297][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2581 classes and 608 folders.
+[2019.03.11-09.47.26:304][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.11-09.47.26:349][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.11-09.47.26:354][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.11-09.47.26:451][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.11-09.47.26:453][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.11-09.47.26:458][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.11-09.47.26:539][  0]LogRenderer: Reallocating scene render targets to support 1208x584 Format 10 NumSamples 1 (Frame:1).
+[2019.03.11-09.47.26:695][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.03.11-09.47.26:695][  0]LogLoad: (Engine Initialization) Total time: 8.62 seconds
+[2019.03.11-09.47.26:695][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.11-09.47.26:706][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.11-09.47.26:706][  0]LogOcInput: OculusInput is initialized
+[2019.03.11-09.47.26:728][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.11-09.47.26:748][  0]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.11-09.47.26:771][  1]LogAssetRegistry: Asset discovery search completed in 5.4648 seconds
+[2019.03.11-09.47.26:774][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.11-09.47.26:774][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000070 seconds (updated 0 objects)
+[2019.03.11-09.47.28:825][185]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-09.47.38:255][232]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.11-09.47.44:559][976]LogSlate: Window 'Asset Report' being destroyed
+[2019.03.11-09.47.50:247][976]LogAssetTools: Warning: /Game/Controllers/Models/touchController_albedo does not exist on disk.
+[2019.03.11-09.47.50:247][976]LogAssetTools: Warning: /Game/Controllers/Models/touchController_controlmap does not exist on disk.
+[2019.03.11-09.47.50:866][976]LogAssetTools: Warning: /Game/Controllers/Models/left_touch_controller_model_skel_Skeleton does not exist on disk.
+[2019.03.11-09.47.51:149][976]AssetTools: New page: Copy Errors
+[2019.03.11-09.47.51:149][976]AssetTools: Error: /Game/Controllers/Models/touchController_albedo does not exist on disk.
+/Game/Controllers/Models/touchController_controlmap does not exist on disk.
+/Game/Controllers/Models/left_touch_controller_model_skel_Skeleton does not exist on disk.
+
+[2019.03.11-09.47.51:149][976]AssetTools: New page: Copied Successfully
+[2019.03.11-09.47.51:149][976]AssetTools: 
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/bow_animation
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/hand_Skeleton
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/open_palm_stretched
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/thumbs
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/anim_fist
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/anim_fist_no_thumb
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/open_palm
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/OpenPalmBS
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Animations/Thumb
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/hand
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/HandMat
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/VIsualConfig
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/Hand_Fade
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/hand_PhysicsAsset
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Model/HandAnimBP
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/Grabable
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/HandBP
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Hands/IndexCollider
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Pawn/VRPawn
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/HTCVive/ViveWand
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/MotionControllerBase
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/TouchController
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Models/LeftTouchAnimBP
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/LeftControllerStick
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_E_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel_Skeleton
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_mat
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_albedo
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_controlmap
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel_PhysicsAsset
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_N_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_NE_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_NW_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_S_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_SE_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_SW_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_W_anim
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_grip_pull
+[2019.03.11-09.47.51:149][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_grip_button_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_press_B1
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_button01_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_press_B2
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_button02_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_trigger_pull
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_trigger_pull_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Models/RightTouchAnimBP
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/RightControllerStick
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_E_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel_Skeleton
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel_PhysicsAsset
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_N_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_NE_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_NW_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_S_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_SE_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_SW_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_W_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_grip_pull
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_grip_button_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_press_B1
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_button01_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_press_B2
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_button02_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_trigger_pull
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_trigger_pull_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/UI/LaserEnd
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/UI/LaserEndMat
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/UI/LaserInteract
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Haptics/Grab
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Haptics/Release
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/UI/laser-material
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/UI/laser-texture
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/UI/laser
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Teleport/teleport_spline
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Teleport/TeleportMarker
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Teleport/TeleportMarkerMat
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/LocationLog
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/GrabTypes
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/hand_lighter
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Haptics/ButtonClick
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/3DButtonBorderMat
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/empty
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/ButtonFront
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/ButtonRest
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/2x1Button
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/2x1ButtonBorder
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/2x2
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/2x2_b
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/4x1
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/4x1_b
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/4x4
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/4x4_b
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/6x6
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/6x6_b
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/Button
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/ButtonBorder
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/ButtonTypes
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/UIButtonWide
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/UIButtonWideBorder
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/3DButton
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/SliderMat
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/sliderDecal
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Buttons/Slider
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_brush
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_round_big_2
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_round_medium
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/hand_flash
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_grenade_he
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/hand_smoke
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/gun_grab_anim
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/postprocessing/Highlight
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/GenericKeys
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/body
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/viveControllerMat
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/onepointfive_texture
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/button
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/initialShadingGroup
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/status1
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/led
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/l_grip
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/onepointfive_occ_bake
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/onepointfive_spec
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/r_grip
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/scroll_wheel
+[2019.03.11-09.47.51:150][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/status
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/status_0
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/sys_button
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/trackpad
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/trackpad_scroll_cut
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/trackpad_touch
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/trigger
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/vive_controller_thumbnail
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/vr_controller_vive_1_5
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/HTCVive/Models/whole_model_group1Mat
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_button03_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_button01_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_button02_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_button03_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_grip_button_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_trigger_pull_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_button03_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_button01_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_button02_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_button03_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_grip_button_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_trigger_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_trigger_pull_mask_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/HandPoseTesting
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Playground/HandPoses/hand_pose_cup
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/PoseTestingMat
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Playground/Objects/Bow/longbowArrow
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Playground/Objects/Bow/textures/ArrowMat
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Playground/Objects/Bow/textures/longbowArrow_arrow_BaseColor
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Playground/Objects/Bow/textures/longbowArrow_arrow_Normal
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Playground/Objects/Bow/textures/longbowArrow_arrow_OcclusionRoughnessMetallic
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/HandPoseTestingLeft
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Hands
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Limits
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/lambert1
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/palette_grab_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/tube_grab_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/brush_grab_anim
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/generic_grab_big_obj
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_big_obj
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_medium_obj
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_round_big
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_thick_obj
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/grab_thin
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Teleport/TeleportCollision
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/Teleport/TeleportMarkerBP
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/UI/LaserPointer/laser_end
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/UI/LaserPointer/laser_pointer_Mat
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/UI/LaserPointer/laser_end_noise
+[2019.03.11-09.47.51:151][976]AssetTools: /Game/Framework/UI/LaserPointer/laser_pointer
+[2019.03.11-09.47.54:845][409]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.String1' which is static to it. Aborting.
+[2019.03.11-09.47.54:845][409]PIE: Warning: AttachTo: '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.Bow' is not static  (in blueprint "Bp_Bow"), cannot attach '/Engine/Transient.World_2:PersistentLevel.Bp_Bow_C_0.String2' which is static to it. Aborting.
+[2019.03.11-09.48.00:566][  5]LogSlate: Window 'Asset Report' being destroyed
+[2019.03.11-09.48.11:614][  5]LogSlate: Window 'Message' being destroyed
+[2019.03.11-09.48.11:772][  5]LogAssetTools: Warning: /Game/Controllers/Models/touchController_albedo does not exist on disk.
+[2019.03.11-09.48.11:772][  5]LogAssetTools: Warning: /Game/Controllers/Models/touchController_controlmap does not exist on disk.
+[2019.03.11-09.48.12:047][  5]AssetTools: New page: Copy Errors
+[2019.03.11-09.48.12:047][  5]AssetTools: Error: /Game/Controllers/Models/touchController_albedo does not exist on disk.
+/Game/Controllers/Models/touchController_controlmap does not exist on disk.
+
+[2019.03.11-09.48.12:047][  5]AssetTools: New page: Copied Successfully
+[2019.03.11-09.48.12:047][  5]AssetTools: 
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Blueprints/BP_Flecha
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Playground/HandPoses/hand_pose_cup
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/hand_Skeleton
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Blueprints/Bp_Bow
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Playground/Objects/Bow/BowAnimBP
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Playground/Objects/Bow/PullingBow
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Playground/Objects/Bow/AlternativeBowPulled
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Playground/Objects/Bow/AlternativeBowResting_Skeleton
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Playground/Objects/Bow/AlternativeBowResting_Anim
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/Grabs/bow_animation
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Modelado/Bow_Rig+Anim_Anim
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Modelado/Bow_Rig+Anim_Skeleton
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Blueprints/BP_Holder
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Grabable
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/HandBP
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/HandAnimBP
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/open_palm_stretched
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/thumbs
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/OpenPalmBS
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/anim_fist
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/anim_fist_no_thumb
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/open_palm
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Animations/Thumb
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/hand
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/HandMat
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/VIsualConfig
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/Hand_Fade
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/Model/hand_PhysicsAsset
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Hands/IndexCollider
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Pawn/VRPawn
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/HTCVive/ViveWand
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/MotionControllerBase
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/TouchController
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/LeftTouchAnimBP
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/LeftControllerStick
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_E_anim
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel_Skeleton
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_mat
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_albedo
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/touchController_controlmap
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/left_touch_controller_model_skel_PhysicsAsset
+[2019.03.11-09.48.12:047][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_N_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_NE_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_NW_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_S_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_SE_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_SW_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_joy_W_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_grip_pull
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_grip_button_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_neutral_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_press_B1
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_button01_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_press_B2
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_button02_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_trigger_pull
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/l_controller_trigger_pull_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/RightTouchAnimBP
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/RightControllerStick
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_E_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel_Skeleton
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Models/right_touch_controller_model_skel_PhysicsAsset
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_N_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_NE_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_NW_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_S_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_SE_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_SW_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_joy_W_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_neutral_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_grip_pull
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_grip_button_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_press_B1
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_button01_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_press_B2
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_button02_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_trigger_pull
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Controllers/Touch/Animations/r_controller_trigger_pull_anim
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/UI/LaserEnd
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/UI/LaserEndMat
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/UI/LaserInteract
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Haptics/Grab
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Haptics/Release
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/UI/laser-material
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/UI/laser-texture
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/UI/laser
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Teleport/teleport_spline
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Teleport/TeleportMarker
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Teleport/TeleportMarkerMat
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Hands/LocationLog
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Framework/Hands/GrabTypes
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/hOLDER
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/VirtualRealityBP/Blueprints/PickupActorInterface
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/BowTreble
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/BowmALO
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/BowmALO_PhysicsAsset
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/BowmALO_Skeleton
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/bow
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/longbowAlternativeBowstring
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/textures/BowstringMat
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/textures/longbowAlternativeBowstring_lambert2_BaseColor
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/textures/longbowAlternativeBowstring_lambert2_Normal
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/textures/longbowAlternativeBowstring_lambert2_OcclusionRoughnessMetallic
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/FlechaTextures/Flecha
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/FlechaTextures/Flecha_DefaultMaterial_BaseColor
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/FlechaTextures/Flecha_DefaultMaterial_Normal
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/FlechaTextures/Flecha_DefaultMaterial_OcclusionRoughnessMetallic
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Modelado/Flecha
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/arrow_sound_Cue
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/arrow_sound
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Objects/Bow/ArrowTrail02FX
+[2019.03.11-09.48.12:048][  5]AssetTools: /Game/Playground/Particles/Grenades/genericParticle
+[2019.03.11-09.48.26:813][673]Cmd: TRANSACTION UNDO
+[2019.03.11-09.48.26:813][673]LogEditorTransaction: Undo Create Actors
+[2019.03.11-09.48.29:721][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-09.48.29:806][899]LogTemp: Repeating last play command: VR Preview
+[2019.03.11-09.48.29:822][899]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.48.29:822][899]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.11-09.48.29:822][899]LogHMD: Initializing OVRPlugin session
+[2019.03.11-09.48.29:897][899]PIE: New page: PIE session: Playground (Mar 11, 2019, 11:48:29 AM)
+[2019.03.11-09.48.29:897][899]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.11-09.48.29:943][899]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045704s)
+[2019.03.11-09.48.29:944][899]LogAIModule: Creating AISystem for world Playground
+[2019.03.11-09.48.29:944][899]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2019.03.11-09.48.29:944][899]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.046660s)
+[2019.03.11-09.48.29:981][899]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.11-09.48.29:991][899]LogInit: FAudioDevice initialized.
+[2019.03.11-09.48.29:997][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.48.30:067][899]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.11-09.48.30:105][899]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.11-09.48.30:125][899]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.11-10.48.30
+[2019.03.11-09.48.30:129][899]LogWorld: Bringing up level for play took: 0.022656
+[2019.03.11-09.48.30:146][899]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.03.11-09.48.30:151][899]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.11-09.48.30:155][899]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.397
+[2019.03.11-09.48.30:155][899]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.48.30:156][899]LogEngine: Changing dynamic resolution state.
+[2019.03.11-09.48.30:167][899]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 10 NumSamples 1 (Frame:1).
+[2019.03.11-09.48.30:167][899]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.11-09.49.08:560][327]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.08:624][327]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.49.08:663][327]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.11-09.49.08:699][327]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.11-09.49.08:699][327]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.08:737][328]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.03.11-09.49.08:738][328]LogEngine: Changing dynamic resolution state.
+[2019.03.11-09.49.09:879][421]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/BP_MotionController695DD2D44FAFA9FD1089E2B7F8CB13D1.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2019.03.11-09.49.17:796][319]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.17:796][319]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.11-09.49.17:796][319]PIE: New page: SIE session: Playground (Mar 11, 2019, 11:49:17 AM)
+[2019.03.11-09.49.17:796][319]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.11-09.49.17:832][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035205s)
+[2019.03.11-09.49.17:832][319]LogAIModule: Creating AISystem for world Playground
+[2019.03.11-09.49.17:832][319]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2019.03.11-09.49.17:832][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.035919s)
+[2019.03.11-09.49.17:861][319]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.11-09.49.17:869][319]LogInit: FAudioDevice initialized.
+[2019.03.11-09.49.17:898][319]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.11-09.49.17:913][319]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.11-10.49.17
+[2019.03.11-09.49.17:915][319]LogWorld: Bringing up level for play took: 0.016294
+[2019.03.11-09.49.17:931][319]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground 0.172
+[2019.03.11-09.49.17:935][319]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.20:305][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.20:305][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.49.20:343][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.11-09.49.20:344][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.20:364][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.49.20:406][570]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.03.11-09.49.25:194][117]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.25:194][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.11-09.49.25:194][117]LogHMD: Initializing OVRPlugin session
+[2019.03.11-09.49.25:266][117]PIE: New page: PIE session: Playground (Mar 11, 2019, 11:49:25 AM)
+[2019.03.11-09.49.25:266][117]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.11-09.49.25:301][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035534s)
+[2019.03.11-09.49.25:302][117]LogAIModule: Creating AISystem for world Playground
+[2019.03.11-09.49.25:302][117]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2019.03.11-09.49.25:302][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.036400s)
+[2019.03.11-09.49.25:333][117]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.11-09.49.25:341][117]LogInit: FAudioDevice initialized.
+[2019.03.11-09.49.25:369][117]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.11-09.49.25:384][117]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.11-10.49.25
+[2019.03.11-09.49.25:387][117]LogWorld: Bringing up level for play took: 0.016955
+[2019.03.11-09.49.25:403][117]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.11-09.49.25:404][117]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.355
+[2019.03.11-09.49.25:404][117]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.29:044][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.29:048][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.49.29:083][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.11-09.49.29:083][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.29:103][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.49.29:150][551]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.03.11-09.49.30:278][685]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.11-09.49.32:173][909]LogHMD: Warning: Standalone game VR not supported, please use VR Preview.
+[2019.03.11-09.49.33:556][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-09.49.33:647][ 86]LogTemp: Repeating last play command: Standalone Game
+[2019.03.11-09.49.33:681][ 86]LogHMD: Warning: Standalone game VR not supported, please use VR Preview.
+[2019.03.11-09.49.37:054][488]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.37:054][488]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.11-09.49.37:054][488]LogHMD: Initializing OVRPlugin session
+[2019.03.11-09.49.37:104][488]PIE: New page: PIE session: Playground (Mar 11, 2019, 11:49:37 AM)
+[2019.03.11-09.49.37:105][488]LogPlayLevel: Creating play world package: /Game/Playground/UEDPIE_0_Playground
+[2019.03.11-09.49.37:139][488]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034204s)
+[2019.03.11-09.49.37:139][488]LogAIModule: Creating AISystem for world Playground
+[2019.03.11-09.49.37:139][488]LogPlayLevel: PIE: World Init took: (0.000516s)
+[2019.03.11-09.49.37:140][488]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Playground/Playground.Playground to /Game/Playground/UEDPIE_0_Playground.Playground (0.034889s)
+[2019.03.11-09.49.37:171][488]LogInit: XAudio2 using 'Auriculares (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.11-09.49.37:178][488]LogInit: FAudioDevice initialized.
+[2019.03.11-09.49.37:183][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.49.37:253][488]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2019.03.11-09.49.37:278][488]LogLoad: Game class is 'PlaygroundGM_C'
+[2019.03.11-09.49.37:292][488]LogWorld: Bringing World /Game/Playground/UEDPIE_0_Playground.Playground up for play (max tick rate 0) at 2019.03.11-10.49.37
+[2019.03.11-09.49.37:294][488]LogWorld: Bringing up level for play took: 0.015838
+[2019.03.11-09.49.37:310][488]LogAnimation: Warning: AnimBP LeftTouchAnimBP_C is incompatible with skeleton right_touch_controller_model_skel_Skeleton, removing AnimBP from actor.
+[2019.03.11-09.49.37:314][488]PIE: Play in editor start time for /Game/Playground/UEDPIE_0_Playground -0.444
+[2019.03.11-09.49.37:314][488]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.37:314][488]LogEngine: Changing dynamic resolution state.
+[2019.03.11-09.49.37:324][488]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2019.03.11-09.49.37:324][488]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2019.03.11-09.49.39:737][690]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.39:801][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.11-09.49.39:843][690]LogSlate: Window 'UVRFPlayground Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.03.11-09.49.39:876][690]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.11-09.49.39:877][690]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Playground/Playground.Playground:PersistentLevel' has LevelScriptBlueprint '/Game/Playground/Playground.Playground:PersistentLevel.Playground' with GeneratedClass '/Game/Playground/Playground.Playground_C' with ClassGeneratedBy '/Game/Playground/Playground.Playground:PersistentLevel.Playground'
+[2019.03.11-09.49.39:915][691]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.03.11-09.49.39:915][691]LogEngine: Changing dynamic resolution state.
+[2019.03.11-09.49.42:137][867]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/PlaygroundE7865A37492D58AA7047AB92D62E40BD.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.11-09.49.42:169][867]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.11-09.49.42:854][867]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltDataB9078E844D5F6A8B05D92EBC544F1328.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.11-09.49.45:183][145]LogEditorViewport: Clicking on Actor (LMB): Target_C (Target2)
+[2019.03.11-09.49.48:337][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.11-09.50.21:371][165]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Framework/Teleport/TeleportMarkerBP.TeleportMarkerBP
+[2019.03.11-09.50.21:742][165]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.03.11-09.50.22:395][165]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.11-09.50.22:456][166]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.11-09.50.25:742][491]LogSlate: Window 'TeleportMarkerBP' being destroyed
+[2019.03.11-09.50.25:746][491]LogSlate: Window 'TeleportMarkerBP' being destroyed
+[2019.03.11-09.50.31:181][989]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground7A388BAF442E14A4032427959BA8D72C.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground.umap'
+[2019.03.11-09.50.31:211][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Playground/Playground_BuiltData" FILE="../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset" SILENT=true
+[2019.03.11-09.50.31:705][989]LogSavePackage: Moving '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Saved/Playground_BuiltData98F8F7F4400E481EBB93DF9BC43998BE.tmp' to '../../../../../../Users/Alumno/Desktop/UnrealPlantilla 4.20/Content/Playground/Playground_BuiltData.uasset'
+[2019.03.11-09.50.42:462][260]LogSlate: Window 'UVRFPlayground - Unreal Editor' being destroyed
+[2019.03.11-09.50.42:463][260]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.11-09.50.42:624][261]Cmd: QUIT_EDITOR
+[2019.03.11-09.50.43:536][261]LogExit: Preparing to exit.
+[2019.03.11-09.50.43:796][261]LogExit: Editor shut down
+[2019.03.11-09.50.43:796][261]LogExit: Transaction tracking system shut down
+[2019.03.11-09.50.44:202][261]LogExit: Object subsystem successfully closed.
+[2019.03.11-09.50.44:225][261]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.11-09.50.44:228][261]LogD3D11RHI: Shutdown
+[2019.03.11-09.50.44:228][261]LogD3D11RHI: CleanupD3DDevice
+[2019.03.11-09.50.44:230][261]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (618)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module Voice (616)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (614)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module SceneOutliner (612)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module AddContentDialog (610)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module WidgetCarousel (609)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module EditorWidgets (606)
+[2019.03.11-09.50.44:246][261]LogModuleManager: Shutting down and abandoning module CollectionManager (604)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module StatsViewer (602)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module FoliageEdit (600)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module LandscapeEditor (598)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module MeshPaintMode (596)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (594)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module ActorPickerMode (592)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module GeometryMode (590)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module TextureAlignMode (588)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module BspMode (586)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (584)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (582)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AutomationWorker (580)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (578)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module SequenceRecorder (577)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (574)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (572)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module PlacementMode (571)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module MaterialEditor (570)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (566)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (564)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (562)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.03.11-09.50.44:247][261]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.03.11-09.50.44:561][261]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.03.11-09.50.44:562][261]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.03.11-09.50.44:562][261]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.03.11-09.50.44:562][261]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.03.11-09.50.44:562][261]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.03.11-09.50.44:562][261]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.03.11-09.50.44:562][261]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.03.11-09.50.44:562][261]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.03.11-09.50.44:628][261]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module ModuleUI (440)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module MovieSceneTools (438)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module OutputLog (436)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module GammaUI (434)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module Documentation (432)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (430)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module MovieScene (428)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (426)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module LauncherPlatform (424)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module AnalyticsET (422)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module PortalServices (420)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module PortalRpc (418)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module MessagingRpc (416)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module AIModule (414)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module GameplayDebugger (413)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module AITestSuite (411)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module NavigationSystem (409)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module DesktopPlatform (406)
+[2019.03.11-09.50.44:633][261]LogModuleManager: Shutting down and abandoning module ProfilerService (404)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module TaskGraph (402)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module SteamVRController (400)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (398)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (396)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module OculusInput (394)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (392)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module EditableMesh (390)
+[2019.03.11-09.50.44:875][261]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (388)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module CableComponent (386)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module AudioCapture (384)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (382)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module AndroidPermission (380)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (378)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (376)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (374)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.03.11-09.50.44:876][261]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module AppleImageUtils (356)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module AlembicImporter (354)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module AlembicLibrary (353)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module GeometryCache (352)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (351)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (346)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module DatasmithContent (344)
+[2019.03.11-09.50.44:878][261]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (342)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module PluginBrowser (340)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (338)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module PolygonModeling (336)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module MeshEditor (334)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (332)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module CryptoKeys (330)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (328)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (326)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module UObjectPlugin (324)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (322)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (320)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module GitSourceControl (318)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module SourceControl (317)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (314)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (312)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (310)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (308)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module Paper2DEditor (306)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module MeshPaint (305)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (302)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (300)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module PhysXVehicles (298)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module OculusEditor (296)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (294)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (292)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (290)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (288)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module ApexDestruction (286)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.11-09.50.44:879][261]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.11-09.50.44:980][261]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.11-09.50.45:080][261]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.11-09.50.45:081][261]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.11-09.50.45:081][261]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.11-09.50.45:081][261]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.11-09.50.45:081][261]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.11-09.50.45:081][261]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.11-09.50.45:081][261]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.11-09.50.45:081][261]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.11-09.50.45:110][261]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.11-09.50.45:116][261]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.11-09.50.45:118][261]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.11-09.50.45:145][261]LogDerivedDataCache: Shutdown
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.11-09.50.45:145][261]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.11-09.50.45:146][261]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.11-09.50.45:146][261]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.11-09.50.45:146][261]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.11-09.50.45:146][261]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.11-09.50.45:151][261]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.11-09.50.45:152][261]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.11-09.50.45:152][261]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.11-09.50.45:178][261]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.11-09.50.45:178][261]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.11-09.50.45:178][261]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC0F6553B-4821-F92D-72EA-B099E061F970%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=528e92d1455d65be4fe990953ed02d04%7Ccb811f7dc085487893897941bc0a2b5b%7Ccaf060b9-108e-4ecf-a132-5d6b2cecf068&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.11-09.50.45:209][261]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.11-09.50.45:210][261]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.11-09.50.45:210][261]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.11-09.50.45:211][261]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.11-09.50.45:216][261]LogExit: Exiting.
+[2019.03.11-09.50.45:217][261]Log file closed, 03/11/19 10:50:45
